@@ -1,0 +1,33 @@
+# ==================================== #
+# 
+# RewardPro 3.17
+# A complete reward solution.
+# (c) SuperM
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+# You see the full documentation of this file here: 
+# https://pastebin.com/xcib8W1C
+
+Prefix: '&7[&8&lBLITE&f&lMON&7]'
+DailyReward:
+  Command: eco give [Player] 50
+  Hours: '20'
+Vote:
+  Command: eco give [Player] 100;broadcast [Player] has voted!
+Function:
+  Voting: true
+  DailyReward: true
+  ReferSystem: true
+  CheckUpdate: true
+  PlayerHead: true
+  Debug: false
+  RespawnPresentMan: false
+Database:
+  MySQL: false

@@ -1,0 +1,110 @@
+#Check out this link to see available Material for item
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#Note: This Material list is For the latest release of Spigot version
+#so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
+
+#=====-----=====[ Placeholder Message ]=====-----=====# 
+# {b} would replaced by radius option
+# {cost} Cost for the Option
+# {perm} permission 
+#=====-----=====[ Placeholder Message ]=====-----=====#
+ 
+#[IMPORTANT] There must be at least 1 Option in menu radius list , And max option is 7
+biome_list:
+  1: 
+    name: "&eBioma&f&l: &fAleatorio"
+    item: COMPASS
+    biome: RANDOM
+    cost: 0
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fViaja hacia cualquier bioma "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  2: 
+    name: "&eBiomea&f&l: &c{b}"
+    item: SAND
+    biome: DESERT
+    cost: 50
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fAmas los lugares &cCalientes &fen la &aTierra &f? "
+    - "  &fQuizá te vendría bien ! "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  3: 
+    name: "&eBioma&f&l: &a{b}"
+    item: SAPLING
+    biome: FOREST
+    cost: 50
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fQuien no ama el &ael aire fresco de los &bBosques "
+    - "  &fTalvez algo pasa en su &3cerebro "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  4: 
+    name: "&eBioma&f&l: &6{b}"
+    item: DEAD_BUSH
+    biome: MESA
+    cost: 500
+    permission: "moretp.biome.mesa"
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fÉste es  &dbioma muy raro &fen minecraft "
+    - "  &fQuizá &nte lleve algún tiempo&f &fhasta encontrarlo "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  5: 
+    name: "&eBioma&f&l: &3{b}"
+    item: WOOL
+    biome: TAIGA
+    cost: 200
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fQuién no conoce &bTaiga ? "
+    - "  &aZOMBIE: &fNo lo se bro "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  6: 
+    name: "&eBioma&f&l: &2{b}"
+    item: VINE
+    biome: JUNGLE
+    cost: 500
+    permission: "moretp.biome.jungle"
+    description:
+    - "&8&m-------------------------------------"
+    - "  &aAventurate &fy ve en busca &2de gatitos "
+    - "  &fSientete &6Tarzán "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  7: 
+    name: "&eBioma&f&l: &b{b}"
+    item: RAW_FISH
+    biome: RIVER
+    cost: 200
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fUn lugar de relax y &bpesca "
+    - "  &fTodos odian &5la pesca :l !! "
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"

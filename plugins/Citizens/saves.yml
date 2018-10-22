@@ -1,0 +1,495 @@
+# Citizens NPC Storage
+
+
+
+
+
+last-created-npc-id: 12
+npc:
+  '6':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjU3MjIsInByb2ZpbGVJZCI6IjY1MzEyMmQyNmM0ODQ0M2E4YjZmZWQ3ODg5Y2IzN2Y0IiwicHJvZmlsZU5hbWUiOiJBbGZyZWQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMxMGIwNDYxOTVjMDZmYzI4ZDg1MzI3MjAyOWRiMGY1ZjE5NjE1ZDVkMDQ5N2FkOGY1NmQ2YjJlOGUyZDZmMTQiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+      cached-skin-uuid-name: alfred
+      cached-skin-uuid: 653122d2-6c48-443a-8b6f-ed7889cb37f4
+      player-skin-name: alfred
+      player-skin-signature: jgKmpyumefFP6lTuMt5P1YZcFscwz2kMPH3/FXUKdGtvaK3X9GXY8Eky2NaDXDuknTpTH14WN88R00iUAArlyONSqTu41HBhDdVYxYCtuMy9hZvM+lC2nkQsoZ3W0Wr+AM+eI7yJY/hQhRGrHEu1VA9dnPE4x0ntkkPxJGfu76Wy9EAvFuvKK1Rs+q8gtBeEOxl9IWVZFrRkziP3UJ+QTytKTJtTMvT3NOYut7aG49Dim72sXMaya16HCvdAPuwsSvKe6MARRUSOYJd61K14LgahGOJKCAlcmsgMSNnJ/na2wwNS0tjLmZzUTA5r+VwWZNTsUb4YGUQfXr889yqKCCwh8sGmpcRJvB6VWN6uHEfTeFv2FYUNmX8HouyzooxNRdE2801fazTf5r+mbK6rtAXcq+xGkPo84G7XHWcWzPGxOLG0MbD7ECoPGSrblObFq1ki+tiKpW/HcBAnZ4BrhMKYgjbTQGSpOmnBQAWoGNHmAyE3aGUuzgk8yBalOEEpp7OpPqjfbCMZDl0gBkt51j135ANRh8rGGSDdX0812/CEgzdASMCwhVIFJPO5u0HP/RGaIynalXPZ0FVHNLqDE/7ud6HO09o4MjR5kCRTAcc79Bh6rhQMelCVes/dd3/BH1tE5PBQHCK0+LVN8N0vTXQVxxOOysWPORMacnYRBzs=
+    name: Â§eÂ§lMerchant
+    uuid: dd87a6ce-4797-4c44-855a-54fcc8b2de13
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '-33.5152'
+        y: '47.0'
+        z: '87.4882'
+        yaw: '-178.88986206054688'
+        pitch: '0.0'
+      inventory: {}
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,location,owner,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjQ0NDMsInByb2ZpbGVJZCI6IjRmMjU4OTRhMjY2NDRmZmU4ZjU1MWY4OWE3YTYzZDhjIiwicHJvZmlsZU5hbWUiOiJSb3NlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOWJiODZkY2M3YTRiOWJkMjQzNjllNmEzM2Q5NTZmMDI0MzBkNzc4MzRkYjBjNTY5NTE5M2M4ZmRiNmMwMDIxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=
+      cached-skin-uuid-name: rose
+      cached-skin-uuid: 4f25894a-2664-4ffe-8f55-1f89a7a63d8c
+      player-skin-name: rose
+      player-skin-signature: roXJ66QIKlMxUyPXlpvz9V0ru3s5kBQuecpkkPG7OdbrG3pjviF3LKO4QZZQjY39dQEti8ag3e8WGuMmtOKA3+A60CvoEPpE3GDzJ36RVvXnTfvU5qzbB+aWWnG+BK0IrAixs4H9Y34RzDNPFQYCdRW9jjDlB+DC4fQcYOz4q+a+jdAKRaHfv9bZY2T5woJ3ZWBTbV9+QKTwM+Cf8oGqktSxukt/Mo1xXfZpUw2rqPPFTXmpxk722bf3lGOCiGviB93y+/rJIJPvUCxBkFmo9ncoCT5btoIfcs4oQgWr8mS+SChGRwTj96Y/xg30vAPFDNJl82F64IdylGQhixhUb+Uh4eZFzE0Fwszwf/3YLdI2GfWWM9hGOPBqhYzpKDZbc8of8dfK6+UHmPrZGn8goz3IvUFsk9DC9fD7T36Jt1iuKLRcOWr+y+zQTxU3C93s1AZe53zvyhOa9ja+gsXOAD//2i+tel0KfXJG5oqzYR0rgd2NsO6zNStf7Y2RAC2n4Z/q9X/+tW45hC2bhuymtAn+VPZeMqx+xVHVVqoA0bWXGaN7XcVzWuzjiXXGLDlE9lTUyxP3n+sHBlHMX2AQrcvxy2Rpl9zFyeYLyvqp8+xFcSYW9RdheaXasZCXYrjGrMOEfd7bklTPHjJCQqdIbUvNqoWqoCfSP94blwozL3k=
+    name: Â§6Â§lÂ¿Food?
+    uuid: 7a053705-a02c-45fa-8f8d-864d19ba525f
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '55.2224'
+        y: '45.0'
+        z: '106.5871'
+        yaw: '145.34820556640625'
+        pitch: '0.0'
+      inventory: {}
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,lookclose,spawned,owner,location,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjM3NDAsInByb2ZpbGVJZCI6IjkyOGZjN2M1NThiNzRmNTk4ODljMzVlY2VjZTVlNGJhIiwicHJvZmlsZU5hbWUiOiJlZ2ciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JhNTZmNDQyMmI1NTkxODkwMzczMTYxMzQyOTUwMGM5NGNlZjc1ODQ2ZmY5ZDZjNmZmZTc4ZTdlNmFhMmIxMjUiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+      cached-skin-uuid-name: egg
+      cached-skin-uuid: 928fc7c5-58b7-4f59-889c-35ecece5e4ba
+      player-skin-name: egg
+      player-skin-signature: GCy+CpYgZgXQlzwswrouGUeHli2KupZrML2E0ZgURdYAMcYG/KYp50Z4lV9ZSWD11+D0zuF9GnAtVEGuGKM3A2MLRw+qkHv0reoSFII8e4mkRa/0jgabQ6Z8KWTLrVc/zjVD4rbuo2I49lu4AfTI+kT3NOfsElQ/fm+3csGYwC1LmtxQOjayvz5NRQxfUUhNyb9QDkOjcWpaJCgq2pKfh2Vk+rIwFsa9ckCrGsPRteTI9cXJNs0lldeH8wBTZF6h1zcC0CoHfdEuPWapZUzHwCiPFvJfpJW79T3GkJq8D3GoKySpikxawaC0m75hKefO1evxBFrPLEOaiwzYWgOWjEh/+bZOsRXVMnOc3S4p3rROCqY962Ey9jkdSvCHSBjCudBlScShm8nNolJz+icjbajDY8pP9zN2OlbFx6AMEPh7lBZJrK9sJLT6K9kTTvsxOGbEa1jXwBzJdeGHg5boKOsRfk5w1C1CVS01ksMxofIGbJU2dxvA/f2FwcsgSnLC2boqd2lWzn6qlTp1dB4MZLpwJ0ucxe9R7BmfLqA4XqU693XVQjGVhKvaesn1j4aw+RYAQoAdMwnyMwdhEyuQeZDGrjznjBt2xnbGrNDSPQcCE+XhWhmxbPoh2UEDWRM/NMn2ZTrav54qAa6X8LQQO7M9YYlZnHs4NJft/Fm38Hs=
+    name: Â§5Â§lMysteris
+    uuid: 68d31179-4961-40ad-a7a7-5f1226b9701c
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '42.4699'
+        y: '47.0'
+        z: '69.5139'
+        yaw: '103.98577880859375'
+        pitch: '0.0'
+      inventory: {}
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,location,owner,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjMzMjAsInByb2ZpbGVJZCI6IjYwNzE1Mzg1MmI4YzQ5MDk4MTFmNTA3ZWQ4ZWU3MzdmIiwicHJvZmlsZU5hbWUiOiJDaGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSJ9fX0=
+      cached-skin-uuid-name: chest
+      cached-skin-uuid: 60715385-2b8c-4909-811f-507ed8ee737f
+      player-skin-name: chest
+      player-skin-signature: pGij76+Cb2Pxl2g/XX5GLJz/Xr9sfMEGyVONkdrixLveY1YyvEd5IVOm4O9hLzW7mwcKP3a3djgEg1nOiAPDfULZYeIoeaHJInx8LYnXrLANi65k6vJ48nn8t7UNu+lD547JX5zsVqmGK/Ym10s5awlTXbNHvH1K6MbGgpaZ6aI7VrEXrGPwRhGjPtHLER0X73jreCkXzAA3LCCWlJsS6mO+A9NGDLyOozVdyP0l08I5qs8a79vXW4wEpLrI/zCdiVRutma6uhOnYuU0ADw0fF9KUwcya5K/SjVCvccoBJ/wcdsbOSj4AF6hO/EI3XbTdEJQVnonRI9p94zr9oKwS0UIpEAe63YA+oNrMJL70mUOgpC+kvPWGC3M++rBpuLAwExhfdHfDoJtPZ0kv5IVH8RwReW5YD80Z8PF0IVeJKgtr3DpikmxUW0MLAq9Yk6tp+Xe1ZgKHgiRxhoEI+SgeQNDZKx2E96Z98H4FtM6nCUlEDaRkre9MVip3Q+K420AUV+J+OOVfCUiXw0O3XSXsXwHWEiXfJIRW7rX16jwVpNadVxyJTJpSXsBznN4ZM2W9yBopKVoknLyxLF62ucyFFBI9ZcX6HoNy+2wyiqvkJqFC7v8gB1VuQ76e6uBIt8OBaSPu+uNYqjMC3M9Bs9kd/gEAPQk7NY2+XqVOP/rkT4=
+    name: Â§aÂ§lDrawers
+    uuid: f2a829b1-fbfb-426f-a719-d03158670f8a
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '19.4664'
+        y: '47.0'
+        z: '102.5177'
+        yaw: '-179.813720703125'
+        pitch: '0.0'
+      inventory: {}
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,location,owner,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjMzMjAsInByb2ZpbGVJZCI6IjYwNzE1Mzg1MmI4YzQ5MDk4MTFmNTA3ZWQ4ZWU3MzdmIiwicHJvZmlsZU5hbWUiOiJDaGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSJ9fX0=
+      cached-skin-uuid-name: chest
+      cached-skin-uuid: 60715385-2b8c-4909-811f-507ed8ee737f
+      player-skin-name: chest
+      player-skin-signature: pGij76+Cb2Pxl2g/XX5GLJz/Xr9sfMEGyVONkdrixLveY1YyvEd5IVOm4O9hLzW7mwcKP3a3djgEg1nOiAPDfULZYeIoeaHJInx8LYnXrLANi65k6vJ48nn8t7UNu+lD547JX5zsVqmGK/Ym10s5awlTXbNHvH1K6MbGgpaZ6aI7VrEXrGPwRhGjPtHLER0X73jreCkXzAA3LCCWlJsS6mO+A9NGDLyOozVdyP0l08I5qs8a79vXW4wEpLrI/zCdiVRutma6uhOnYuU0ADw0fF9KUwcya5K/SjVCvccoBJ/wcdsbOSj4AF6hO/EI3XbTdEJQVnonRI9p94zr9oKwS0UIpEAe63YA+oNrMJL70mUOgpC+kvPWGC3M++rBpuLAwExhfdHfDoJtPZ0kv5IVH8RwReW5YD80Z8PF0IVeJKgtr3DpikmxUW0MLAq9Yk6tp+Xe1ZgKHgiRxhoEI+SgeQNDZKx2E96Z98H4FtM6nCUlEDaRkre9MVip3Q+K420AUV+J+OOVfCUiXw0O3XSXsXwHWEiXfJIRW7rX16jwVpNadVxyJTJpSXsBznN4ZM2W9yBopKVoknLyxLF62ucyFFBI9ZcX6HoNy+2wyiqvkJqFC7v8gB1VuQ76e6uBIt8OBaSPu+uNYqjMC3M9Bs9kd/gEAPQk7NY2+XqVOP/rkT4=
+    name: Â§aÂ§lDrawers
+    uuid: 29e60e25-cb53-4f17-93db-0c126f47c70c
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '24.5284'
+        y: '47.0'
+        z: '102.512'
+        yaw: '-179.961669921875'
+        pitch: '0.0'
+      inventory: {}
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,owner,location,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjQ3MzQsInByb2ZpbGVJZCI6ImRlZWUyYWRhMzZlZjQ2ZjQ5Y2UwYmE2OGVlNmM5YzljIiwicHJvZmlsZU5hbWUiOiJKb3N1ZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg1ODIzOWFkNGVlMmE2OTA4Mzg5Yjc3ZDg2N2VmYjg0OTVjNjZmZDZmZmM1YWU2YTQwYjVkYjlhOWU3YmVkMCJ9fX0=
+      cached-skin-uuid-name: josue
+      cached-skin-uuid: deee2ada-36ef-46f4-9ce0-ba68ee6c9c9c
+      player-skin-name: josue
+      player-skin-signature: dPKRUVFwQLaHFJrCFeEmJVPBsZAmLh5ycMTlyHXUY/uJU0fdfKRtelgXA3hI/wPBoisKdHDhnTvCqiqOjR56F9NDQ0sVJolTO/Q42gyhilKjIuz+GrQiS6ceVb1t3t8PlnpHcEz6zsIJpsBUYeakOiDcuJ4Gu00tbdCxgeo3j86EoFStnqEQ8LNcjH04owoGoZi7JSB2NOe0pKLPo5NBHRsbFYpw3TtcX48jSFdNjHrympUvaDyuEHI18VBqAV+JvhvFlJr0BwcSIra2v8Hp3FDpTTiXz6SQl2nwSjm3GkqTccSnlTgaLYIH1OGxZOdY03i67ET+66e7bsrBRNtTmcL/YVeF8ML5FrvanDbEczfQwyiQxBxSxHm5CqwYfTUg8dmVb/y//+JLZiQO1Drh3nJYpMc1P9O84KSoYjz/jjFNwxbRQMlwr0qimV5Fr+mLQJtqU6u6M8oyTwlhL1wn4h5Og39l6df7CCWYdhlyumWfTNIQ4VpHEZYoJvaNQYLwqccZQRzRdGCOnGpyiOmVEyxQ18CDkCBuNC55wDkjBRWwPbV/1b9SXjl2fPuL9mVDboN0I1+0V7Xq/n0XMpAsMjIWzdT8pE45qs+dRxYLJRzSaZexW+Z8G4dTPxawuf9PzzbaXYHmU/WGm0ShIhYaof2xK3vbQPPB+5Iu7H0BPLg=
+    name: Â§bÂ§lRewards
+    uuid: 68304797-5514-4041-a6ef-530ae2ecb85a
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '24.4954'
+        y: '45.0'
+        z: '80.5052'
+        yaw: '138.16033935546875'
+        pitch: '0.0'
+      inventory:
+        '0':
+          type: BANNER
+          amount: 1
+          durability: 15
+          mdata: 15
+      equipment:
+        hand:
+          type: BANNER
+          amount: 1
+          durability: 15
+          mdata: 15
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,location,owner,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjUxNjcsInByb2ZpbGVJZCI6IjljODJmNTdjOGJlZTRkZTBiZTNiMjI5NTVmMmIxYzZhIiwicHJvZmlsZU5hbWUiOiJ3aWxkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NTM3NWIzMDliZDc5YmM1MGEwOThmNzhhYzZiZjBkYmU2YTZiMDE2ZmZiYzRjN2ZlZjM4MTUwOTk1ZTVhNzQzIn19fQ==
+      cached-skin-uuid-name: wild
+      cached-skin-uuid: 9c82f57c-8bee-4de0-be3b-22955f2b1c6a
+      player-skin-name: wild
+      player-skin-signature: vQ9Tq6UGH43QMA+D6uB2gsiQ2FsMtcUsj6Rpu3iMqoeyQi0ZMSjmmlJQ1AmCxcfugEMrfllWkoXzD2PeQuddF520TwGdkcaWK2SLOLM1GNUsYgh+68Q43KhQdLj8E/0mlR5rPhBUZHhAIZxN4ILdMxFDgNVLJHn+bTe6yRMgeNyISP8m4qPF9ZC1K0YcdqdqjYm6ZE2TM54lsUzla3+nreIF4mu8b9CqJHNaJ0UZTWyBSaeapvyqG1yNVSSSrZvSBcK1SaZVs6tf/qAdKtZN8QVyGvxJZVPnXujFpCQksYy5MC5mU6EVpi5fBOaMDYlBYWXnJWztB/ONXhNwEY7TyU0RneGx0RIqvaCTbguPxkIGOTzRY1sDfpnRD9c0nYG5IzvBOHCDhpuGwquo7QBRpTbWw6xpJT8adrarI5EYNvNHY2Wxu8RGvnpwAguHBKiQusmkBCaYytPG/ldGmjoNlNK0PaOczRkfsIQyIBYjKzQRATUMZV5cjMiIcdVbSjdoOK0xRXtomGFgR623aHGvh0BAMjm0wVVxAqZZ+CkOWwjrVXYH7ellmwku+mxjTOOZAaq2U7InWDd5iuYMaymXiqv9eIWT15BZwd75LynDw58aAhV7Y9EK0adgpejOznVOmmxIiB7W2j9fLfPYRsrGmrh0HvpCi4wl1yBOeUtq9xA=
+    name: Â§eÂ§lÂ¿Help?
+    uuid: 0a07fd1e-46f6-4b46-b851-9fc3bee1f159
+    traits:
+      spawned: true
+      location:
+        world: world
+        x: '4.4691'
+        y: '50.0'
+        z: '13.5089'
+        yaw: '-195.96240234375'
+        pitch: '0.0'
+      inventory: {}
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,owner,location,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjUzMjcsInByb2ZpbGVJZCI6ImUxYmQwNTI2YWE4ZTQxMjdhMjE0NGNlZTAyMjNmMjZiIiwicHJvZmlsZU5hbWUiOiJkZW1vbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI1MWRhYjcyOTIxMWZmNTBhMDI3NzAwMDEzZWEyNTNmYzQ3MjgyNWYzZDdhZDUwNDE3MTcyMmJlMzhmODk3MiJ9fX0=
+      cached-skin-uuid-name: demon
+      cached-skin-uuid: e1bd0526-aa8e-4127-a214-4cee0223f26b
+      player-skin-name: demon
+      player-skin-signature: GKB2yf+SmxP0dxZzy8iTADb54kJcLU+8rAyZer7g07N0h71q79Qo3o4btIHwtlPmUMocAstBH36rJ4a1WUlkx0MDxhzrTJV+dwvWCLeRU/AUYkqDOQIFkJvQAvy05RKlPfz7Sa3X4xfmt1HKMVSt7hy+vqdxXSSbdWxasgbAAspahG2MGiLGmGs3GXLXrCX/dizPlEPtY3XCkVb6Ts2ehSA52e8xeMzLoJuKQVMHK0cHdTRdyYQVOnGpQc1LyPInES9QQFOv6RgZkDfSOe6lozlYqDw9ghxmOvFDqIAjTBkyKcXcTKwimRtPZoimHExX45JvAwMUJoYgib8UAIiYmDT22rRccC+Hu4Z8TRNLYy5+r3zFW57JVI90ukjXB643MWSP1EWaSYgBBF2205r3pPF4jx3RhwRIexWn9RIVS3D84L9ymmX6cKN7Evh6ZL9386OlWfXyWkS2VOklSpeq1LdijEYLrjX2+28U+kSVdlCtkAUJ9ErY6PFXVkWBCTMeG0k8A1Ats9l1usIx5+nJTPDe3FHP+O8wxnIDHS932GgpVhcke+Vbkm2LFdcQbJhoBuB6JvTGX3LHTesLlBub+BTqZLoylJmf4cWgkstL1H6j0mdDj+dcYpJd/weCz9+6kjoUKQGVdb5WUucDKwFX0zUBeXmOQA6HCh+Ri0TXQZo=
+    name: Â§cÂ§lPVP
+    uuid: e86082e6-dbfe-43b7-b176-2adf71283260
+    traits:
+      waypoints:
+        linear: {}
+        provider: linear
+      spawned: true
+      location:
+        world: world
+        x: '37.0197'
+        y: '47.0'
+        z: '26.9143'
+        yaw: '92.04432678222656'
+        pitch: '0.0'
+      inventory:
+        '0':
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        '36':
+          type: DIAMOND_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type: DIAMOND_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type: DIAMOND_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+      equipment:
+        hand:
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: DIAMOND_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: DIAMOND_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: DIAMOND_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,location,owner,inventory,mounttrait,gravity,waypoints,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzI5ODI3MjI1NzIsInByb2ZpbGVJZCI6IjllNTM0NzYxZGJhZjQxNWY5ZDA4NGU4OWU0ZjI3Y2U4IiwicHJvZmlsZU5hbWUiOiJBdWN0aW9ucyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI5YzQ4OGRmMmU5N2I5OTNhMzU3NGQ3OWFlMDY1ZmYxZGE5MTQyMGE4YTZlNDMwMmYzMDk2NmVkYjdkNGJjOSJ9fX0=
+      cached-skin-uuid-name: auctions
+      cached-skin-uuid: 9e534761-dbaf-415f-9d08-4e89e4f27ce8
+      player-skin-signature: i9BxgvIXaHUUlpL6iupg5Vr847HtOOd+VstyeA3HFMF2SOxqswiNd97bSp34dxb5C945d9MWj5UsM7Tp396cKvHRucW80QJoUVZHPR8sSR5CRqH9aoZPSMoXVE8w1sedhZqw0zlb7PeUPb2/bfjJ73gFEeyUzWDpSAKBjSOqdDwOY9tWLD43e3kDzk4BRICL43mjjg8nEhBjD5H7Qb/i6I2gZCprES0Jrlr+uNXbLyj9gCYiTkNU7DVTTha+fsuU3D2nQwcyQsPwwQKRL28tDGQEBrTKanOvLj/SuHUH/mnRvwqJo7t1+CiCBTAdLWfS8ilqwbNotyo9zbxEo3Uf1WkSjoekMPOOjp/XBiDBN8DzIVF+EkaajF4nQ8boHEkl+NxGs8N2DVUkCgVumRq+SyapU+bVped0JhaJ0TBinZ8gUxsYOu3r8jbsrQwTK7OZNG9coYiXwKEnGJtLurdae3ymoYvKgCOASGODZAPDb9AP4cxB81neV1GKbynO+ZDYbsjw0IxvplKzJr++YehnEEM9F+CTeYARBND0m7h2GgQhQILcrLacl0p9Ex584KPZWBoQEkzuepKMBm3GgLyHtG1ijFuOGQvy372o26aIe8zxVaASd2AilZQFct4lqH0xjHFtOO6eK4RqQD6DzBlxyQJgRLxvK0LrBHX5wrtcpxY=
+    name: Â§eÂ§lAuctions
+    uuid: 636acf82-65a1-461e-8991-a3b473107c83
+    traits:
+      equipment:
+        hand:
+          type: BOOK_AND_QUILL
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: SKULL_ITEM
+          amount: 1
+          durability: 3
+          mdata: 3
+          meta:
+            skull:
+              uuid: 04049c90-d3e9-4621-9caf-00000aaa3233
+              properties:
+                textures:
+                  '0':
+                    name: textures
+                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE5MTUxYTYyMzIxZWIzNGFlNGIzOWRmMzhjODE5MmVhNTliNGFkZDQ4OGNjYmQyMjI4ZTVjN2JhY2U5YzZhNCJ9fX0=
+              owner: ''
+            unbreakable: false
+            repaircost: 0
+        chestplate:
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      location:
+        world: world
+        x: '-17.0102'
+        y: '46.0'
+        z: '44.9917'
+        yaw: '-89.15568542480469'
+        pitch: '0.0'
+      inventory:
+        '0':
+          type: BOOK_AND_QUILL
+          amount: 1
+          durability: 0
+          mdata: 0
+        '36':
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type: SKULL_ITEM
+          amount: 1
+          durability: 3
+          mdata: 3
+          meta:
+            unbreakable: false
+            repaircost: 0
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,owner,location,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjM5MzUsInByb2ZpbGVJZCI6IjMyNTA5NzYzNzZhNTRmOWRhY2EzNGI5ZmQ2NWNlMTI0IiwicHJvZmlsZU5hbWUiOiJOb2NoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZjQ2ZWU5ZDIxZDdlNTExNmQxNDUwZDgzZWMzYjI3NzlkNjVhZWYyNjI5ODQxZGQ4ODFlYjExMTNjZTY3YmM2In19fQ==
+      cached-skin-uuid-name: noch
+      cached-skin-uuid: 32509763-76a5-4f9d-aca3-4b9fd65ce124
+      player-skin-name: noch
+      player-skin-signature: J0MBdWzpQ0Z3uvr1eiebShWj8i9HKShuWIYRoDVW3uQiYnKe8sJ2TT0ELWzeELPEZvCBeFWTPv/bynue9l7NzVtsQ5wRMo0FesFKKnQS+ggP1xnQ3HFk9RDTGstnSgAPZvD6SBmxZxiGfunx4KHcW+SsMdSjehzFwV5vEFF9H73BK2Hr65GAOL51b/hmCMspmP+xKsUzzxSCALtrGy6tRWiBh7v/4XEk44XFMc7RsPEPihZkLb1RkwFEQ4Ydo/yXkkBkyMlMwK8rJ92IFXyPQQUJMbbl8qs7b9bvOyoBrFBJSEHP8MMacC2xG2x3KH8VdkFfcmzgP3uD3agKHCH8MPcGN3W+wHY9zo+aR6peTOppDvmuZRwX4ZrFScfMSYOJu6DMVdv9/iEKnNeAyxJVhgKLiWianbiCLCMX1G7eoxk5vMbPNiw0brCqchAagfbZSzCL85MRed/CBCgdAuYgh9ks9qhS5DMvJH/XjzXZbNJQ/p2PiYklJmM/Fe3fRon9fsuH6G5Ozz5GM6jp99ZEeosaVgPOiNnLypX6rpV2NrcJ+bmS88HPdseduYc3Xedt0WNzH8WWLFWBNfK6mIJYuBhEWM50+3jk5AZGWgRDq8eYCbW86+x7ZizHvLt6d6Y3Hj+ej/11MWbxFg8rfIYrJsR6Yb5S9+JT13TYPhHUaPk=
+    name: Â§bÂ§lÂ¿Plots?
+    uuid: 4cc9cef8-428f-415c-9508-4d697346c413
+    traits:
+      inventory: {}
+      spawned: true
+      location:
+        world: world
+        x: '-3.5009'
+        y: '50.0'
+        z: '13.5172'
+        yaw: '-162.661865234375'
+        pitch: '0.0'
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,location,owner,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDAxNTMwNjI5ODQsInByb2ZpbGVJZCI6IjAwYTIyYjhjYmJkNTRhYmNiZjYyZTZlMGRiZjcxMTA1IiwicHJvZmlsZU5hbWUiOiJaaXRydW9jIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYjU2M2VjZGFiODAwZTU5ZDA2OGRjZGEzNjEzYjk5MzMwOWVkN2ZkOWI3MmZlNDcyMzA3NjMwZGNiNzAzMGNiIn19fQ==
+      cached-skin-uuid-name: zitruoc
+      cached-skin-uuid: 00a22b8c-bbd5-4abc-bf62-e6e0dbf71105
+      player-skin-name: zitruoc
+      player-skin-signature: e0daFgJO6p/0HLVVIy/iKCpjEqnp27+vA1Alr4FTRzfm/aTMe9ljVtLdq3BSRFzyvuBUTsV0ewDC1VyKXMmUOFz5T9PBUVEPHiPz/bp9suojo8A1XwQz8owfrKbWB0OKxymA0ak3wFOk/CpBmKQU5Jj3buj50Y+YvG+C7XJ3EMXm6QGvrH5M5wC/29Yi1zc4Z/0veQUtsIfD+DeAstwa8Xhmlg+qJVAYRQFT0D7eUPvh+HBpzuFj4kCpYnGhSnVjNRAaqUmp99jKAQNsyKMZ0Dc1rWxW/36R06uCpwXIH8rYr3+xavJ38OWxmmyuLJK92wkBY2ptHgWaCJUumBn+7qmfuH8z0pFKtfPqzErCVbSLMd621jdoip+PsE5gIDwDwHNURFSfQRyiFxBcESkOSBc9TbEm63Ah2TL+ye25N9r7szkTRZQk5Imdyf2kLRvlGMnlfigk30HzFATQpdaWkp5qYDg8btXW06Was2GonK1RKOsM53IyPelWtRE69tgW/P7JGKHKlOM0DyO6ITrQlynhspVwYNtnoo5itU2LVQFDfPk0In+OF765gpvfemYZMlHmpwmz63VL21GJasj5AaPSoPhAxXYLI0Hplyz97ZEira6iBmmYPFAm6Y2rOpW1fqflRVl9QB4lnfU6ZyFnxCxZNpstuSK6CZQOskuYu6o=
+    name: Â§6Â§lTPÂ§eÂ§lRANDOM
+    uuid: b11b4111-fac0-4162-a3dd-c918c3ed7337
+    traits:
+      spawned: true
+      location:
+        world: Survival
+        x: '-7.0045'
+        y: '83.0'
+        z: '-6.9988'
+        yaw: '-68.24420166015625'
+        pitch: '0.0'
+      inventory: {}
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      type: PLAYER
+      gravity:
+        enabled: false
+      owner:
+        owner: Florensia_321
+        uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
+    traitnames: type,spawned,owner,location,inventory,mounttrait,gravity,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

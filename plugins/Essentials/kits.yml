@@ -1,0 +1,92 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  User:
+    delay: 1296000
+    items:
+    - 267:0 1 name:§8Sword_of_§f§lUSER
+    - 306:0 1 name:§8Helmet_of_§f§lUSER
+    - 307:0 1 name:§8Chestplate_of_§f§lUSER
+    - 308:0 1 name:§8Leggings_of_§f§lUSER
+    - 309:0 1 name:§8Boots_of_§f§lUSER
+    - 257:0 1 name:§8Pickaxe_of_§f§lUSER
+    - 258:0 1 name:§8Axe_of_§f§lUSER
+    - 256:0 1 name:§8Shovel_of_§f§lUSER
+    - 322:0 2
+  Navigator:
+    delay: 1296000
+    items:
+    - 276:0 1 name:§8Sword_of_§3§lNA§b§lVIGA§f§lTOR
+    - 310:0 1 name:§8Helmet_of_§3§lNA§b§lVIGA§f§lTOR
+    - 311:0 1 name:§8Chestplate_of_§3§lNA§b§lVIGA§f§lTOR
+    - 312:0 1 name:§8Leggings_of_§3§lNA§b§lVIGA§f§lTOR
+    - 313:0 1 name:§8Boots_of_§3§lNA§b§lVIGA§f§lTOR
+    - 278:0 1 name:§8Pickaxe_of_§3§lNA§b§lVIGA§f§lTOR
+    - 279:0 1 name:§8Axe_of_§3§lNA§b§lVIGA§f§lTOR
+    - 277:0 1 name:§8Shovel_of_§3§lNA§b§lVIGA§f§lTOR
+    - 322:1 2
+  Admiral:
+    delay: 1296000
+    items:
+    - 276:0 1 damage_all:2 durability:1 name:§8Sword_of_§6§lAD§e§lMIR§f§lAL
+    - 310:0 1 protection_environmental:2 durability:1 name:§8Helmet_of_§6§lAD§e§lMIR§f§lAL
+    - 311:0 1 protection_environmental:2 durability:1 name:§8Chestplate_of_§6§lAD§e§lMIR§f§lAL
+    - 312:0 1 protection_environmental:2 durability:1 name:§8Leggings_of_§6§lAD§e§lMIR§f§lAL
+    - 313:0 1 protection_environmental:2 durability:1 name:§8Boots_of_§6§lAD§e§lMIR§f§lAL
+    - 278:0 1 dig_speed:2 durability:1 name:§8Pickaxe_of_§6§lAD§e§lMIR§f§lAL
+    - 279:0 1 dig_speed:2 durability:1 name:§8Axe_of_§6§lAD§e§lMIR§f§lAL
+    - 277:0 1 dig_speed:2 durability:1 name:§8Shovel_of_§6§lAD§e§lMIR§f§lAL
+    - 322:1 3
+  Captain:
+    delay: 1296000
+    items:
+    - 276:0 1 damage_all:4 fire_aspect:1 durability:2 name:§8Sword_of_§2§lCA§a§lPTA§f§lIN
+    - 310:0 1 protection_environmental:3 durability:2 name:§8Helmet_of_§2§lCA§a§lPTA§f§lIN
+    - 311:0 1 protection_environmental:3 durability:2 name:§8Chestplate_of_§2§lCA§a§lPTA§f§lIN
+    - 312:0 1 protection_environmental:3 durability:2 name:§8Leggings_of_§2§lCA§a§lPTA§f§lIN
+    - 313:0 1 protection_environmental:3 durability:2 name:§8Boots_of_§2§lCA§a§lPTA§f§lIN
+    - 278:0 1 dig_speed:4 durability:2 name:§8Pickaxe_of_§2§lCA§a§lPTA§f§lIN
+    - 279:0 1 dig_speed:4 durability:2 name:§8Axe_of_§2§lCA§a§lPTA§f§lIN
+    - 277:0 1 dig_speed:4 durability:2 name:§8Shovel_of_§2§lCA§a§lPTA§f§lIN
+    - 322:1 5
+  Lieutenant:
+    delay: 1296000
+    items:
+    - 276:0 1 damage_all:5 durability:3 fire_aspect:2 loot_bonus_mobs:3 name:§8Sword_of_§5§lLI§d§lEUTE§f§lNANT
+    - 310:0 1 protection_environmental:4 durability:3 name:§8Helmet_of_§5§lLI§d§lEUTE§f§lNANT
+    - 311:0 1 protection_environmental:4 durability:3 name:§8Chestplate_of_§5§lLI§d§lEUTE§f§lNANT
+    - 312:0 1 protection_environmental:4 durability:3 name:§8Leggings_of_§5§lLI§d§lEUTE§f§lNANT
+    - 313:0 1 protection_environmental:4 durability:3 name:§8Boots_of_§5§lLI§d§lEUTE§f§lNANT
+    - 278:0 1 dig_speed:5 durability:3 name:§8Pickaxe_of_§5§lLI§d§lEUTE§f§lNANT
+    - 279:0 1 dig_speed:5 durability:3 name:§8Axe_of_§5§lLI§d§lEUTE§f§lNANT
+    - 277:0 1 dig_speed:5 durability:3 name:§8Shovel_of_§5§lLI§d§lEUTE§f§lNANT
+    - 322:1 10
+  PvP:
+    delay: 30
+    items:
+    - 272:0 1
+    - 302:0 1
+    - 303:0 1
+    - 304:0 1
+    - 305:0 1
+    - 346:0 1
+  New:
+    delay: 31536000
+    items:
+    - 268:0 1
+    - 298:0 1
+    - 299:0 1
+    - 300:0 1
+    - 301:0 1
+    - 297:0 24
+    - 16:0 1
+    - 387:0 1 title:Aa author:Submarine World lore:[§aFind out about things you might not know..] book:New0 name:§8B§7o§fo§ek_§6o§cf_§4B§3e§bg§3i§cn§6n§ee§7r§8s lore:§aFind_out_about_things_you_might_not_know..
+    - 54:0 1

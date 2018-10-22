@@ -1,0 +1,43 @@
+# ==================================== #
+# 
+# RewardPro 3.17
+# A complete reward solution.
+# (c) SuperM
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+# You see the full documentation of this file here: 
+# https://pastebin.com/tvE6Fufs
+
+Present1:
+  Permissions: reward.rank1
+  Command: eco give [Player] 800;eco give [Player] 10
+  Slot: 11
+  Particle: FLAME
+  ActiveItem: STORAGE_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 2
+  InactiveItemGlow: false
+  Heading: '&6VIP &cPresent ♥'
+  ActiveLore: '&7This present is for the Rank &6VIP&7 or higher;&7Buy it at our Shop!;&fwww.shop.com'
+  InactiveLore: '&cYou already claimed that present!;&7Come back soon'
+  CloseUIAfterClaiming: true
+  Cooldown:
+    Years: 0
+    Months: 0
+    Weeks: 4
+    Days: 0
+    Hours: 12
+    Minutes: 0
+    Seconds: 0
+    DateFormat: '%years years %months months %weeks weeks %days days %hours hours
+      %minutes minutes %seconds seconds'
+    RewardCanBeClaimed: '&aNOW'

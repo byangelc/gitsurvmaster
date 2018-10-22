@@ -1,0 +1,49 @@
+# ###############
+# 
+# Profiles by iAmGio
+# 
+# GUI configuration
+# 
+# You MUST use ':' in item names
+# 
+# ###############
+items:
+  personal:
+    '1':
+      name: '&eAge: &7'
+      item: '335:0'
+    '2':
+      name: '&bCity: &7'
+      item: '395:0'
+    '3':
+      name: '&aHobbies: &7'
+      item: '386:0'
+  socials:
+    '1':
+      name: '&9Skype: &7'
+      item: '35:9'
+    '2':
+      name: '&1Facebook: &7'
+      item: '35:11'
+    '3':
+      name: '&cYou&fTube: &7'
+      item: '35:14'
+    '4':
+      name: '&3Telegram: &7'
+      item: '35:3'
+    '5':
+      name: '&fReddit: &7'
+      item: '35:0'
+    '6':
+      name: '&aWebsite: &7'
+      item: '35:5'
+    '7':
+      name: '&bTwitter: &7'
+      item: '35:3'
+    '8':
+      name: '&cGoogle Plus: &7'
+      item: '35:14'
+  separator:
+    name: '&c&l&kO'
+    item: '160:14'
+not-specified: '&cNot specified'

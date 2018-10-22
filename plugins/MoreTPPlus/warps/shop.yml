@@ -1,0 +1,20 @@
+name: shop
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+permission: moretp.warp.{warpname}
+description:
+- '&7&m+-------------------------------+'
+- ''
+- '&f&lPermission: &8[&f{permission}&8]'
+- '&f&lCooldown&f&l: &b{cooldown} Second'
+- '&f&lCost: &b{cost}'
+- ''
+- '&fWorld&f&l: &b{world}'
+- '&fX&f&l: &b{x} &8&l| &fY&f&l: &b{y} &8&l| &fZ&f&l: &b{z}'
+- ''
+- '&7&m+-------------------------------+'
+cost: 0.0
+cooldown: 5
+slot: 4
+glowing: false
+item: COMPASS:0
+location: world<>-25.60948796999618<>47.0<>70.44591753362792<>3.9928975<>0.33032227

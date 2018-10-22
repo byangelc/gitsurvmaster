@@ -1,0 +1,32 @@
+lastAccountName: Alvarado_321
+timestamps:
+  login: 1532982863311
+  logout: 1532930838151
+  lastteleport: 1532983161003
+  kits:
+    new: 1530241148060
+    lieutenant: 1531104070322
+    navigator: 1529964490735
+    captain: 1529964734055
+    pvp: 1532981958688
+    admiral: 1530413512710
+    user: 1532981512858
+ipAddress: 190.117.98.164
+afk: false
+logoutlocation:
+  world: Survival
+  x: -1.615720338627762
+  y: 82.0
+  z: -3.182094923429865
+  yaw: -246.53122
+  pitch: 6.5583887
+lastlocation:
+  world: Survival_plots
+  x: -76.5563975261868
+  y: 21.0
+  z: -70.82748215158949
+  yaw: -50.579163
+  pitch: 4.9462905
+godmode: false
+socialspy: false
+money: '2070.0'

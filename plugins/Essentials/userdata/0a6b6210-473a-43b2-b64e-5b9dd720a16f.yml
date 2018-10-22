@@ -1,0 +1,32 @@
+lastAccountName: MrAnThoNny
+timestamps:
+  login: 1531113546242
+  logout: 1531113890626
+  lastteleport: 1531113871368
+  kits:
+    lieutenant: 1531096623470
+    user: 1531096617474
+ipAddress: 201.165.218.19
+logoutlocation:
+  world: Survival_plots
+  x: -9.001685612927405
+  y: 38.0
+  z: 0.6636263535990378
+  yaw: 4.310177
+  pitch: 40.02411
+lastlocation:
+  world: world
+  x: 3.54434642535177
+  y: 48.0
+  z: 20.66759008466741
+  yaw: -20.192566
+  pitch: 37.312553
+afk: false
+homes:
+  home:
+    world: world_pvp
+    x: -86.05951698936289
+    y: 52.73453963073831
+    z: -79.2263596764511
+    yaw: -30.349365
+    pitch: 20.277328

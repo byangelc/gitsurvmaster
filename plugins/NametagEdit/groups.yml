@@ -1,0 +1,46 @@
+Groups:
+  USER:
+    Permission: nte.user
+    Prefix: '&f'
+    Suffix: '&f'
+    SortPriority: 1
+  NAVIGATOR:
+    Permission: nte.navigator
+    Prefix: '&3'
+    Suffix: '&f'
+    SortPriority: 1
+  ADMIRAL:
+    Permission: nte.admiral
+    Prefix: '&6'
+    Suffix: '&f'
+    SortPriority: 1
+  CAPTAIN:
+    Permission: nte.captain
+    Prefix: '&2'
+    Suffix: '&f'
+    SortPriority: 1
+  LIEUTENANT:
+    Permission: nte.lieutenant
+    Prefix: '&5'
+    Suffix: '&f'
+    SortPriority: 1
+  HELPER:
+    Permission: nte.helper
+    Prefix: '&7&lHELPER&r '
+    Suffix: '&f'
+    SortPriority: 1
+  MOD:
+    Permission: nte.mod
+    Prefix: '&a&lMOD&r '
+    Suffix: '&f'
+    SortPriority: 1
+  ADMIN:
+    Permission: nte.admin
+    Prefix: '&c&lADMIN&r '
+    Suffix: '&f'
+    SortPriority: 1
+  OWNER:
+    Permission: nte.owner
+    Prefix: '&4&lOWNER&r '
+    Suffix: '&f'
+    SortPriority: 2

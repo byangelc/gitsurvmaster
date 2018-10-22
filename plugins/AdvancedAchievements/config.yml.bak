@@ -1,0 +1,3372 @@
+
+#==============================O==============================#
+# I---------------------------------------------------------I #
+# |    Advanced Achievements 5.2.3 configuration - Readme   | #
+# 1---------------------------------------------------------1 #
+#==============================o==============================#
+# You can use Minecraft chat colors in Message|DisplayName|Goal, but include double quotes around the whole text: "&4Color".
+# Only spaces, NO tabs. Don't forget the indents (2 spaces per indentation level), plugin won't work otherwise!
+# To check syntax errors in your file, use: yaml-online-parser.appspot.com
+# Do NOT delete any top level (= not indentented) sections in the configuration file.
+# Possible items for rewards/Crafts/Places/Breaks: hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+# Default config.yml file:  github.com/PyvesB/AdvancedAchievements/blob/master/src/main/resources/config.yml
+# Visit the wiki for some valuable additional documentation: github.com/PyvesB/AdvancedAchievements/wiki
+#=============================O=O=============================#
+# II-------------------------------------------------------II #
+# |                    General  settings                    | #
+# 2---------------------------------------------------------2 #
+#=============================o=o=============================#
+# Time in seconds between each /aach book (unless user has permission achievement.*).
+TimeBook: 900
+
+# Check for update on plugin launch and notify when an OP joins the game.
+CheckForUpdate: false
+
+# Set to true to activate firework effects when a player receives an achievement.
+Firework: true
+
+# Choose BALL_LARGE, BALL, BURST, CREEPER, STAR or RANDOM.
+FireworkStyle: BALL_LARGE
+
+# Set to true to activate simpler effects and a calm sound when a player receives an achievement.
+# Ignored if Firework parameter is set to true.
+SimplifiedReception: false
+
+# Number of players displayed in /aach top, week and month commands.
+TopList: 5
+
+# Set to true to activate particle effects when performing /aach book, /aach stats with all achievements and
+# /aach top, week or month when ranked in the top list.
+AdditionalEffects: true
+
+# Set to true to activate sounds when performing /aach book, /aach stats with all achievements and
+# /aach top, week or month when ranked in the top list.
+Sound: true
+
+# Set the icon of the plugin (default: shamrock, \u2618).
+Icon: ''
+
+# Set the color of the plugin (default: 5, dark purple).
+Color: e
+
+# Notify other connected players when an achievement is received.
+# Default behaviour, a player can override what he sees by using /aach toggle.
+NotifyOtherPlayers: false
+
+# When NotifyOtherPlayers is enabled, notifications are done using action bars when ActionBarNotify is true.
+# When ActionBarNotify is false, chat messages are used.
+ActionBarNotify: true
+
+# Separator between name, description and date on a book page.
+BookSeparator: ''
+
+# Set the format of the achievement name in /aach list (default: "%ICON% %NAME% %ICON%").
+ListAchievementFormat: '&a&l%NAME%'
+
+# Stop all stats from increasing when player in creative mode, including PlayedTime.
+# Connection achievements will only be handled once a player switches to a non-creative mode.
+RestrictCreative: false
+
+# Stop all stats from increasing when player in spectator mode, including PlayedTime.
+# Connection achievements will only be handled once a player switches to a non-spectator mode.
+# No effect if using Minecraft 1.7.9 or 1.7.10.
+RestrictSpectator: true
+
+# Stop all stats from increasing when player in adventure mode, including PlayedTime.
+# Connection achievements will only be handled once a player switches to a non-adventure mode.
+RestrictAdventure: false
+
+# Stop all stats from increasing when player in a specific world, including PlayedTime (delete the [] before adding values).
+# Connection achievements will only be handled once a player enters a non-excluded world.
+ExcludedWorlds: []
+
+#  - yourWorld1
+#  - yourWorld2
+# Ignore vertical dimension (Y axis) when calculating distance statistics.
+IgnoreVerticalDistance: true
+
+# Don't show these categories in the achievement GUI or in the stats output (delete the [] before adding values).
+# Also prevent obtaining achievements for these categories and prevent stats from increasing.
+# If changed, do a full server restart, and not just /aach reload.
+DisabledCategories:
+- Breeding
+- DistanceFoot
+- PlayedTime
+- PetMasterGive
+- PetMasterReceive
+- DistanceLlama
+- DistanceGliding
+- LavaBuckets
+- ConsumedPotions
+- Custom
+
+# Obfuscate achievements that have not yet been received in /aach list.
+ObfuscateNotReceived: false
+
+# Obfuscate progressive achievements:
+# For categories with a series of related achievements where the only thing changing is the number of times
+# the event has occurred, show achievements that have been obtained and show the next obtainable achievement,
+# but obfuscate the additional achievements. In order for this to work properly, achievements must be sorted
+# in order of increasing difficulty. For example, under Places, stone, the first achievement could have a
+# target of 100 stone, the second 500 stone, and the third 1000 stone.  When ObfuscateProgressiveAchievements
+# is true, initially only the 100 stone achievement will be readable in the GUI.  Once 100 stone have been placed,
+# the 500 stone achievement will become legible.
+ObfuscateProgressiveAchievements: false
+
+# Hide categories with no achievements yet received in /aach list.
+HideNotReceivedCategories: false
+
+# Hide categories for which the player does not have the corresponding count permissions.
+HideNoPermissionCategories: false
+
+# Hide the reward display in /aach list.
+HideRewardDisplayInList: false
+
+# Display precise statistic information in the /aach list progress bars.
+EnrichedListProgressBars: true
+
+# Annotate each achievement displayed in a /aach list category with a number. Due to a Minecraft limitation,
+# if you have more than 64 achievements for a category, the counting will start back at 1 after number 64.
+NumberedItemsInList: false
+
+# Display achievement Name and Message as screen titles. No effect if using Minecraft 1.7.9 or 1.7.10.
+TitleScreen: true
+
+# Sort pages of the book in chronological order (false for reverse chronological order).
+BookChronologicalOrder: true
+
+# Do not take into account items broken with Silk Touch for the Breaks achievements.
+DisableSilkTouchBreaks: false
+
+# Do not take into account ores broken with Silk Touch for the Breaks achievements.
+# DisableSilkTouchBreaks takes precedence over this. Not applicable to iron or gold ores.
+DisableSilkTouchOreBreaks: false
+
+# Name of the language file.
+LanguageFileName: lang.yml
+
+# Time in seconds between each statistic count for the following categories. 
+# Lava BucketsBuckets, WaterBuckets, Beds, Brewing, MusicDiscs.
+StatisticCooldown: 10
+
+# Display action bar message when player performs an action while in the cooldown period.
+# No effect if using Minecraft 1.7.9 or 1.7.10.
+CooldownActionBar: false
+
+# Locale used to format dates in /aach book and /aach list. You must select an ISO 639 language code.
+# The list of possible language codes can be found at www.loc.gov/standards/iso639-2/php/code_list.php
+DateLocale: en
+
+# Display time of reception of achievements in /aach book and /aach list in addition to the date. For achievements
+# received in plugin versions prior to 3.0, the precise time information is not available and will be displayed as midnight.
+DateDisplayTime: false
+
+# Register advancements with a description corresponding to the Goal parameter of each achievement.
+# If changed, run /aach generate to regenerate advancements with the new parameter value taken into account.
+# No effect if using Minecraft versions prior to 1.12.
+RegisterAdvancementDescriptions: true
+
+# If true, hide advancements from the advancement GUI. Advancement notifications will still appear when receiving achievements.
+# No effect if using Minecraft versions prior to 1.12.
+HideAdvancements: false
+
+#=============================OOO=============================#
+# III-----------------------------------------------------III #
+# |                    Database settings                    | #
+# 3---------------------------------------------------------3 #
+#=============================ooo=============================#
+# Make a daily backup of your local database (if sqlite).
+DatabaseBackup: true
+
+# Database type, sqlite, postgresql or mysql. Do a full server restart for this to take effect.
+DatabaseType: sqlite
+
+# Prefix added to the tables in the database. If you switch from the default tables names (no prefix),
+# the plugin will attempt an automatic renaming. Otherwise you have to rename your tables manually.
+# Do a full server restart for this to take effect.
+TablePrefix: ''
+
+# Settings to link with MySQL database (ignored if sqlite or postgresql).
+MYSQL:
+  Database: jdbc:mysql://localhost:3306/minecraft
+  User: root
+  Password: root
+
+# Settings to link with PostgresSQL database (ignored if sqlite or mysql).
+# Refer to https://github.com/PyvesB/AdvancedAchievements/wiki/Installation to set up PostgreSQL.
+POSTGRESQL:
+  Database: jdbc:postgresql://localhost:5432/minecraft
+  User: root
+  Password: root
+
+#============================OO=OO============================#
+# IV-------------------------------------------------------IV #
+# |                  Performance settings                   | #
+# 4---------------------------------------------------------4 #
+#============================oo=oo============================#
+# DO NOT CHANGE THE FOLLOWING UNLESS YOU ARE AN EXPERIENCED USER. The intervals are in seconds. 
+# If any of the performance settings are changed, do a full server restart, and not just /aach reload.
+# Frequency of play time checks for players. Smaller values give more precision but more CPU usage.
+PlaytimeTaskInterval: 60
+
+# Calculates distance traveled by players. Smaller values give more precision but more CPU usage.
+DistanceTaskInterval: 5
+
+# Frequency of some statistics writes to the database.
+PooledRequestsTaskInterval: 10
+
+#============================OOOOO============================#
+# V---------------------------------------------------------V #
+# |                  Action  achievements                   | #
+# 5---------------------------------------------------------5 #
+#============================ooooo============================#
+# When a player connects during the day; statistic increases at most once per day.
+Connections:
+  '2':
+    Goal: '&r➧ Unexpected entry.'
+    Message: '&e&lWELCOME AGAIN!'
+    Name: connect_2
+    DisplayName: §a§lSURVIVAL
+
+# When a specific block is placed (specify material name, lower case).
+Places:
+  smooth_brick:
+    '100':
+      Goal: '&r➧ Place 100 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100 &7stonebrick blocks!'
+      Name: place_100_smooth_brick
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Place 1 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000 &7stonebrick blocks!'
+      Name: place_1000_smooth_brick
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Place 10 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000 &7stonebrick blocks!'
+      Name: place_10000_smooth_brick
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Place 100 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100000 &7stonebrick blocks!'
+      Name: place_100000_smooth_brick
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Place 1 000 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000000 &7stonebrick blocks!'
+      Name: place_1000000_smooth_brick
+      DisplayName: §7Builder §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Place 10 000 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000000 &7stonebrick blocks!'
+      Name: place_10000000_smooth_brick
+      DisplayName: §7Builder §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eYour next level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Place 100 000 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100&3M. &7stonebrick blocks!'
+      Name: place_100000000_smooth_brick
+      DisplayName: §7Builder §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eYour next level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Place 1 000 000 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000&3M. &7stonebrick blocks!'
+      Name: place_1000000000_smooth_brick
+      DisplayName: §7Builder §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eYour next level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Place 1 000 000 000 000 stonebrick blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1&3B. &7stonebrick blocks!'
+      Name: place_1000000000000_smooth_brick
+      DisplayName: §7Builder §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &5&lUNPARALLELED
+  iron_block:
+    '100':
+      Goal: '&r➧ Place 100 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100 &7iron blocks!'
+      Name: place_100_iron_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Place 1 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000 &7iron blocks!'
+      Name: place_1000_iron_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Place 10 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000 &7iron blocks!'
+      Name: place_10000_iron_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Place 100 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100000 &7iron blocks!'
+      Name: place_100000_iron_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Place 1 000 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000000 &7iron blocks!'
+      Name: place_1000000_iron_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Place 10 000 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000000 &7iron blocks!'
+      Name: place_10000000_iron_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Place 100 000 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100&3M. &7iron blocks!'
+      Name: place_100000000_iron_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Place 1 000 000 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000&3M. &7iron blocks!'
+      Name: place_1000000000_iron_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Place 1 000 000 000 000 iron blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1&3B. &7iron blocks!'
+      Name: place_1000000000000_iron_block
+      DisplayName: §7Builder §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &5&lUNPARALLELED
+  gold_block:
+    '100':
+      Goal: '&r➧ Place 100 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100 &7gold blocks!'
+      Name: place_100_gold_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Place 1 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000 &7gold blocks!'
+      Name: place_1000_gold_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Place 10 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000 &7gold blocks!'
+      Name: place_10000_gold_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Place 100 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100000 &7gold blocks!'
+      Name: place_100000_gold_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Place 1 000 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000000 &7gold blocks!'
+      Name: place_1000000_gold_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Place 10 000 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000000 &7gold blocks!'
+      Name: place_10000000_gold_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Place 100 000 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100&3M. &7gold blocks!'
+      Name: place_100000000_gold_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Place 1 000 000 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000&3M. &7gold blocks!'
+      Name: place_1000000000_gold_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Place 1 000 000 000 000 gold blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1&3B. &7gold blocks!'
+      Name: place_1000000000000_gold_block
+      DisplayName: §7Builder §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &5&lUNPARALLELED
+  diamond_block:
+    '100':
+      Goal: '&r➧ Place 100 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100 &7diamond blocks!'
+      Name: place_100_diamond_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Place 1 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000 &7diamond blocks!'
+      Name: place_1000_diamond_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Place 10 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000 &7diamond blocks!'
+      Name: place_10000_diamond_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Place 100 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100000 &7diamond blocks!'
+      Name: place_100000_diamond_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Place 1 000 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000000 &7diamond blocks!'
+      Name: place_1000000_diamond_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Place 10 000 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000000 &7diamond blocks!'
+      Name: place_10000000_diamond_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Place 100 000 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100&3M. &7diamond blocks!'
+      Name: place_100000000_diamond_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Place 1 000 000 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000&3M. &7diamond blocks!'
+      Name: place_1000000000_diamond_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Place 1 000 000 000 000 diamond blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1&3B. &7diamond blocks!'
+      Name: place_1000000000000_diamond_block
+      DisplayName: §7Builder §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &5&lUNPARALLELED
+  emerald_block:
+    '100':
+      Goal: '&r➧ Place 100 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100 &7emerald blocks!'
+      Name: place_100_emerald_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Place 1 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000 &7emerald blocks!'
+      Name: place_1000_emerald_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Place 10 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000 &7emerald blocks!'
+      Name: place_10000_emerald_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Place 100 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100000 &7emerald blocks!'
+      Name: place_100000_emerald_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Place 1 000 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000000 &7emerald blocks!'
+      Name: place_1000000_emerald_block
+      DisplayName: §7Builder §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Place 10 000 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b10000000 &7emerald blocks!'
+      Name: place_10000000_emerald_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Place 100 000 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b100&3M. &7emerald blocks!'
+      Name: place_100000000_emerald_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Place 1 000 000 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1000&3M. &7emerald blocks!'
+      Name: place_1000000000_emerald_block
+      DisplayName: §7Builder §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Place 1 000 000 000 000 emerald blocks.'
+      Message: '&e&lWELL DONE&8: &7You have placed &b1&3B. &7emerald blocks!'
+      Name: place_1000000000000_emerald_block
+      DisplayName: §7Builder §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fBuilder &8/ &6&lTEACHER
+
+# When a specific block is broken (specify material name, lower case).
+# Below, the notation sand:1 means sand item with metadata 1 (red sand).
+Breaks:
+  cobblestone:
+    '100':
+      Goal: '&r➧ Break 100 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100 &7blocks of cobblestone!'
+      Name: break_100_cobblestone
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Break 1 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000 &7blocks of cobblestone!'
+      Name: break_1000_cobblestone
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Break 10 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000 &7blocks of cobblestone!'
+      Name: break_10000_cobblestone
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Break 100 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100000 &7blocks of cobblestone!'
+      Name: break_100000_cobblestone
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Break 1 000 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000000 &7blocks of cobblestone!'
+      Name: break_1000000_cobblestone
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Break 10 000 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000000 &7blocks of cobblestone!'
+      Name: break_10000000_cobblestone
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Break 100 000 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100&3M. &7blocks of cobblestone!'
+      Name: break_100000000_cobblestone
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Break 1 000 000 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000&3M. &7blocks of cobblestone!'
+      Name: break_1000000000_cobblestone
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Break 1 000 000 000 000 blocks of cobblestone.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1&3B. &7blocks of cobblestone!'
+      Name: break_1000000000000_cobblestone
+      DisplayName: §7Destroyer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &5&lUNPARALLELED
+  sand:
+    '100':
+      Goal: '&r➧ Break 100 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100 &7blocks of sand!'
+      Name: break_100_sand
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Break 1 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000 &7blocks of sand!'
+      Name: break_1000_sand
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Break 10 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000 &7blocks of sand!'
+      Name: break_10000_sand
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Break 100 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100000 &7blocks of sand!'
+      Name: break_100000_sand
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Break 1 000 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000000 &7blocks of sand!'
+      Name: break_1000000_sand
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Break 10 000 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000000 &7blocks of sand!'
+      Name: break_10000000_sand
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Break 100 000 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100&3M. &7blocks of sand!'
+      Name: break_100000000_sand
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Break 1 000 000 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000&3M. &7blocks of sand!'
+      Name: break_1000000000_sand
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Break 1 000 000 000 000 blocks of sand.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1&3B. &7blocks of sand!'
+      Name: break_1000000000000_sand
+      DisplayName: §7Destroyer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &5&lUNPARALLELED
+  nether_brick:
+    '100':
+      Goal: '&r➧ Break 100 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100 &7blocks of nether brick!'
+      Name: break_100_nether_brick
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Break 1 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000 &7blocks of nether brick!'
+      Name: break_1000_nether_brick
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Break 10 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000 &7blocks of nether brick!'
+      Name: break_10000_nether_brick
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Break 100 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100000 &7blocks of nether brick!'
+      Name: break_100000_nether_brick
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Break 1 000 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000000 &7blocks of nether brick!'
+      Name: break_1000000_nether_brick
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Break 10 000 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000000 &7blocks of nether
+        brick!'
+      Name: break_10000000_nether_brick
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Break 100 000 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100&3M. &7blocks of nether brick!'
+      Name: break_100000000_nether_brick
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Break 1 000 000 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000&3M. &7blocks of nether
+        brick!'
+      Name: break_1000000000_nether_brick
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Break 1 000 000 000 000 blocks of nether brick.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1&3B. &7blocks of nether brick!'
+      Name: break_1000000000000_nether_brick
+      DisplayName: §7Destroyer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &5&lUNPARALLELED
+  obsidian:
+    '100':
+      Goal: '&r➧ Break 100 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100 &7blocks of obsidian!'
+      Name: break_100_obsidian
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Break 1 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000 &7blocks of obsidian!'
+      Name: break_1000_obsidian
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Break 10 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000 &7blocks of obsidian!'
+      Name: break_10000_obsidian
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Break 100 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100000 &7blocks of obsidian!'
+      Name: break_100000_obsidian
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Break 1 000 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000000 &7blocks of obsidian!'
+      Name: break_1000000_obsidian
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Break 10 000 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000000 &7blocks of obsidian!'
+      Name: break_10000000_obsidian
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Break 100 000 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100&3M. &7blocks of obsidian!'
+      Name: break_100000000_obsidian
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Break 1 000 000 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000&3M. &7blocks of obsidian!'
+      Name: break_1000000000_obsidian
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Break 1 000 000 000 000 blocks of obsidian.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1&3B. &7blocks of obsidian!'
+      Name: break_1000000000000_obsidian
+      DisplayName: §7Destroyer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER
+  bedrock:
+    '100':
+      Goal: '&r➧ Break 100 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100 &7blocks of bedrock!'
+      Name: break_100_bedrock
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Break 1 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000 &7blocks of bedrock!'
+      Name: break_1000_bedrock
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Break 10 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000 &7blocks of bedrock!'
+      Name: break_10000_bedrock
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Break 100 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100000 &7blocks of bedrock!'
+      Name: break_100000_bedrock
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Break 1 000 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000000 &7blocks of bedrock!'
+      Name: break_1000000_bedrock
+      DisplayName: §7Destroyer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Break 10 000 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b10000000 &7blocks of bedrock!'
+      Name: break_10000000_bedrock
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Break 100 000 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b100&3M. &7blocks of bedrock!'
+      Name: break_100000000_bedrock
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Break 1 000 000 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1000&3M. &7blocks of bedrock!'
+      Name: break_1000000000_bedrock
+      DisplayName: §7Destroyer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Break 1 000 000 000 000 blocks of bedrock.'
+      Message: '&e&lWELL DONE&8: &7You have retired &b1&3B. &7blocks of bedrock!'
+      Name: break_1000000000000_bedrock
+      DisplayName: §7Destroyer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDestroyer &8/ &5&lUNPARALLELED
+
+# When a specific mob is killed.
+# Use an Entity name or poweredcreeper, in lower case.
+# Use player to track player kills as a whole.
+# Use specificplayer- followed by player UUID to track how many times a specific player has been killed.
+Kills:
+  zombie:
+    '100':
+      Goal: '&r➧ Kill 100 zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100 &7Zombies!'
+      Name: kills_100_zombie
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+      Reward:
+        Money: 10
+        Item: diamond 1
+    '1000':
+      Goal: '&r➧ Kill 1 000 zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000 &7zombies!'
+      Name: kills_1000_zombie
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Kill 10 000 zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000 &7zombies!'
+      Name: kills_10000_zombie
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Kill 100 000 zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100000 &7zombies!'
+      Name: kills_100000_zombie
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Kill 1 000 000 of zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000000 &7of zombies!'
+      Name: kills_1000000_zombie
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Kill 10 000 000 of zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000000 &7of zombies!'
+      Name: kills_10000000_zombie
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Kill 100 000 000 of zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100&3M. &7of zombies!'
+      Name: kills_100000000_zombie
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Kill 1 000 000 000 of zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000&3M. &7of zombies!'
+      Name: kills_1000000000_zombie
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Kill 1 000 000 000 000 of zombies.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1&3B. &7of zombies!'
+      Name: kills_1000000000000_zombie
+      DisplayName: §7Hunter §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &5&lUNPARALLELED
+  witch:
+    '100':
+      Goal: '&r➧ Kill 100 witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100 &7witch!'
+      Name: kills_100_witch
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+      Reward:
+        Money: 10
+        Item: diamond 1
+    '1000':
+      Goal: '&r➧ Kill 1 000 witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000 &7witch!'
+      Name: kills_1000_witch
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Kill 10 000 witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000 &7witch!'
+      Name: kills_10000_witch
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Kill 100 000 witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100000 &7witch!'
+      Name: kills_100000_witch
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Kill 1 000 000 de witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000000 &7of witch!'
+      Name: kills_1000000_witch
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Kill 10 000 000 de witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000000 &7of witch!'
+      Name: kills_10000000_witch
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Kill 100 000 000 de witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100&3M. &7of witch!'
+      Name: kills_100000000_witch
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Kill 1 000 000 000 de witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000&3M. &7of witch!'
+      Name: kills_1000000000_witch
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Kill 1 000 000 000 000 de witch.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1&3B. &7of witch!'
+      Name: kills_1000000000000_witch
+      DisplayName: §7Hunter §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &5&lUNPARALLELED
+  blaze:
+    '100':
+      Goal: '&r➧ Kill 100 blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100 &7blazes!'
+      Name: kills_100_blaze
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+      Reward:
+        Money: 10
+        Item: diamond 1
+    '1000':
+      Goal: '&r➧ Kill 1 000 blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000 &7blazes!'
+      Name: kills_1000_blaze
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Kill 10 000 blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000 &7blazes!'
+      Name: kills_10000_blaze
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Kill 100 000 blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100000 &7blazes!'
+      Name: kills_100000_blaze
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Kill 1 000 000 of blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000000 &7of blazes!'
+      Name: kills_1000000_blaze
+      DisplayName: §7Hunter §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+    '10000000':
+      Goal: '&r➧ Kill 10 000 000 of blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000000 &7of blazes!'
+      Name: kills_10000000_blaze
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Kill 100 000 000 of blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100&3M. &7of blazes!'
+      Name: kills_100000000_blaze
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Kill 1 000 000 000 of blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000&3M. &7of blazes!'
+      Name: kills_1000000000_blaze
+      DisplayName: §7Hunter §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Kill 1 000 000 000 000 of blazes.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1&3B. &7of blazes!'
+      Name: kills_1000000000000_blaze
+      DisplayName: §7Hunter §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fHunter &8/ &5&lUNPARALLELED
+  wither:
+    '1':
+      Goal: '&r➧ Kill 1 Wither.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1 &7Wither!'
+      Name: kills_1_wither
+      DisplayName: §5Killer of Withers §8/ §c§lROOKIE
+      Reward:
+        Money: 10
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers
+    '100':
+      Goal: '&r➧ Kill 100 Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100 &7Withers!'
+      Name: kills_100_wither
+      DisplayName: §5Killer of Withers §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers
+    '1000':
+      Goal: '&r➧ Kill 1 000 Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1 000 &7ender_Withers!'
+      Name: kills_1000_wither
+      DisplayName: §5Killer of Withers §8/ §c§lROOKIE
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers
+    '10000':
+      Goal: '&r➧ Kill 10 000 Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000 &7ender_Withers!'
+      Name: kills_10000_wither
+      DisplayName: §5Killer of Withers §8/ §c§lROOKIE
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers
+    '100000':
+      Goal: '&r➧ Kill 100 000 de Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100000 &7of Withers!'
+      Name: kills_100000_wither
+      DisplayName: §5Killer of Withers §8/ §c§lROOKIE
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '1000000':
+      Goal: '&r➧ Kill 1 000 000 de Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000000 &7of Withers!'
+      Name: kills_1000000_wither
+      DisplayName: §5Killer of Withers §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '10000000':
+      Goal: '&r➧ Kill 10 000 000 de Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10&3M. &7of Withers!'
+      Name: kills_10000000_wither
+      DisplayName: §5Killer of Withers §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 300
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '100000000':
+      Goal: '&r➧ Kill 100 000 000 de Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100&3M. &7of Withers!'
+      Name: kills_100000000_wither
+      DisplayName: §5Killer of Withers §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 350
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Kill 1 000 000 000 000 de Withers.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1&3B. &7of Withers!'
+      Name: kills_1000000000000_wither
+      DisplayName: §5Killer of Withers §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 400
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Withers &8/ &5&lUNPARALLELED
+  ender_dragon:
+    '1':
+      Goal: '&r➧ Kill 1 Dragon.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1 &7Dragon!'
+      Name: kills_1_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §c§lROOKIE
+      Reward:
+        Money: 10
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons
+    '100':
+      Goal: '&r➧ Kill 100 Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100 &7Dragons!'
+      Name: kills_100_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons
+    '1000':
+      Goal: '&r➧ Kill 1 000 Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1 000 &7Dragons!'
+      Name: kills_1000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §c§lROOKIE
+      Reward:
+        Money: 100
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons
+    '10000':
+      Goal: '&r➧ Kill 10 000 Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10000 &7Dragons!'
+      Name: kills_10000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §c§lROOKIE
+      Reward:
+        Money: 150
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons
+    '100000':
+      Goal: '&r➧ Kill 100 000 of Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100000 &7of Dragons!'
+      Name: kills_100000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §c§lROOKIE
+      Reward:
+        Money: 200
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '1000000':
+      Goal: '&r➧ Kill 1 000 000 of Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1000000 &7of Dragons!'
+      Name: kills_1000000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 250
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '10000000':
+      Goal: '&r➧ Kill 10 000 000 of Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b10&3M. &7of Dragons!'
+      Name: kills_10000000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 300
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '100000000':
+      Goal: '&r➧ Kill 100 000 000 of Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b100&3M. &7of Dragons!'
+      Name: kills_100000000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 350
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Kill 1 000 000 000 000 of Dragons.'
+      Message: '&e&lWELL DONE&8: &7You have killed &b1&3B. &7of Dragons!'
+      Name: kills_1000000000000_ender_dragon
+      DisplayName: §5Killer of Dragons §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 400
+        Item: dragon_egg 1
+      Command: broadcast &bPLAYER&e completed the challenge &5&lKiller of Dragons &8/ &5&lUNPARALLELED
+
+# When a specific item is crafted (specify material name, lower case).
+Crafts:
+  cake:
+    '100':
+      Goal: '&r➧ Make 100 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100 &7cakes!'
+      Name: craft_100_cake
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Make 1 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000 &7cakes!'
+      Name: craft_1000_cake
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Make 10 00 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10000 &7cakes!'
+      Name: craft_10000_cake
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Make 100 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100000 &7cakes!'
+      Name: craft_100000_cake
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Make 1 000 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000000 &7cakes!'
+      Name: craft_1000000_cake
+      DisplayName: §7Developer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '10000000':
+      Goal: '&r➧ Make 10 000 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10&3M. &7cakes!'
+      Name: craft_10000000_cake
+      DisplayName: §7Developer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Make 100 000 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100&3M. &7cakes!'
+      Name: craft_100000000_cake
+      DisplayName: §7Developer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Make 1 000 000 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000&3M. &7cakes!'
+      Name: craft_1000000000_cake
+      DisplayName: §7Developer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Make 1 000 000 000 000 cakes.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1&3B. &7cakes!'
+      Name: craft_1000000000000_cake
+      DisplayName: §7Developer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &5&lUNPARALLELED
+  golden_apple:
+    '100':
+      Goal: '&r➧ Make 100 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100 &7golden apples!'
+      Name: craft_100_golden_apple
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Make 1 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000 &7golden apples!'
+      Name: craft_1000_golden_apple
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Make 10 00 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10000 &7golden apples!'
+      Name: craft_10000_golden_apple
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Make 100 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100000 &7golden apples!'
+      Name: craft_100000_golden_apple
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Make 1 000 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000000 &7golden apples!'
+      Name: craft_1000000_golden_apple
+      DisplayName: §7Developer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '10000000':
+      Goal: '&r➧ Make 10 000 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10&3M. &7golden apples!'
+      Name: craft_10000000_golden_apple
+      DisplayName: §7Developer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Make 100 000 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100&3M. &7golden apples!'
+      Name: craft_100000000_golden_apple
+      DisplayName: §7Developer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Make 1 000 000 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000&3M. &7golden apples!'
+      Name: craft_1000000000_golden_apple
+      DisplayName: §7Developer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Make 1 000 000 000 000 golden apples.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1&3B. &7golden apples!'
+      Name: craft_1000000000000_golden_apple
+      DisplayName: §7Developer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &5&lUNPARALLELED
+  anvil:
+    '100':
+      Goal: '&r➧ Make 100 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100 &7anvils!'
+      Name: craft_100_anvil
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Make 1 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000 &7anvils!'
+      Name: craft_1000_anvil
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Make 10 00 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10000 &7anvils!'
+      Name: craft_10000_anvil
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Make 100 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100000 &7anvils!'
+      Name: craft_100000_anvil
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Make 1 000 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000000 &7anvils!'
+      Name: craft_1000000_anvil
+      DisplayName: §7Developer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '10000000':
+      Goal: '&r➧ Make 10 000 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10&3M. &7anvils!'
+      Name: craft_10000000_anvil
+      DisplayName: §7Developer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Make 100 000 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100&3M. &7anvils!'
+      Name: craft_100000000_anvil
+      DisplayName: §7Developer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Make 1 000 000 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000&3M. &7anvils!'
+      Name: craft_1000000000_anvil
+      DisplayName: §7Developer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Make 1 000 000 000 000 anvils.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1&3B. &7anvils!'
+      Name: craft_1000000000000_anvil
+      DisplayName: §7Developer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &5&lUNPARALLELED
+  sea_lantern:
+    '100':
+      Goal: '&r➧ Make 100 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100 &7sea lanterns!'
+      Name: craft_100_sea_lantern
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Make 1 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000 &7sea lanterns!'
+      Name: craft_1000_sea_lantern
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Make 10 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10000 &7sea lanterns!'
+      Name: craft_10000_sea_lantern
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Make 100 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100000 &7sea lanterns!'
+      Name: craft_100000_sea_lantern
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Make 1 000 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000000 &7sea lanterns!'
+      Name: craft_1000000_sea_lantern
+      DisplayName: §7Developer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '10000000':
+      Goal: '&r➧ Make 10 000 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10&3M. &7sea lanterns!'
+      Name: craft_10000000_sea_lantern
+      DisplayName: §7Developer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Make 100 000 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100&3M. &7sea lanterns!'
+      Name: craft_100000000_sea_lantern
+      DisplayName: §7Developer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Make 1 000 000 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000&3M. &7sea lanterns!'
+      Name: craft_1000000000_sea_lantern
+      DisplayName: §7Developer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Make 1 000 000 000 000 sea lanterns.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1&3B. &7sea lanterns!'
+      Name: craft_1000000000000_sea_lantern
+      DisplayName: §7Developer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &5&lUNPARALLELED
+  beacon:
+    '100':
+      Goal: '&r➧ Make 100 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100 &7beacons!'
+      Name: craft_100_beacon
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000':
+      Goal: '&r➧ Make 1 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000 &7beacons!'
+      Name: craft_1000_beacon
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '10000':
+      Goal: '&r➧ Make 10 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10000 &7beacons!'
+      Name: craft_10000_beacon
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '100000':
+      Goal: '&r➧ Make 100 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100000 &7beacons!'
+      Name: craft_100000_beacon
+      DisplayName: §7Developer §8/ §c§lROOKIE
+    '1000000':
+      Goal: '&r➧ Make 1 000 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000000 &7beacons!'
+      Name: craft_1000000_beacon
+      DisplayName: §7Developer §8/ §c§lROOKIE
+      Reward:
+        Money: 50
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+    '10000000':
+      Goal: '&r➧ Make 10 000 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b10&3M. &7beacons!'
+      Name: craft_10000000_beacon
+      DisplayName: §7Developer §8/ §6§lTEACHER §eI
+      Reward:
+        Money: 100
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+    '100000000':
+      Goal: '&r➧ Make 100 000 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b100&3M. &7beacons!'
+      Name: craft_100000000_beacon
+      DisplayName: §7Developer §8/ §6§lTEACHER §eII
+      Reward:
+        Money: 150
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+    '1000000000':
+      Goal: '&r➧ Make 1 000 000 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1000&3M. &7beacons!'
+      Name: craft_1000000000_beacon
+      DisplayName: §7Developer §8/ §6§lTEACHER §eIII
+      Reward:
+        Money: 200
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &6&lTEACHER\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+    '1000000000000':
+      Goal: '&r➧ Make 1 000 000 000 000 beacons.'
+      Message: '&e&lWELL DONE&8: &7You have elaborated &b1&3B. &7beacons!'
+      Name: craft_1000000000000_beacon
+      DisplayName: §7Developer §8/ §5§lUNPARALLELED
+      Reward:
+        Money: 250
+      Command: broadcast &bPLAYER&e completed the challenge &fDeveloper &8/ &5&lUNPARALLELED
+
+# When the player dies.
+Deaths:
+  '1':
+    Goal: '&r➧ Death N° 1'
+    Message: '&e&lWELL DONE&8: &7You have obtained your Death &b&lN&b° 1'
+    Name: deaths_1
+    DisplayName: §7Death of §e§lBEGINNER
+  '100':
+    Goal: '&r➧ Death N° 100'
+    Message: '&e&lWELL DONE&8: &7You have obtained your Death &b&lN&b° 100'
+    Name: deaths_100
+    DisplayName: §7Deaths of one §c§lNOOB
+  '1000':
+    Goal: '&r➧ Death N° 1 000'
+    Message: '&e&lWELL DONE&8: &7You have obtained your Death &b&lN&b° 1000'
+    Name: deaths_1000
+    DisplayName: §7Deaths of one §c§lNOOB §b&lLEVEL §3§lSUPREM
+  '10000':
+    Goal: '&r➧ Death N° 10 000'
+    Message: '&e&lWELL DONE&8: &7You have obtained your Death &b&lN&b° 10000'
+    Name: deaths_10000
+    DisplayName: §7Deaths of one §c§lNOOB §b§lLEVEL §a§lGOD
+  '100000':
+    Goal: '&r➧ Death N° 100 000'
+    Message: '&e&lWELL DONE&8: &7You have obtained your Death &b&lN&b° 100000'
+    Name: deaths_100000
+    DisplayName: §7Deaths of one §c§lNOOB §b§lLEVEL §5§lUNPARALLELED
+  '1000000':
+    Goal: '&r➧ Death N° 1 000 000'
+    Message: '&e&lWELL DONE&8: &7You have obtained your Death &b&lN&b° 1000000'
+    Name: deaths_1000000
+    DisplayName: §4&lWhat a shame..
+
+# When an arrow is shot.
+Arrows:
+  '50':
+    Goal: '&r➧ Shoot 50 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b50 &7arrows'
+    Name: arrows_50
+    DisplayName: §7Archer §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Shoot 100 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b100 &7arrows'
+    Name: arrows_100
+    DisplayName: §7Archer §8/ §c§lROOKIE
+  '1000':
+    Goal: '&r➧ Shoot 1 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b1000 &7arrows'
+    Name: arrows_1000
+    DisplayName: §7Archer §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Shoot 10 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b10000 &7arrows'
+    Name: arrows_10000
+    DisplayName: §7Archer §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Shoot 100 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b100000 &7arrows'
+    Name: arrows_100000
+    DisplayName: §7Archer §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Shoot 1 000 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b1000000 &7arrows'
+    Name: arrows_1000000
+    DisplayName: §7Archer §8/ §6§lTEACHER §eI
+  '10000000':
+    Goal: '&r➧ Shoot 10 000 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b10000000 &7arrows'
+    Name: arrows_10000000
+    DisplayName: §7Archer §8/ §6§lTEACHER §II
+  '100000000':
+    Goal: '&r➧ Shoot 100 000 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b100000000 &7arrows'
+    Name: arrows_100000000
+    DisplayName: §7Archer §8/ §6§lTEACHER §eIII
+  '1000000000000':
+    Goal: '&r➧ Shoot 1 000 000 000 000 arrows'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b1000000000000 &7arrows'
+    Name: arrows_1000000000000
+    DisplayName: §7Archer §8/ §5§lUNPARALLELED
+
+# When a snowball is thrown.  
+Snowballs:
+  '1000000000000000':
+    Goal: '&r➧ Spear 1 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b1000000000000000 &7snowballs'
+    Name: snowballs_1000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eI
+  '2000000000000000':
+    Goal: '&r➧ Spear 2 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b2000000000000000 &7snowballs'
+    Name: snowballs_2000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eII
+  '3000000000000000':
+    Goal: '&r➧ Spear 3 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b3000000000000000 &7snowballs'
+    Name: snowballs_3000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eIII
+  '4000000000000000':
+    Goal: '&r➧ Spear 4 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b4000000000000000 &7snowballs'
+    Name: snowballs_4000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eIV
+  '5000000000000000':
+    Goal: '&r➧ Spear 5 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b5000000000000000 &7snowballs'
+    Name: snowballs_5000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eV
+  '6000000000000000':
+    Goal: '&r➧ Spear 6 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b6000000000000000 &7snowballs'
+    Name: snowballs_6000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eVI
+  '7000000000000000':
+    Goal: '&r➧ Spear 7 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b7000000000000000 &7snowballs'
+    Name: snowballs_7000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eVII
+  '8000000000000000':
+    Goal: '&r➧ Spear 8 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b8000000000000000 &7snowballs'
+    Name: snowballs_8000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eVIII
+  '9000000000000000':
+    Goal: '&r➧ Spear 9 000 000 000 000 000 snowballs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b9000000000000000 &7snowballs'
+    Name: snowballs_9000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eIX
+
+# When an egg is thrown.  
+Eggs:
+  '1000000000000000':
+    Goal: '&r➧ Spear 1 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b1000000000000000 &7eggs'
+    Name: eggs_1000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT
+  '2000000000000000':
+    Goal: '&r➧ Spear 2 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b2000000000000000 &7eggs'
+    Name: eggs_2000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eII
+  '3000000000000000':
+    Goal: '&r➧ Spear 3 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b3000000000000000 &7eggs'
+    Name: eggs_3000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eIII
+  '4000000000000000':
+    Goal: '&r➧ Spear 4 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b4000000000000000 &7eggs'
+    Name: eggs_4000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eIV
+  '5000000000000000':
+    Goal: '&r➧ Spear 5 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b5000000000000000 &7eggs'
+    Name: eggs_5000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eV
+  '6000000000000000':
+    Goal: '&r➧ Spear 6 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b6000000000000000 &7eggs'
+    Name: eggs_6000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eVI
+  '7000000000000000':
+    Goal: '&r➧ Spear 7 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b7000000000000000 &7eggs'
+    Name: eggs_7000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eVII
+  '8000000000000000':
+    Goal: '&r➧ Spear 8 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b8000000000000000 &7eggs'
+    Name: eggs_8000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eVIII
+  '9000000000000000':
+    Goal: '&r➧ Spear 9 000 000 000 000 000 eggs!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b9000000000000000 &7eggs'
+    Name: eggs_9000000000000000
+    DisplayName: §8Pitcher §8/ §4§lADDICT §eIX
+
+# When a fish is caught. 
+Fish:
+  '10':
+    Goal: '&r➧ Fishing 10 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b10 &7fish'
+    Name: fish_10
+    DisplayName: §7Fisherman §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Fishing 1 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b1000 &7fish'
+    Name: fish_1000
+    DisplayName: §7Fisherman §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Fishing 10 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b10000 &7fish'
+    Name: fish_10000
+    DisplayName: §7Fisherman §8/ §c§lROOKIE
+    Reward:
+      Money: 50
+  '100000':
+    Goal: '&r➧ Fishing 100 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b100000 &7fish'
+    Name: fish_100000
+    DisplayName: §7Fisherman §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+  '1000000':
+    Goal: '&r➧ Fishing 1 000 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b1000000 &7of fish'
+    Name: fish_1000000
+    DisplayName: §7Fisherman §8/ §c§lROOKIE
+    Reward:
+      Money: 150
+    Command: broadcast &bPLAYER&e completed the challenge &fFisherman &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Fishing 10 000 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b10&3M. &7of fish'
+    Name: fish_10000000
+    DisplayName: §7Fisherman §8/ §6§lTEACHER §eI
+    Reward:
+      Money: 200
+    Command: broadcast &bPLAYER&e completed the challenge &fFisherman &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Fishing 100 000 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b100&3M. &7of fish'
+    Name: fish_100000000
+    DisplayName: §7Fisherman §8/ §6§lTEACHER §eII
+    Reward:
+      Money: 250
+    Command: broadcast &bPLAYER&e completed the challenge &fFisherman &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Fishing 1 000 000 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b1000&3M. &7of fish'
+    Name: fish_1000000000
+    DisplayName: §7Fisherman §8/ §6§lTEACHER §eIII
+    Reward:
+      Money: 300
+    Command: broadcast &bPLAYER&e completed the challenge &fFisherman &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Fishing 1 000 000 000 000 000 fish!'
+    Message: '&e&lWELL DONE&8: &7You have captured &b1&3B. &7of fish'
+    Name: fish_1000000000000000
+    DisplayName: §7Fisherman §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 350
+    Command: broadcast &bPLAYER&e completed the challenge &fFisherman &8/ &5&lUNPARALLELED
+
+# When a treasure is caught with a fishing rod.
+Treasures:
+  '1':
+    Goal: '&r➧ ¡Your first treasure!'
+    Message: '&e&lWELL DONE&8: &7You have completed Your first treasure!'
+    Name: treasure_1
+    DisplayName: §7Pirate §8/ §c§lROOKIE
+
+# When a tool/armor/weapon is broken.  
+ItemBreaks:
+  '10':
+    Goal: '&r➧ Destroy 10 items'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b10 &7items'
+    Name: itembreaks_10
+    DisplayName: §7Breaker §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Destroy 1 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b1000 &7items'
+    Name: itembreaks_1000
+    DisplayName: §7Breaker §8/ §c§lROOKIE
+    Reward:
+      Money: 50
+  '10000':
+    Goal: '&r➧ Destroy 10 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b10000 &7items'
+    Name: itembreaks_10000
+    DisplayName: §7Breaker §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+  '100000':
+    Goal: '&r➧ Destroy 100 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b100000 &7items'
+    Name: itembreaks_100000
+    DisplayName: §7Breaker §8/ §c§lROOKIE
+    Reward:
+      Money: 150
+  '1000000':
+    Goal: '&r➧ Destroy 1 000 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b1000000 &7of items'
+    Name: itembreaks_1000000
+    DisplayName: §7Breaker §8/ §c§lROOKIE
+    Reward:
+      Money: 200
+    Command: broadcast &bPLAYER&e completed the challenge &fBreaker &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Destroy 10 000 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b10&3M. &7of items'
+    Name: itembreaks_10000000
+    DisplayName: §7Breaker §8/ §6§lTEACHER §eI
+    Reward:
+      Money: 250
+    Command: broadcast &bPLAYER&e completed the challenge &fBreaker &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Destroy 100 000 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b100&3M. &7of items'
+    Name: itembreaks_100000000
+    DisplayName: §7Breaker §8/ §6§lTEACHER §eII
+    Reward:
+      Money: 300
+    Command: broadcast &bPLAYER&e completed the challenge &fBreaker &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Destroy 1 000 000 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b1000&3M. &7of items'
+    Name: itembreaks_1000000000
+    DisplayName: §8Breaker §8/ §6§lTEACHER §eIII
+    Reward:
+      Money: 350
+    Command: broadcast &bPLAYER&e completed the challenge &fBreaker &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Destroy 1 000 000 000 000 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have destroyed &b1&3B. &7of items'
+    Name: itembreaks_1000000000000000
+    DisplayName: §7Breaker §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 400
+    Command: broadcast &bPLAYER&e completed the challenge &fBreaker &8/ &5&lUNPARALLELED
+
+# When an item is eaten (excludes potions and milk).
+EatenItems:
+  '1000000000000000':
+    Goal: '&r➧ Eat 1 000 000 000 000 000 times!'
+    Message: '&e&lWELL DONE&8: &7You have eaten &b1&3B. &7of times'
+    Name: eatenitems_1000000000000000
+    DisplayName: §7Gula §8/ §5§lUNPARALLELED
+
+# When a sheep is sheared.
+Shear:
+  '10':
+    Goal: '&r➧ Shear 10 sheeps'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b10 &7sheeps'
+    Name: shear_10
+    DisplayName: §7Shepherd §8/ §c§lROOKIE
+  '1000':
+    Goal: '&r➧ Shear 1 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b1000 &7sheeps'
+    Name: shear_1000
+    DisplayName: §7Shepherd §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+  '10000':
+    Goal: '&r➧ Shear 10 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b10000 &7sheeps'
+    Name: shear_10000
+    DisplayName: §7Shepherd §8/ §c§lROOKIE
+    Reward:
+      Money: 150
+  '100000':
+    Goal: '&r➧ Shear 100 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b100000 &7sheeps'
+    Name: shear_100000
+    DisplayName: §7Shepherd §8/ §c§lROOKIE
+    Reward:
+      Money: 200
+  '1000000':
+    Goal: '&r➧ Shear 1 000 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b1000000 &7of sheeps'
+    Name: shear_1000000
+    DisplayName: §7Shepherd §8/ §c§lROOKIE
+    Reward:
+      Money: 250
+    Command: broadcast &bPLAYER&e completed the challenge &fShepherd &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Shear 10 000 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b10&3M. &7of sheeps'
+    Name: shear_10000000
+    DisplayName: §7Shepherd §8/ §6§lTEACHER §eI
+    Reward:
+      Money: 300
+    Command: broadcast &bPLAYER&e completed the challenge &fShepherd &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Shear 100 000 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b100&3M. &7of sheeps'
+    Name: shear_100000000
+    DisplayName: §7Shepherd §8/ §6§lTEACHER §eII
+    Reward:
+      Money: 350
+    Command: broadcast &bPLAYER&e completed the challenge &fShepherd &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Shear 1 000 000 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b1000&3M. &7of sheeps'
+    Name: shear_1000000000
+    DisplayName: §8Shepherd §8/ §6§lTEACHER §eIII
+    Reward:
+      Money: 400
+    Command: broadcast &bPLAYER&e completed the challenge &fShepherd &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Shear 1 000 000 000 000 000 sheeps!'
+    Message: '&e&lWELL DONE&8: &7You have sheared &b1&3B. &7of sheeps'
+    Name: shear_1000000000000000
+    DisplayName: §7Shepherd §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 450
+    Command: broadcast &bPLAYER&e completed the challenge &fShepherd &8/ &5&lUNPARALLELED
+
+# When a cow is milked.
+Milk:
+  '10':
+    Goal: '&r➧ Extract milk to 10 cows'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b10 &7cows'
+    Name: milk_10
+    DisplayName: §7Ordeñator §8/ §c§lROOKIE
+  '1000':
+    Goal: '&r➧ Extract milk to 1 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b1000 &7cows'
+    Name: milk_1000
+    DisplayName: §7Ordeñator §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+  '10000':
+    Goal: '&r➧ Extract milk to 10 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b10000 &7cows'
+    Name: milk_10000
+    DisplayName: §7Ordeñator §8/ §c§lROOKIE
+    Reward:
+      Money: 150
+  '100000':
+    Goal: '&r➧ Extract milk to 100 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b100000 &7cows'
+    Name: milk_100000
+    DisplayName: §7Ordeñator §8/ §c§lROOKIE
+    Reward:
+      Money: 200
+  '1000000':
+    Goal: '&r➧ Extract milk to 1 000 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b1000000 &7of cows'
+    Name: milk_1000000
+    DisplayName: §7Ordeñator §8/ §c§lROOKIE
+    Reward:
+      Money: 250
+    Command: broadcast &bPLAYER&e completed the challenge &fOrdeñator &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Extract milk to 10 000 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b10&3M. &7of cows'
+    Name: milk_10000000
+    DisplayName: §7Ordeñator §8/ §6§lTEACHER §eI
+    Reward:
+      Money: 300
+    Command: broadcast &bPLAYER&e completed the challenge &fOrdeñator &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Extract milk to 100 000 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b100&3M. &7of cows'
+    Name: milk_100000000
+    DisplayName: §7Ordeñator §8/ §6§lTEACHER §eII
+    Reward:
+      Money: 350
+    Command: broadcast &bPLAYER&e completed the challenge &fOrdeñator &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Extract milk to 1 000 000 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b1000&3M. &7of cows'
+    Name: milk_1000000000
+    DisplayName: §8Ordeñator §8/ §6§lTEACHER §eIII
+    Reward:
+      Money: 400
+    Command: broadcast &bPLAYER&e completed the challenge &fOrdeñator &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Extract milk to 1 000 000 000 000 000 cows!'
+    Message: '&e&lWELL DONE&8: &7You have extracted milk at &b1&3B. &7of cows'
+    Name: milk_1000000000000000
+    DisplayName: §7Ordeñator §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 450
+    Command: broadcast &bPLAYER&e completed the challenge &fOrdeñator &8/ &5&lUNPARALLELED
+
+# When a bucket is filled with Lava Buckets.
+Lava BucketsBuckets:
+  '10':
+    Goal: '&r➧ Gather 10 of Lava Buckets Buckets'
+    Message: '&e&lWELL DONE&8: &7You have collected &b10 &7of Lava Buckets'
+    Name: Lava Bucketsbuckets_10
+    DisplayName: §7Lavero §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Gather 100 of Lava Buckets Buckets'
+    Message: '&e&lWELL DONE&8: &7You have collected &b100 &7of Lava Buckets'
+    Name: Lava Bucketsbuckets_100
+    DisplayName: §7Lavero §8/ §e§lPROFESIONAL
+    Reward:
+      Money: 10
+  '10000':
+    Goal: '&r➧ Gather 10 000 of Lava Buckets Buckets'
+    Message: '&e&lWELL DONE&8: &7You have collected &b10000 &7of Lava Buckets'
+    Name: Lava Bucketsbuckets_10000
+    DisplayName: §7Lavero §8/ §4§lPIROMANO
+    Reward:
+      Money: 50
+
+# When a bucket is filled with water.
+WaterBuckets:
+  '10':
+    Goal: '&r➧ Gather 10 Buckets of water'
+    Message: '&e&lWELL DONE&8: &7You have collected &b10 &7Buckets of water'
+    Name: waterbuckets_10
+    DisplayName: §7WaterBuckets §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Gather 100 Buckets of water'
+    Message: '&e&lWELL DONE&8: &7You have collected &b100 &7Buckets of water'
+    Name: waterbuckets_100
+    DisplayName: §7WaterBuckets §8/ §e§lPROFESSIONAL
+    Reward:
+      Money: 10
+  '10000':
+    Goal: '&r➧ Gather 10 000 Buckets Buckets'
+    Message: '&e&lWELL DONE&8: &7You have collected &b10000 &7Buckets of water'
+    Name: waterbuckets_10000
+    DisplayName: §7WaterBuckets §8/ §3§lMARITIME
+    Reward:
+      Money: 50
+
+# When a trade with a villager is made.
+Trades:
+  '1':
+    Goal: '&r➧ Obtain 1 successful trade'
+    Message: '&e&lWELL DONE&8: &7You have made &b1 &7successful trade'
+    Name: trades_1
+    DisplayName: §7Trade §8/ §f§lCOMMON
+
+# When an anvil is used.
+AnvilsUsed:
+  '1':
+    Goal: '&r➧ Makes 1successful repair'
+    Message: '&e&lWELL DONE&8: &7You have repaired &b1 &7successful item'
+    Name: anvilsused_1
+    DisplayName: §7Raparo §8/ §f§lCOMMON
+
+# When an enchantment is performed.
+Enchantments:
+  '5':
+    Goal: '&r➧ Enchant 5 items'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b5 &7items'
+    Name: enchantments_5
+    DisplayName: §7Enchanter §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ Enchant 10 items'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b10 &7items'
+    Name: enchantments_10
+    DisplayName: §7Enchanter §8/ §c§lROOKIE
+  '1000':
+    Goal: '&r➧ Enchant 1 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b1000 &7items'
+    Name: enchantments_1000
+    DisplayName: §7Enchanter §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+  '10000':
+    Goal: '&r➧ Enchant 10 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b10000 &7items'
+    Name: enchantments_10000
+    DisplayName: §7Enchanter §8/ §c§lROOKIE
+    Reward:
+      Money: 150
+  '100000':
+    Goal: '&r➧ Enchant 100 000 items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b100000 &7items'
+    Name: enchantments_100000
+    DisplayName: §7Enchanter §8/ §c§lROOKIE
+    Reward:
+      Money: 200
+  '1000000':
+    Goal: '&r➧ Enchant 1 000 000 de items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b1000000 &7of items'
+    Name: enchantments_1000000
+    DisplayName: §7Enchanter §8/ §c§lROOKIE
+    Reward:
+      Money: 250
+    Command: broadcast &bPLAYER&e completed the challenge &fEnchanter &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Enchant 10 000 000 de items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b10&3M. &7of items'
+    Name: enchantments_10000000
+    DisplayName: §7Enchanter §8/ §6§lTEACHER §eI
+    Reward:
+      Money: 300
+    Command: broadcast &bPLAYER&e completed the challenge &fEnchanter &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Enchant 100 000 000 de items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b100&3M. &7of items'
+    Name: enchantments_100000000
+    DisplayName: §7Enchanter §8/ §6§lTEACHER §eII
+    Reward:
+      Money: 350
+    Command: broadcast &bPLAYER&e completed the challenge &fEnchanter &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Enchant 1 000 000 000 de items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b1000&3M. &7of items'
+    Name: enchantments_1000000000
+    DisplayName: §7Enchanter §8/ §6§lTEACHER §eIII
+    Reward:
+      Money: 400
+    Command: broadcast &bPLAYER&e completed the challenge &fEnchanter &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Enchant 1 000 000 000 000 000 de items!'
+    Message: '&e&lWELL DONE&8: &7You have enchant &b1&3B. &7of items'
+    Name: enchantments_1000000000000000
+    DisplayName: §7Enchanter §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 450
+    Command: broadcast &bPLAYER&e completed the challenge &fEnchanter &8/ &5&lUNPARALLELED
+
+# When a bed is entered. 
+Beds:
+  '10':
+    Goal: '&r➧ Sleep 10 times!'
+    Message: '&e&lWELL DONE&8: &7You have slept &b10 &7times'
+    Name: bed_10
+    DisplayName: §7Sleepyhead §8/ §9§lz Z z Z..
+
+# Maximum level reached.    
+MaxLevel:
+  '5':
+    Goal: '&r➧ Get on LEVEL 5 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b5 &7of EXP'
+    Name: maxlevel_5
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ Get on LEVEL 10 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b10 &7of EXP'
+    Name: maxlevel_10
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '20':
+    Goal: '&r➧ Get on LEVEL 20 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b20 &7of EXP'
+    Name: maxlevel_20
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '30':
+    Goal: '&r➧ Get on LEVEL 30 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b30 &7of EXP'
+    Name: maxlevel_30
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '40':
+    Goal: '&r➧ Get on LEVEL 30 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b30 &7of EXP'
+    Name: maxlevel_40
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '50':
+    Goal: '&r➧ Get on LEVEL 50 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b50 &7of EXP'
+    Name: maxlevel_50
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '60':
+    Goal: '&r➧ Get on LEVEL 60 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b60 &7of EXP'
+    Name: maxlevel_60
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '70':
+    Goal: '&r➧ Get on LEVEL 70 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b70 &7of EXP'
+    Name: maxlevel_70
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '80':
+    Goal: '&r➧ Get on LEVEL 80 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b80 &7of EXP'
+    Name: maxlevel_80
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '90':
+    Goal: '&r➧ Get on LEVEL 90 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b90 &7of EXP'
+    Name: maxlevel_90
+    DisplayName: §7Adventurous §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Get on LEVEL 100 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b100 &7of EXP'
+    Name: maxlevel_100
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '150':
+    Goal: '&r➧ Get on LEVEL 150 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b150 &7of EXP'
+    Name: maxlevel_150
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '200':
+    Goal: '&r➧ Get on LEVEL 200 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b200 &7of EXP'
+    Name: maxlevel_200
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '250':
+    Goal: '&r➧ Get on LEVEL 250 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b250 &7of EXP'
+    Name: maxlevel_250
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '300':
+    Goal: '&r➧ Get on LEVEL 300 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b300 &7of EXP'
+    Name: maxlevel_300
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '350':
+    Goal: '&r➧ Get on LEVEL 350 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b350 &7of EXP'
+    Name: maxlevel_350
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '400':
+    Goal: '&r➧ Get on LEVEL 400 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b400 &7of EXP'
+    Name: maxlevel_400
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '450':
+    Goal: '&r➧ Get on LEVEL 450 de EXP'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b450 &7of EXP'
+    Name: maxlevel_450
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eI
+  '500':
+    Goal: '&r➧ Get on LEVEL 500 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b500 &7of EXP'
+    Name: maxlevel_500
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eII
+  '800':
+    Goal: '&r➧ Get on LEVEL 800 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b800 &7of EXP'
+    Name: maxlevel_800
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eIII
+  '1000':
+    Goal: '&r➧ Get on LEVEL 1 000 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b1000 &7of EXP'
+    Name: maxlevel_1000
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eIV
+  '2000':
+    Goal: '&r➧ Get on LEVEL 2 000 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b2000 &7of de EXP'
+    Name: maxlevel_2000
+    DisplayName: §7Adventurous §8/ §c§lROOKIE §eV
+    Command: broadcast &bPLAYER&e completed the challenge &fAdventurous &8/ &c&lROOKIE &eV\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '5000':
+    Goal: '&r➧ Get on LEVEL 5 000 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b5000 &7of de EXP'
+    Name: maxlevel_5000
+    DisplayName: §7Adventurous §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fAdventurous &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '10000':
+    Goal: '&r➧ Get on LEVEL 10 000 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b10000 &7of de EXP'
+    Name: maxlevel_10000
+    DisplayName: §7Adventurous §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fAdventurous &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '20000':
+    Goal: '&r➧ Get on LEVEL 20 000 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b20000 &7of de EXP'
+    Name: maxlevel_20000
+    DisplayName: §7Adventurous §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fAdventurous &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '50000':
+    Goal: '&r➧ Get on LEVEL 50 000 de EXP!'
+    Message: '&e&lWELL DONE&8: &7You have uploaded to LEVEL &b50000 &7of de EXP'
+    Name: maxlevel_50000
+    DisplayName: §7Adventurous §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fAdventurous &8/ &5&lUNPARALLELED
+
+# When a potion is Used.
+UsedPotions:
+  '5':
+    Goal: '&r➧ Use 5 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b5 &7potions'
+    Name: Usedpotions_5
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ Use 10 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b10 &7potions'
+    Name: Usedpotions_10
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '20':
+    Goal: '&r➧ Use 20 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b20 &7potions'
+    Name: Usedpotions_20
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '30':
+    Goal: '&r➧ Use 30 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b30 &7potions'
+    Name: Usedpotions_30
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '40':
+    Goal: '&r➧ Use 30 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b30 &7potions'
+    Name: Usedpotions_40
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '50':
+    Goal: '&r➧ Use 50 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b50 &7potions'
+    Name: Usedpotions_50
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '60':
+    Goal: '&r➧ Use 60 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b60 &7potions'
+    Name: Usedpotions_60
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '70':
+    Goal: '&r➧ Use 70 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b70 &7potions'
+    Name: Usedpotions_70
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '80':
+    Goal: '&r➧ Use 80 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b80 &7potions'
+    Name: Usedpotions_80
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '90':
+    Goal: '&r➧ Use 90 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b90 &7potions'
+    Name: Usedpotions_90
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Use 100 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b100 &7potions'
+    Name: Usedpotions_100
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+    Reward:
+      Money: 10
+  '150':
+    Goal: '&r➧ Use 150 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b150 &7potions'
+    Name: Usedpotions_150
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '200':
+    Goal: '&r➧ Use 200 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b200 &7potions'
+    Name: Usedpotions_200
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '250':
+    Goal: '&r➧ Use 250 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b250 &7potions'
+    Name: Usedpotions_250
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '300':
+    Goal: '&r➧ Use 300 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b300 &7potions'
+    Name: Usedpotions_300
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '350':
+    Goal: '&r➧ Use 350 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b350 &7potions'
+    Name: Usedpotions_350
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '400':
+    Goal: '&r➧ Use 400 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b400 &7potions'
+    Name: Usedpotions_400
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '450':
+    Goal: '&r➧ Use 450 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b450 &7potions'
+    Name: Usedpotions_450
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eI
+  '500':
+    Goal: '&r➧ Use 500 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b500 &7potions'
+    Name: Usedpotions_500
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eII
+  '800':
+    Goal: '&r➧ Use 800 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b800 &7potions'
+    Name: Usedpotions_800
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eIII
+  '1000':
+    Goal: '&r➧ Use 1 000 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b1000 &7potions'
+    Name: Usedpotions_1000
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eIV
+  '2000':
+    Goal: '&r➧ Use 2 000 potions!'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b2000 &7of potions'
+    Name: Usedpotions_2000
+    DisplayName: §7Alchemist §8/ §c§lROOKIE §eV
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &c&lROOKIE &eV\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '5000':
+    Goal: '&r➧ Use 5 000 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b5000 &7of potions'
+    Name: Usedpotions_5000
+    DisplayName: §7Alchemist §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '10000':
+    Goal: '&r➧ Use 10 000 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b10000 &7of potions'
+    Name: Usedpotions_10000
+    DisplayName: §7Alchemist §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '20000':
+    Goal: '&r➧ Use 20 000 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b20000 &7of potions'
+    Name: Usedpotions_20000
+    DisplayName: §7Alchemist §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '50000':
+    Goal: '&r➧ Use 50 000 potions'
+    Message: '&e&lWELL DONE&8: &7You have consumed &b50000 &7of potions'
+    Name: Usedpotions_50000
+    DisplayName: §7Alchemist §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &5&lUNPARALLELED
+
+# Amount of time played on the server (in hours, use integers).
+PlayedTime:
+  '1':
+    Goal: '&r➧ Accumulate 1 hour played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b1 &7hora jugada'
+    Name: playedtime_1
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '5':
+    Goal: '&r➧ Accumulate 5 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b5 &7hours played'
+    Name: playedtime_5
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ Accumulate 10 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b10 &7hours played'
+    Name: playedtime_10
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '20':
+    Goal: '&r➧ Accumulate 20 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b20 &7hours played'
+    Name: playedtime_20
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '30':
+    Goal: '&r➧ Accumulate 30 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b30 &7hours played'
+    Name: playedtime_30
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '40':
+    Goal: '&r➧ Accumulate 30 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b30 &7hours played'
+    Name: playedtime_40
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '50':
+    Goal: '&r➧ Accumulate 50 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b50 &7hours played'
+    Name: playedtime_50
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '60':
+    Goal: '&r➧ Accumulate 60 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b60 &7hours played'
+    Name: playedtime_60
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '70':
+    Goal: '&r➧ Accumulate 70 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b70 &7hours played'
+    Name: playedtime_70
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '80':
+    Goal: '&r➧ Accumulate 80 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b80 &7hours played'
+    Name: playedtime_80
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '90':
+    Goal: '&r➧ Accumulate 90 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b90 &7hours played'
+    Name: playedtime_90
+    DisplayName: §7Timer §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Accumulate 100 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b100 &7hours played'
+    Name: playedtime_100
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+    Reward:
+      Money: 50
+  '150':
+    Goal: '&r➧ Accumulate 150 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b150 &7hours played'
+    Name: playedtime_150
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '200':
+    Goal: '&r➧ Accumulate 200 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b200 &7hours played'
+    Name: playedtime_200
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '250':
+    Goal: '&r➧ Accumulate 250 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b250 &7hours played'
+    Name: playedtime_250
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '300':
+    Goal: '&r➧ Accumulate 300 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b300 &7hours played'
+    Name: playedtime_300
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '350':
+    Goal: '&r➧ Accumulate 350 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b350 &7hours played'
+    Name: playedtime_350
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '400':
+    Goal: '&r➧ Accumulate 400 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b400 &7hours played'
+    Name: playedtime_400
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '450':
+    Goal: '&r➧ Accumulate 450 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b450 &7hours played'
+    Name: playedtime_450
+    DisplayName: §7Timer §8/ §c§lROOKIE §eI
+  '500':
+    Goal: '&r➧ Accumulate 500 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b500 &7hours played'
+    Name: playedtime_500
+    DisplayName: §7Timer §8/ §c§lROOKIE §eII
+  '800':
+    Goal: '&r➧ Accumulate 800 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b800 &7hours played'
+    Name: playedtime_800
+    DisplayName: §7Timer §8/ §c§lROOKIE §eIII
+  '1000':
+    Goal: '&r➧ Accumulate 1 000 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b1000 &7hours played'
+    Name: playedtime_1000
+    DisplayName: §7Timer §8/ §c§lROOKIE §eIV
+  '2000':
+    Goal: '&r➧ Accumulate 2 000 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b2000 &7of hours played'
+    Name: playedtime_2000
+    DisplayName: §7Timer §8/ §c§lROOKIE §eV
+    Command: broadcast &bPLAYER&e completed the challenge &fTimer &8/ &c&lROOKIE &eV\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '5000':
+    Goal: '&r➧ Accumulate 5 000 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b5000 &7of hours played'
+    Name: playedtime_5000
+    DisplayName: §7Timer §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fTimer &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '10000':
+    Goal: '&r➧ Accumulate 10 000 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b10000 &7of hours played'
+    Name: playedtime_10000
+    DisplayName: §7Timer §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fTimer &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '20000':
+    Goal: '&r➧ Accumulate 20 000 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b20000 &7of hours played'
+    Name: playedtime_20000
+    DisplayName: §7Timer §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fTimer &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '50000':
+    Goal: '&r➧ Accumulate 50 000 hours played'
+    Message: '&e&lWELL DONE&8: &7Has Accumulatedo &b50000 &7of hours played'
+    Name: playedtime_50000
+    DisplayName: §7Timer §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fTimer &8/ &5&lUNPARALLELED
+
+# When a distance is traveled by foot.
+DistanceFoot:
+  '100':
+    Goal: '&r➧ Makes a walk of 100 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b100 &7blocks'
+    Name: distancefoot_100
+    DisplayName: §7Walker §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Makes a walk of 1 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b1000 &7blocks'
+    Name: distancefoot_1000
+    DisplayName: §7Walker §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Makes a walk of 10 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b10000 &7blocks'
+    Name: distancefoot_10000
+    DisplayName: §7Walker §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Makes a walk of 100 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b100000 &7blocks'
+    Name: distancefoot_100000
+    DisplayName: §7Walker §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Makes a walk of 1 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b1000000 &7of
+      pies'
+    Name: distancefoot_1000000
+    DisplayName: §7Walker §8/ §c§lROOKIE
+    Command: broadcast &bPLAYER&e completed the challenge &fWalker &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Makes a walk of 10 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b10&3M. &7of pies'
+    Name: distancefoot_10000000
+    DisplayName: §7Walker §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fWalker &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Makes a walk of 100 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b100&3M. &7of
+      pies'
+    Name: distancefoot_100000000
+    DisplayName: §7Walker §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fWalker &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Makes a walk of 1 000 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b1000&3M. &7of
+      pies'
+    Name: distancefoot_1000000000
+    DisplayName: §7Walker §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fWalker &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Makes a walk of 1 000 000 000 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed la caminata de &b1&3B. &7of pies'
+    Name: distancefoot_1000000000000000
+    DisplayName: §7Walker §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fWalker &8/ &5&lUNPARALLELED
+
+# When a distance is traveled on a pig.
+DistancePig:
+  '100':
+    Goal: '&r➧ Makes a walk in pork of 100 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b100 &7blocks'
+    Name: distancepig_100
+    DisplayName: §7Feet of pig §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Makes a walk in pork of 1 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b1000 &7blocks'
+    Name: distancepig_1000
+    DisplayName: §7Feet of pig §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Makes a walk in pork of 10 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b10000 &7blocks'
+    Name: distancepig_10000
+    DisplayName: §7Feet of pig §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Makes a walk in pork of 100 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b100000 &7blocks'
+    Name: distancepig_100000
+    DisplayName: §7Feet of pig §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Makes a walk in pork of 1 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b1000000
+      &7of pies'
+    Name: distancepig_1000000
+    DisplayName: §7Feet of pig §8/ §c§lROOKIE
+    Command: broadcast &bPLAYER&e completed the challenge &fFeet of pig &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Makes a walk in pork of 10 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b10&3M. &7of
+      pies'
+    Name: distancepig_10000000
+    DisplayName: §7Feet of pig §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fFeet of pig &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Makes a walk in pork of 100 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b100&3M.
+      &7of pies'
+    Name: distancepig_100000000
+    DisplayName: §7Feet of pig §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fFeet of pig &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Makes a walk in pork of 1 000 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b1000&3M.
+      &7of pies'
+    Name: distancepig_1000000000
+    DisplayName: §7Feet of pig §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fFeet of pig &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Makes a walk in pork of 1 000 000 000 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk in pork of &b1&3B. &7of
+      pies'
+    Name: distancepig_1000000000000000
+    DisplayName: §7Feet of pig §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fFeet of pig &8/ &5&lUNPARALLELED
+
+# When a distance is traveled on a horse.
+DistanceHorse:
+  '100':
+    Goal: '&r➧ Makes a walk on horseback of 100 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b100
+      &7blocks'
+    Name: distancehorse_100
+    DisplayName: §7Horse rider §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Makes a walk on horseback of 1 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b1000
+      &7blocks'
+    Name: distancehorse_1000
+    DisplayName: §7Horse rider §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Makes a walk on horseback of 10 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b10000
+      &7blocks'
+    Name: distancehorse_10000
+    DisplayName: §7Horse rider §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Makes a walk on horseback of 100 000 blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b100000
+      &7blocks'
+    Name: distancehorse_100000
+    DisplayName: §7Horse rider §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Makes a walk on horseback of 1 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b1000000
+      &7of pies'
+    Name: distancehorse_1000000
+    DisplayName: §7Horse rider §8/ §c§lROOKIE
+    Command: broadcast &bPLAYER&e completed the challenge &fHorse rider &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Makes a walk on horseback of 10 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b10&3M.
+      &7of pies'
+    Name: distancehorse_10000000
+    DisplayName: §7Horse rider §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fHorse rider &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Makes a walk on horseback of 100 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b100&3M.
+      &7of pies'
+    Name: distancehorse_100000000
+    DisplayName: §7Horse rider §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fHorse rider &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Makes a walk on horseback of 1 000 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b1000&3M.
+      &7of pies'
+    Name: distancehorse_1000000000
+    DisplayName: §7Horse rider §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fHorse rider &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Makes a walk on horseback of 1 000 000 000 000 000 de blocks!'
+    Message: '&e&lWELL DONE&8: &7You have completed the walk on horseback of &b1&3B.
+      &7of pies'
+    Name: distancehorse_1000000000000000
+    DisplayName: §7Horse rider §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fHorse rider &8/ &5&lUNPARALLELED
+
+# When a distance is traveled in a minecart.
+DistanceMinecart:
+  '1000000000000000':
+    Goal: '&r➧ Travel on rails 1 000 000 000 000 000 de cm!'
+    Message: '&e&lWELL DONE&8: &7You have completed the run on rails of &b1&3B. &7of
+      cm'
+    Name: distanceminecart_1000000000000000
+    DisplayName: §7Travel on rails §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 50
+    Command: broadcast &bPLAYER&e completed the challenge &fRail Miner &8/ &5&lUNPARALLELED
+
+# When a distance is traveled in a boat.
+DistanceBoat:
+  '1000000000000000':
+    Goal: '&r➧ Travel by boat 1 000 000 000 000 000 de cm!'
+    Message: '&e&lWELL DONE&8: &7You have completed the boat tour of &b1&3B. &7of
+      cm'
+    Name: distanceboat_1000000000000000
+    DisplayName: §7Navigator §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 50
+    Command: broadcast &bPLAYER&e completed the challenge &fNavigator &8/ &5&lUNPARALLELED
+
+# When a distance is traveled with elytra.
+# Ignored on Minecraft versions prior to 1.9, add it to DisabledCategories list.
+DistanceGliding:
+  '1000000000000000':
+    Goal: '&r➧ ´Soon..'
+    Message: '...'
+    Name: distancegliding_1000000000000000
+    DisplayName: '...'
+
+# When a distance is traveled on a llama.
+# Ignored on Minecraft versions prior to 1.11, add it to DisabledCategories list.
+DistanceLlama:
+  '1000000000000000':
+    Goal: '&r➧ Soon..'
+    Message: '...'
+    Name: distancellama_1000000000000000
+    DisplayName: '...'
+
+# When an item is dropped on the ground.
+ItemDrops:
+  '50':
+    Goal: '&r➧ Do not throw 50 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b50 &7items to the ground'
+    Name: itemdrops_50
+    DisplayName: §7Jugador §8/ §7§lIRRESPONSIBLE §eI
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &7&lIRRESPONSIBLE &eI; eco take PLAYER 500
+  '100':
+    Goal: '&r➧ Do not throw 100 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b100 &7items to the ground'
+    Name: itemdrops_100
+    DisplayName: §7Jugador §8/ §7§lIRRESPONSIBLE §eII
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &7&lIRRESPONSIBLE &eII; eco take PLAYER 1000
+  '500':
+    Goal: '&r➧ Do not throw 500 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b500 &7items to the ground'
+    Name: itemdrops_500
+    DisplayName: §7Jugador §8/ §8§lIRRESPONSIBLE §eIII
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &8&lIRRESPONSIBLE &eIII; eco take PLAYER 5000
+  '1000':
+    Goal: '&r➧ Do not throw 1 000 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b1000 &7items to the ground'
+    Name: itemdrops_1000
+    DisplayName: §7Jugador §8/ §8§lIRRESPONSIBLE §eIV
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &8&lIRRESPONSIBLE &eIV; eco take PLAYER 10000
+  '5000':
+    Goal: '&r➧ Do not throw 5 000 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b5000 &7items to the ground'
+    Name: itemdrops_5000
+    DisplayName: §7Jugador §8/ §c§lIRRESPONSIBLE §eV
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &c&lIRRESPONSIBLE &eV; eco take PLAYER 50000
+  '10000':
+    Goal: '&r➧ Do not throw 10 000 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b10000 &7items to the ground'
+    Name: itemdrops_10000
+    DisplayName: §7Jugador §8/ §c§lIRRESPONSIBLE §eVI
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &c&lIRRESPONSIBLE &eVI; eco take PLAYER 100000
+  '50000':
+    Goal: '&r➧ Do not throw 50 000 items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b50000 &7items to the ground'
+    Name: itemdrops_50000
+    DisplayName: §7Jugador §8/ §4§lIRRESPONSIBLE §eVII
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &4&lIRRESPONSIBLE &eVII; eco take PLAYER 500000
+  '1000000':
+    Goal: '&r➧ Do not throw 1 000 000 de items to the ground!'
+    Message: '&4&lWARNING&8: &7You have thrown &b1000000 &7items to the ground'
+    Name: itemdrops_1000000
+    DisplayName: §7Jugador §8/ §4§lIRRESPONSIBLE §eVIII
+    Command: broadcast &bPLAYER&e completed one WARNING of &fPlayer &8/ &4&lIRRESPONSIBLE &eVIII; eco take PLAYER 1000000
+
+# When an item is picked up from the ground.
+ItemPickups:
+  '1000000000000000000':
+    Goal: '&r➧ Collect the maximum amount of objects'
+    Message: '&e&lWELL DONE&8: &7You have collected many objects'
+    Name: itempickups_1000000000000000000
+    DisplayName: §7Gatherer §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 50
+
+# When soil is plowed with a hoe.
+HoePlowings:
+  '50':
+    Goal: '&r➧ Plow 50 grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b50 &7grass blocks'
+    Name: hoeplowings_50
+    DisplayName: §7Plowman §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Plow 100 grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b100 &7grass blocks'
+    Name: hoeplowings_100
+    DisplayName: §7Plowman §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Plow 1 000 grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b1000 &7grass blocks'
+    Name: hoeplowings_1000
+    DisplayName: §7Plowman §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Plow 10 000 grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b10000 &7grass blocks'
+    Name: hoeplowings_10000
+    DisplayName: §7Plowman §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Plow 100 000 grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b100000 &7grass blocks'
+    Name: hoeplowings_100000
+    DisplayName: §7Plowman §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Plow 1 000 000 of grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b1000000 &7of &7grass blocks'
+    Name: hoeplowings_1000000
+    DisplayName: §7Plowman §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+    Command: broadcast &bPLAYER&e completed the challenge &fPlowman &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Plow 10 000 000 de grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b10&3M. &7of &7grass blocks'
+    Name: hoeplowings_10000000
+    DisplayName: §7Plowman §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fPlowman &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Plow 100 000 000 de grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b100&3M. &7of &7grass blocks'
+    Name: hoeplowings_100000000
+    DisplayName: §7Plowman §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fPlowman &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Plow 1 000 000 000 de grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b1000&3M. &7of &7grass blocks'
+    Name: hoeplowings_1000000000
+    DisplayName: §7Plowman §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fPlowman &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Plow 1 000 000 000 000 000 de grass blocks!'
+    Message: '&e&lWELL DONE&8: &7You plowed &b1&3B. &7of &7grass blocks'
+    Name: hoeplowings_1000000000000000
+    DisplayName: §7Plowman §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fPlowman &8/ &5&lUNPARALLELED
+
+# When bone meal is used to fertilise plants.
+Fertilising:
+  '50':
+    Goal: '&r➧ Use 50 times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b50 &7times the bone powder.'
+    Name: fertilising_50
+    DisplayName: §7Fertilizer §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Use 100 times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b100 &7times the bone powder'
+    Name: fertilising_100
+    DisplayName: §7Fertilizer §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Use 1 000 times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b1000 &7times the bone powder'
+    Name: fertilising_1000
+    DisplayName: §7Fertilizer §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Use 10 000 times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b10000 &7times the bone powder'
+    Name: fertilising_10000
+    DisplayName: §7Fertilizer §8/ §c§lROOKIE
+    Reward:
+      Money: 50
+  '100000':
+    Goal: '&r➧ Use 100 000 times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b100000 &7times the bone powder'
+    Name: fertilising_100000
+    DisplayName: §7Fertilizer §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Use 1 000 000 de times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b1000000 &7of &7times the bone powder'
+    Name: fertilising_1000000
+    DisplayName: §7Fertilizer §8/ §c§lROOKIE
+    Command: broadcast &bPLAYER&e completed the challenge &fFertilizer &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Use 10 000 000 de times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b10&3M. &7of &7times the bone powder'
+    Name: fertilising_10000000
+    DisplayName: §7Fertilizer §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fFertilizer &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Use 100 000 000 de times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b100&3M. &7of &7times the bone powder'
+    Name: fertilising_100000000
+    DisplayName: §7Fertilizer §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fFertilizer &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Use 1 000 000 000 de times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b1000&3M. &7of &7times the bone powder'
+    Name: fertilising_1000000000
+    DisplayName: §7Fertilizer §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fFertilizer &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Use 1 000 000 000 000 000 de times the bone powder!'
+    Message: '&e&lWELL DONE&8: &7Have used &b1&3B. &7of &7times the bone powder'
+    Name: fertilising_1000000000000000
+    DisplayName: §7Fertilizer §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fFertilizer &8/ &5&lUNPARALLELED
+
+# When an animal is tamed.
+Taming:
+  '1':
+    Goal: '&r➧ Tame 1 animal!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b1 &7animal.'
+    Name: taming_1
+    DisplayName: §7Taming §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ Tame 10 animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b10 &7animals.'
+    Name: taming_10
+    DisplayName: §7Taming §8/ §c§lROOKIE
+  '50':
+    Goal: '&r➧ Tame 50 animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b50 &7animals.'
+    Name: taming_50
+    DisplayName: §7Taming §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Tame 100 animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b100 &7animals'
+    Name: taming_100
+    DisplayName: §7Taming §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ Tame 1 000 animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b1000 &7animals'
+    Name: taming_1000
+    DisplayName: §7Taming §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ Tame 10 000 animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b10000 &7animals'
+    Name: taming_10000
+    DisplayName: §7Taming §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Tame 100 000 animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b100000 &7animals'
+    Name: taming_100000
+    DisplayName: §7Taming §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Tame 1 000 000 de animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b1000000 &7of &7animals'
+    Name: taming_1000000
+    DisplayName: §7Taming §8/ §c§lROOKIE
+    Reward:
+      Money: 100
+    Command: broadcast &bPLAYER&e completed the challenge &fTaming &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Tame 10 000 000 de animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b10&3M. &7of &7animals'
+    Name: taming_10000000
+    DisplayName: §7Taming §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fTaming &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Tame 100 000 000 de animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b100&3M. &7of &7animals'
+    Name: taming_100000000
+    DisplayName: §7Taming §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fTaming &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Tame 1 000 000 000 de animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b1000&3M. &7of &7animals'
+    Name: taming_1000000000
+    DisplayName: §7Taming §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fTaming &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Tame 1 000 000 000 000 000 de animals!'
+    Message: '&e&lWELL DONE&8: &7You have tamed &b1&3B. &7of &7animals'
+    Name: taming_1000000000000000
+    DisplayName: §7Taming §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 1000
+    Command: broadcast &bPLAYER&e completed the challenge &fTaming &8/ &5&lUNPARALLELED
+
+# When a potion is brewed.
+Brewing:
+  '1':
+    Goal: '&r➧ PrepPlow 1 pocion!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b1 &7pocion.'
+    Name: brewing_1
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ PrepPlow 10 potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b10 &7potions.'
+    Name: brewing_10
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '50':
+    Goal: '&r➧ PrepPlow 50 potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b50 &7potions.'
+    Name: brewing_50
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ PrepPlow 100 potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b100 &7potions'
+    Name: brewing_100
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '1000':
+    Goal: '&r➧ PrepPlow 1 000 potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b1000 &7potions'
+    Name: brewing_1000
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '10000':
+    Goal: '&r➧ PrepPlow 10 000 potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b10000 &7potions'
+    Name: brewing_10000
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ PrepPlow 100 000 potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b100000 &7potions'
+    Name: brewing_100000
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ PrepPlow 1 000 000 de potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b1000000 &7of &7potions'
+    Name: brewing_1000000
+    DisplayName: §7Alchemist §8/ §c§lROOKIE
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ PrepPlow 10 000 000 de potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b10&3M. &7of &7potions'
+    Name: brewing_10000000
+    DisplayName: §7Alchemist §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ PrepPlow 100 000 000 de potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b100&3M. &7of &7potions'
+    Name: brewing_100000000
+    DisplayName: §7Alchemist §8/ §6§lTEACHER §eII
+    Reward:
+      Money: 100
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ PrepPlow 1 000 000 000 de potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b1000&3M. &7of &7potions'
+    Name: brewing_1000000000
+    DisplayName: §7Alchemist §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ PrepPlow 1 000 000 000 000 000 de potions!'
+    Message: '&e&lWELL DONE&8: &7You have prepared &b1&3B. &7of &7potions'
+    Name: brewing_1000000000000000
+    DisplayName: §7Alchemist §8/ §5§lUNPARALLELED
+    Reward:
+      Money: 1000
+    Command: broadcast &bPLAYER&e completed the challenge &fAlchemist &8/ &5&lUNPARALLELED
+
+# When a firework is launched.
+Fireworks:
+  '10':
+    Goal: '&r➧ Spear 10 Fireworks!'
+    Message: '&e&lWELL DONE&8: &7You have thrown &b10 &7Fireworks.'
+    Name: fireworks_10
+    DisplayName: §eARTIFICIAL FIRES FIRE Pitcher
+    Reward:
+      Experience: 10
+
+# When a music disc is played.
+MusicDiscs:
+  '1':
+    Goal: '&r➧ Use 1 Musical disc!'
+    Message: '&e&lWELL DONE&8: &7Have used &b1 &7Musical disc.'
+    Name: musicdiscs_1
+    DisplayName: §eDJ
+
+# When a player teleports with an enderpearl.
+EnderPearls:
+  '1':
+    Goal: '&r➧ Utilize 1 enderpearl'
+    Message: '&e&lWELL DONE&8: &7You have used &b1 &7enderpearl'
+    Name: enderpearls_1
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '5':
+    Goal: '&r➧ Utilize 5 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b5 &7enderpearls'
+    Name: enderpearls_5
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '10':
+    Goal: '&r➧ Utilize 10 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b10 &7enderpearls'
+    Name: enderpearls_10
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '20':
+    Goal: '&r➧ Utilize 20 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b20 &7enderpearls'
+    Name: enderpearls_20
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '30':
+    Goal: '&r➧ Utilize 30 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b30 &7enderpearls'
+    Name: enderpearls_30
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '40':
+    Goal: '&r➧ Utilize 30 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b30 &7enderpearls'
+    Name: enderpearls_40
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '50':
+    Goal: '&r➧ Utilize 50 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b50 &7enderpearls'
+    Name: enderpearls_50
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '60':
+    Goal: '&r➧ Utilize 60 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b60 &7enderpearls'
+    Name: enderpearls_60
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '70':
+    Goal: '&r➧ Utilize 70 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b70 &7enderpearls'
+    Name: enderpearls_70
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '80':
+    Goal: '&r➧ Utilize 80 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b80 &7enderpearls'
+    Name: enderpearls_80
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '90':
+    Goal: '&r➧ Utilize 90 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b90 &7enderpearls'
+    Name: enderpearls_90
+    DisplayName: §7Enderman §8/ §c§lROOKIE
+  '100':
+    Goal: '&r➧ Utilize 100 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b100 &7enderpearls'
+    Name: enderpearls_100
+    DisplayName: §7Enderman §8/ §9§lAPRENDIZ §eI
+  '150':
+    Goal: '&r➧ Utilize 150 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b150 &7enderpearls'
+    Name: enderpearls_150
+    DisplayName: §7Enderman §8/ §9§lAPRENDIZ §eII
+  '200':
+    Goal: '&r➧ Utilize 200 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b200 &7enderpearls'
+    Name: enderpearls_200
+    DisplayName: §7Enderman §8/ §9§lAPRENDIZ §eIII
+  '250':
+    Goal: '&r➧ Utilize 250 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b250 &7enderpearls'
+    Name: enderpearls_250
+    DisplayName: §7Enderman §8/ §e§lTEACHER §eI
+  '300':
+    Goal: '&r➧ Utilize 300 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b300 &7enderpearls'
+    Name: enderpearls_300
+    DisplayName: §7Enderman §8/ §e§lTEACHER §eII
+  '350':
+    Goal: '&r➧ Utilize 350 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b350 &7enderpearls'
+    Name: enderpearls_350
+    DisplayName: §7Enderman §8/ §e§lTEACHER §eIII
+  '400':
+    Goal: '&r➧ Utilize 400 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b400 &7enderpearls'
+    Name: enderpearls_400
+    DisplayName: §7Enderman §8/ §e§lTEACHER §eIV
+  '450':
+    Goal: '&r➧ Utilize 450 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b450 &7enderpearls'
+    Name: enderpearls_450
+    DisplayName: §7Enderman §8/ §e§lTEACHER §eV
+  '500':
+    Goal: '&r➧ Utilize 500 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b500 &7enderpearls'
+    Name: enderpearls_500
+    DisplayName: §7Enderman §8/ §B§lPROFESIONAL §eII
+  '800':
+    Goal: '&r➧ Utilize 800 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b800 &7enderpearls'
+    Name: enderpearls_800
+    DisplayName: §7Enderman §8/ §B§lPROFESIONAL §eII
+  '1000':
+    Goal: '&r➧ Utilize 1 000 enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b1000 &7enderpearls'
+    Name: enderpearls_1000
+    DisplayName: §7Enderman §8/ §B§lPROFESIONAL §eIII
+  '1000000':
+    Goal: '&r➧ Utilize 1 000 000 de enderpearls'
+    Message: '&e&lWELL DONE&8: &7You have used &b1000000 &7of enderpearls'
+    Name: enderpearls_1000000
+    DisplayName: §7Enderman §8/ §5§lUNPARALLELED
+
+# When a player gives a pet to another player (requires Pet Master plugin version 1.4 or above).
+PetMasterGive:
+  '50':
+    Goal: '&r➧ Soon..'
+    Message: '...'
+    Name: petmastergive_50
+    DisplayName: '...'
+
+# When a player receives a pet from another player (requires Pet Master plugin version 1.4 or above).
+PetMasterReceive:
+  '50':
+    Goal: '&r➧ Soon..'
+    Message: '...'
+    Name: petmasterreceive_50
+    DisplayName: '...'
+
+# When an item is smelt in a furnace.
+Smelting:
+  '10':
+    Goal: '&r➧ Cook 10 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b10 &7of food'
+    Name: smeltitems_10
+    DisplayName: §7Chef §8/ §c§lROOKIE
+  '1000':
+    Goal: '&r➧ Cook 1 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b1000 &7of food'
+    Name: smeltitems_1000
+    DisplayName: §7Chef §8/ §c§lROOKIE
+    Reward:
+      Money: 10
+  '10000':
+    Goal: '&r➧ Cook 10 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b10000 &7of food'
+    Name: smeltitems_10000
+    DisplayName: §7Chef §8/ §c§lROOKIE
+  '100000':
+    Goal: '&r➧ Cook 100 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b100000 &7of food'
+    Name: smeltitems_100000
+    DisplayName: §7Chef §8/ §c§lROOKIE
+  '1000000':
+    Goal: '&r➧ Cook 1 000 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b1000000 &7of of food'
+    Name: smeltitems_1000000
+    DisplayName: §7Chef §8/ §c§lROOKIE
+    Command: broadcast &bPLAYER&e completed the challenge &fChef &8/ &c&lROOKIE\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eI
+  '10000000':
+    Goal: '&r➧ Cook 10 000 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b10&3M. &7of of food'
+    Name: smeltitems_10000000
+    DisplayName: §7CHEF §8/ §6§lTEACHER §eI
+    Command: broadcast &bPLAYER&e completed the challenge &fCHEF &8/ &6&lTEACHER &eI\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eII
+  '100000000':
+    Goal: '&r➧ Cook 100 000 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b100&3M. &7of food'
+    Name: smeltitems_100000000
+    DisplayName: §7CHEF §8/ §6§lTEACHER §eII
+    Command: broadcast &bPLAYER&e completed the challenge &fCHEF &8/ &6&lTEACHER &eII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &6&lTEACHER &eIII
+  '1000000000':
+    Goal: '&r➧ Cook 1 000 000 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b1000&3M. &7of food'
+    Name: smeltitems_1000000000
+    DisplayName: §8CHEF §8/ §6§lTEACHER §eIII
+    Command: broadcast &bPLAYER&e completed the challenge &fCHEF &8/ &6&lTEACHER &eIII\n&8[&3&lB&b&lC&8] &eGot the level &8➢ &5&lUNPARALLELED
+  '1000000000000000':
+    Goal: '&r➧ Cook 1 000 000 000 000 000 of food!'
+    Message: '&e&lWELL DONE&8: &7You cooked &b1&3B. &7of food'
+    Name: smeltitems_1000000000000000
+    DisplayName: §7CHEF §8/ §5§lUNPARALLELED
+    Command: broadcast &bPLAYER&e completed the challenge &fCHEF &8/ &5&lUNPARALLELED
+
+# When a player enters a specific command (specify command prefixes in lower case without initial slash).
+# For instance a command /awf add world from the AntiWorldFly plugin matches with subcategory 'awf add'.
+# Aliases of a given command will also be taken into account.
+PlayerCommands:
+  aach stats:
+    '1':
+      Goal: '&r➧ Use /warps and get more information'
+      Message: '&bEnjoy server content!'
+      Name: playercommand_aachstats_1
+      DisplayName: §9INFORMATION
+
+#===========================OOO=OOO===========================#
+# VI-------------------------------------------------------VI #
+# |                  Command achievements                   | #
+# 6---------------------------------------------------------6 #
+#===========================ooo=ooo===========================#
+# Let achievement commands be given several times.
+MultiCommand: true
+
+# A player with achievement.give (or the console) can use /aach give yourAch1 PLAYER to give
+# yourAch1 achievement to PLAYER. The /aach give command does NOT work with other achievements.
+Commands:
+  yourAch1:
+    Goal: '&r➧ Soon..'
+    Message: '...'
+    Name: yourAch1
+    DisplayName: '...'
+
+#===========================OOOOOOO===========================#
+# VII-----------------------------------------------------VII #
+# | Parameters in future plugin versions will  appear here  | #
+# 7---------------------------------------------------------7 #
+#===========================ooooooo===========================#
+#When animals breed (specify an entity name, lower case).
+Breeding: {}
+
+#If true, PlayedTime will no longer increase when the player is AFK. Requires Essentials to work.
+IgnoreAFKPlayedTime: true
+
+#Set the format of the header used for most chat messages (default: "&7[%ICON%&7]").
+ChatHeader: '&7[%ICON%&7]'
+
+#Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &,
+#for instance "&useUnicode=yes&characterEncoding=UTF-8".
+AdditionalConnectionOptions: ''
+
+#When a player receives an achievement, the Name, Message and rewards of the achievement are displayed in
+#the chat. If HoverableReceiverChatText is true, a single hoverable text will be displayed to the receiver.
+#Otherwise texts will be displayed one after the other.
+HoverableReceiverChatText: false
+
+#When a bucket is filled with lava.
+LavaBuckets: {}
+
+#When a potion is consumed.
+ConsumedPotions: {}
+
+#When the command /aach add is called for this category.
+Custom: {}
+
+#Color used for Goals and progress bars in /aach list when an achievement is not yet received.
+ListColorNotReceived: 8
+
+#Awarded when a player has received all the achievements. Use the same reward pattern as with achievements.
+#See https://github.com/PyvesB/AdvancedAchievements/wiki/Rewards
+AllAchievementsReceivedRewards:
+  Money: 30
+
+#Title shown on the root advancement.
+RootAdvancementTitle: Advanced Achievements
+
+#Background shown on the Advanced Achievements advancement tab.
+#Must be a resource location to any image in a resource pack.
+AdvancementsBackground: minecraft:textures/items/book_enchanted.png

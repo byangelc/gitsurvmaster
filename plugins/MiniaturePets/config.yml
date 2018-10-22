@@ -1,0 +1,15 @@
+disablePlugin: false
+useWorldGuard: true
+usePackets: true
+useHats: true
+useDisguises: true
+useRide: true
+useInteractGUI: true
+debug: false
+combatTag: false
+petPunch: true
+useHopperGUI: true
+combatMessage: '&4You''re was removed because of combattag'
+SaveWithUUID: true
+PetSpawnDistance: 0
+PetNameLimit: 0

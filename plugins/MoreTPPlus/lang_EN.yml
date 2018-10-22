@@ -1,0 +1,420 @@
+#=====-----=====-----=====-----[      Messages Configuration      ]-----=====-----=====-----=====#
+#
+# Option List:
+# <center> :Center The Message on that line
+# <np> :Disable prefix on that line
+# <title> :send title to player
+# <subtitle> :send subtitle to player
+# <action> :send actionbar to player
+# use <title>Text<subtitle>text :to send title and subtitle at same time
+
+# Custom Placeholder Can be Used for Message
+# Use curly bracket { } to use placeholder in Text Line
+# Example:{heart} will be replace by defined placeholder
+# Don't forget to encode as UTF-8 
+# Below is pre-made plaeholder , you can make as many as you want XD
+
+custom-placeholder:
+  mcolor: "&b"
+  ecolor: "&c"
+  ncolor: "&7"
+  # ChatColor Theme, Just Change This to change theme color of messages
+  # mcolor used for main or important text
+  # ecolor used for error text
+  # ncolor used for normal description text
+  doneline: "&8&m====================================================="
+  errline: "&c&m-----------------------------------------------------"
+  plusline: "&6&m====================================================="
+  done: "&8&l[&b✔&8&l]"
+  not: "&8&l[&c✘&8&l]"
+  edit: "&8&l[&6✎&8&l]"
+  peace: "✌"
+  heart: "❤"
+  cloud: "☁"
+  poison: "☠"
+  star: "★"
+  x: "█"
+  x/: "▌"
+  x\: "▐"
+  rarrow: "►"
+  larrow: "◀"
+  diamond: "◇"
+  melody: "♫"
+  crown: "♚"
+  plane: "✈"
+  snowman: "☃"
+  snow: "❆"
+  sword: "⚔"
+  health: "✚"
+  checklist: "✔"
+  cross: "✘"
+  copyright: "©"
+  tm: "™"
+  empty: ""
+  
+
+# Random Placeholder Can be Used for Message
+# Use curly bracket { } to use placeholder in Text Line
+# Example:{color1} will be replace by one of the placeholder randomly
+
+random-placeholder:
+  color1:
+  - "&f"
+  color2:
+  - "&b"
+  randomsymbol:
+  - "{plane}"
+
+messages:
+  teleport_success:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}Exitosamente {mcolor}Teleported {ncolor}a {mcolor}{player} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+ 
+  teleport_nomoney:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}No tienes suficiente {ecolor}Dinero {ncolor}para hacerlo {not}"
+  - "<np>"
+  - "<np>{errline}"
+
+  teleport_cooldown:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}Espera {ecolor}{time} {ncolor}unos segundos {ecolor}para hacerlo {ncolor}de nuevo {not}"
+  - "<np>"
+  - "<np>{errline}"
+ 
+  teleport_norequest:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}No tienes {ecolor}peticiones de tp {not}"
+  - "<np>"
+  - "<np>{errline}"
+  teleport_accepted:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{mcolor}{player} {ncolor}aceptó {mcolor}la petición {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  teleport_acceptedfrom:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}You accepted request from {mcolor}{player} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  teleport_dennied:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{mcolor}{player} {ncolor}denego tu {ecolor}petición de tp {done}"
+  - "<np>"
+  - "<np>{errline}"
+  teleport_denniedfrom:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}Denegaste la petición de {mcolor}{player} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  teleport_disabled:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{mcolor}{player} {ncolor}Desabilitó su tp"
+  - "<center>No puedes hacer TP hacia el ahora ! {not}"
+  - "<np>"
+  - "<np>{errline}"
+  
+  teleporthere_notify:
+  - "<np><title>{mcolor}TPhere {ncolor}Request {edit}<subtitle>{ncolor}de {mcolor}{player}"
+  - "<np>{plusline}"
+  - "<np>"
+  - "<np><center>{mcolor}{player} {ncolor}Ask Request to {mcolor}Teleport {ncolor}to {mcolor}their {ncolor}location"
+  - "<np><center>&b&l/tpyes {accept} {ncolor}- &fTo &bAccept &fthe request"
+  - "<np><center>{ecolor}&l/tpno {deny} {ncolor}- &fTo {ecolor}Deny &fthe request"
+  - "<np><center>{ncolor}Request will expired in {mcolor}{remain} {ncolor}seconds"
+  - "<np>"
+  - "<np>{plusline}"
+  #{accept} will be replaced by accept button
+  #{deny}will be replaced by deny button
+
+  teleport_notify:
+  - "<np><title>&bTP {ncolor}Request {edit}<subtitle>{ncolor}from {mcolor}{player}"
+  - "<np>{plusline}"
+  - "<np>"
+  - "<np><center>{mcolor}{player} &fAsk Request to &bTeleport &fto &byour {ncolor}location"
+  - "<np><center>&b&l/tpyes {accept} {ncolor}- &fTo &bAccept &fthe request {done}"
+  - "<np><center>{ecolor}&l/tpno {deny} {ncolor}- &fTo {ecolor}Deny &fthe request {not}"
+  - "<np><center>{ncolor}Request will expired in {mcolor}{remain} {ncolor}seconds"
+  - "<np>"
+  - "<np>{plusline}"
+  #{accept} will be replaced by accept button
+  #{deny}will be replaced by deny button
+
+  teleport_requestsent:
+  - "<np>{plusline}"
+  - "<np>"
+  - "<center>{mcolor}Teleport request {ncolor}has been sent to {mcolor}{target} {done}"
+  - "<np>"
+  - "<np>{plusline}"
+  teleport_targetnotonline:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}Player {ecolor}{target} {ncolor}is {ecolor}not online {not}"
+  - "<np>"
+  - "<np>{errline}"
+  teleport_self:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}You {ecolor}can't tp {ncolor}to yourself {not}"
+  - "<np>"
+  - "<np>{errline}"
+
+  teleporting:
+  - "<title>{color2}Teleporting... {randomsymbol}<subtitle>{color1}Please Stay For {mcolor}{left} {color1}Second"
+  - "<action>{color2}{teleportbar}"
+  teleporting_canceled:
+  - "<title>{color2}&lTeleport Aborted {not}<subtitle>{color1}Please Don't Do Anything"
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}Teleport {ecolor}Aborted {ncolor}Please Don't Do Anything {not}"
+  - "<np>"
+  - "<np>{errline}"
+  teleported:
+  - "<title>{color2}&lTeleport Success {done}<subtitle>{ncolor}&l[&bX&f&l: &f{xcoord} {ncolor}, &bY&f&l: &f{ycoord} {ncolor}, &bZ&f&l: &f{zcoord}{ncolor}&l]"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center><np>{ncolor}Teleport &bSuccess {done}"
+  - "<center><np>{ncolor}&l[&bX&f&l: &f{xcoord} {ncolor}, &bY&f&l: &f{ycoord} {ncolor}, &bZ&f&l: &f{zcoord}{ncolor}&l]"
+  - "<np>"
+  - "<np>{doneline}"
+  
+  config_reload:
+  - "<np><title>{mcolor}Config {ncolor}reloaded {edit}<subtitle>{ncolor}Successfully"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{mcolor}Config Successfully Reloaded !"
+  - "<np>"
+  - "<np>{doneline}"
+  
+  warp_notfound:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}Warp name {mcolor}{warp} {ncolor}Not Found {not}"
+  - "<np>"
+  - "<np>{errline}"
+  warp_deleted:
+  - "<np>{errline}"
+  - "<np>"
+  - "{ncolor}Warp name {mcolor}{warp} {ncolor}Successfully deleted {done}"
+  - "<np>"
+  - "<np>{errline}"
+  warp_set:
+  - "<np>{plusline}"
+  - "<np>"
+  - "{ncolor}Warp {mcolor}{warp}{ncolor} Successfully Set ! {edit}"
+  - "<np>"
+  - "<np>{plusline}"
+  
+  warp_set:
+  - "<np>{plusline}"
+  - "<np>"
+  - "{ncolor}Warp {mcolor}{warp}{ncolor} Successfully Set ! {edit}"
+  - "<np>"
+  - "<np>{plusline}"
+  sign_timeout:
+  - "<np>{errline}"
+  - "<np>"
+  - "{ecolor}Sign Creation Cancelled Because Timeout {not}"
+  - "<np>"
+  - "<np>{errline}"
+  sign_now:
+  - "<np>{plusline}"
+  - "<np>"
+  - "{ncolor}Please {mcolor}Left-Click {ncolor}on A {mcolor}Sign {ncolor}now {edit}"
+  - "<np>"
+  - "<np>{plusline}"
+  sign_created:
+  - "<np>{doneline}"
+  - "<np>"
+  - "{ncolor}Please {mcolor}Left-Click {ncolor}on A {mcolor}Sign {ncolor}now {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  sign_already:
+  - "<np>{errline}"
+  - "<np>"
+  - "{ecolor}This Sign Already RandomTP Sign {not}"
+  - "<np>"
+  - "<np>{errline}"
+  
+  
+  forceteleport_sender:
+  - "<title>{mcolor}Successfully Teleport<subtitle>{mcolor}{victim} &f{plane} {mcolor}{target}"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}Successfully teleport {mcolor}{victim} {ncolor}to {mcolor}{target} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  forceteleport_target:
+  - "<title>{mcolor}Force Teleported<subtitle>{mcolor}You &f{plane} {mcolor}{target}"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}You are force teleported {ncolor}to {mcolor}{target} {ncolor}by Admin {mcolor}{player} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  forceteleport_forcedto:
+  - "<title>{mcolor}Force Teleported<subtitle>{mcolor}YOU &f{plane} {mcolor}{player}"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}You are force teleported {ncolor}to {mcolor}{player} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  forceteleport_forced:
+  - "<title>{mcolor}Successfully Teleport<subtitle>{mcolor}{player} &f{plane} {mcolor}YOU"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}You are force teleported {mcolor}{player} {ncolor}to {mcolor}YOU {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  
+  device_get:
+  - "<np><title>{mcolor}Device {ncolor}retrieved {edit}<subtitle>{ncolor}Successfully"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}Device {mcolor}retrieved ! {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  device_already:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}This device location {ecolor}already filled {not}"
+  - "<np>"
+  - "<np>{errline}"
+  device_saved:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}Location saved to {mcolor}your location {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  
+  randomtp_notfound:
+  - "<title>{ecolor}&lLocation Not Found {not}<subtitle>{ncolor}Please choose another {mcolor}option"
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ecolor}&lLocation Not Found {not}"
+  - "<center>{ncolor}Please choose another {mcolor}option"
+  - "<np>"
+  - "<np>{errline}"
+  randomtp_searching:
+  - "<title>{mcolor}&lSearching {edit}<subtitle>{ncolor}Please Wait"
+  - "<np>{plusline}"
+  - "<np>"
+  - "<center>{mcolor}&lSearching {not}"
+  - "<center>{ncolor}Please wait"
+  - "<np>"
+  - "<np>{plusline}"
+  
+  notselect_biome:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ecolor}&lBiome Not Selected {not}"
+  - "<center>{ncolor}Please select Biome to {mcolor}teleport"
+  - "<np>"
+  - "<np>{errline}"
+  notselect_radius:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ecolor}&lRadius Not Selected {not}"
+  - "<center>{ncolor}Please select Radius to {mcolor}teleport"
+  - "<np>"
+  - "<np>{errline}"
+  
+  hide_on:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<np><center>{mcolor}Teleport Hidden"
+  - "<np><center>{ncolor}No one can see you via {mcolor}/tp {ncolor}or {mcolor}/tpa {ncolor}now !"
+  - "<np>"
+  - "<np>{doneline}"
+  hide_off:
+  - "<np>{errline}"
+  - "<np>"
+  - "<np><center>{ecolor}Teleport Revealed"
+  - "<np><center>{ncolor}Everyone can see you via {mcolor}/tp {ncolor}or {mcolor}/tpa {ncolor}now !"
+  - "<np>"
+  - "<np>{errline}"
+  
+  tptoggle_on:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<np><center>{mcolor}Teleport Disabled"
+  - "<np><center>{ncolor}No one can Teleport you via {mcolor}/tp {ncolor}or {mcolor}/tpa {ncolor}now !"
+  - "<np>"
+  - "<np>{doneline}"
+  tptoggle_off:
+  - "<np>{errline}"
+  - "<np>"
+  - "<np><center>{ecolor}Teleport Enabled"
+  - "<np><center>{ncolor}Everyone can Teleport you via {mcolor}/tp {ncolor}or {mcolor}/tpa {ncolor}now !"
+  - "<np>"
+  - "<np>{errline}"
+  
+  adminteleport_teleported:
+  - "<title>{mcolor}Force Teleported<subtitle>{mcolor}YOU &f{plane} {mcolor}{target}"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}You are force teleported {ncolor}to {mcolor}{target} {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  adminteleport_teleporthere:
+  - "<title>{mcolor}Successfully Teleport<subtitle>{mcolor}{target} &f{plane} {mcolor}YOU"
+  - "<np>{doneline}"
+  - "<np>"
+  - "<center>{ncolor}You are force teleported {mcolor}{target} {ncolor}to {mcolor}YOU {done}"
+  - "<np>"
+  - "<np>{doneline}"
+  
+  silent_on:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<np><center>{ecolor}Silent Mode: ON"
+  - "<np><center>{ncolor}You Can TP Without Worry About {mcolor}Particle {ncolor}Now !"
+  - "<np>"
+  - "<np>{doneline}"
+  silent_off:
+  - "<np>{doneline}"
+  - "<np>"
+  - "<np><center>{ecolor}Silent Mode: OFF"
+  - "<np><center>{ncolor}Your {mcolor}Particle {ncolor}will be visible !"
+  - "<np>"
+  - "<np>{doneline}"
+  
+  teleport_targetnopermiss:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ncolor}Currently {mcolor}{target} {ecolor}Doesn't Have Permission {ncolor}To Accept Your Teleport"
+  - "<np>"
+  - "<np>{errline}"
+  
+  no_permission:
+  - "<np>{errline}"
+  - "<np>"
+  - "<center>{ecolor}You Don't Have &8[&f{perm}&8] {ecolor}Permission !"
+  - "<np>"
+  - "<np>{errline}"
+
+  warp_edit_cost:
+  - "<np>{plusline}"
+  - "<np>"
+  - "<np><center>&7Type {cancel} &7to cancel &aEditing Warp Cost"
+  - "<np><center>&7Please type number for the &fCost <edit>"
+  - "<np>"
+  - "<np>{plusline}"
+  warp_edit_cooldown:
+  - "<np>{plusline}"
+  - "<np>"
+  - "<np><center>&7Type {cancel} &7to cancel &aEditing Warp Cooldown"
+  - "<np><center>&7Please type number for the &fCooldown <edit>"
+  - "<np>"
+  - "<np>{plusline}"
+  

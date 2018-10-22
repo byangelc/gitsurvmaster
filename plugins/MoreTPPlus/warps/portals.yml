@@ -1,0 +1,20 @@
+name: portals
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+permission: moretp.warp.{warpname}
+description:
+- '&7&m+-------------------------------+'
+- ''
+- '&f&lPermission: &8[&f{permission}&8]'
+- '&f&lCooldown&f&l: &b{cooldown} Second'
+- '&f&lCost: &b{cost}'
+- ''
+- '&fWorld&f&l: &b{world}'
+- '&fX&f&l: &b{x} &8&l| &fY&f&l: &b{y} &8&l| &fZ&f&l: &b{z}'
+- ''
+- '&7&m+-------------------------------+'
+cost: 0.0
+cooldown: 5
+slot: 6
+glowing: false
+item: COMPASS:0
+location: world<>36.773678936262954<>47.0<>65.73789703243972<>6.887263<>286.5237

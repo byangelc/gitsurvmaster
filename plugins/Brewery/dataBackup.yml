@@ -1,0 +1,1272 @@
+installTime: 1537978702227
+Brew:
+  '-2':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-3':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-4':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-5':
+    wood: 0.0
+    ingId: 1
+  '-6':
+    wood: 0.0
+    ingId: 1
+  '-7':
+    wood: 0.0
+    ingId: 1
+  '-8':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-9':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.14989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-10':
+    quality: 8
+    distillRuns: 2
+    ageTime: 19.850037
+    wood: 2.0
+    recipe: Spicy Rum
+    ingId: 0
+  '-11':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-12':
+    quality: 4
+    ageTime: 69.39985
+    wood: 5.0
+    recipe: Beer
+    lastUpdate: 32
+    ingId: 2
+  '-13':
+    quality: 8
+    distillRuns: 2
+    ageTime: 19.900038
+    wood: 2.0
+    recipe: Spicy Rum
+    ingId: 0
+  '-14':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.14989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-15':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-16':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-17':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.2500005
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 34
+    ingId: 7
+  '-18':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-19':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.2500005
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 34
+    ingId: 7
+  '-20':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.2500005
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 34
+    ingId: 7
+  '-21':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-22':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-23':
+    quality: 8
+    distillRuns: 2
+    ageTime: 89.09989
+    wood: 2.0
+    recipe: Spicy Rum
+    lastUpdate: 32
+    ingId: 0
+  '-24':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-25':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-26':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-27':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.2
+    wood: 0.0
+    recipe: Spicy Rum
+    ingId: 0
+  '-28':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-29':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-30':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-31':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-32':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-33':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-34':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-35':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-36':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-37':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-38':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-39':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-40':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-41':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-42':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-43':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-44':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-45':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-46':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-47':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-48':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-49':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-50':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-51':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-52':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-53':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-54':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-55':
+    quality: 8
+    distillRuns: 2
+    ageTime: 1.0000001
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 33
+    ingId: 6
+  '-56':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-57':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-58':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 2.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-59':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-60':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-61':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-62':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-63':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-64':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+  '-65':
+    quality: 8
+    distillRuns: 2
+    ageTime: 2.55
+    wood: 0.0
+    recipe: Whisky Normal Reserve
+    lastUpdate: 34
+    ingId: 6
+Ingredients:
+  '6':
+    cookedTime: 10
+    mats:
+      WHEAT,0: 30
+  '0':
+    cookedTime: 5
+    mats:
+      SUGAR_CANE,0: 14
+  '1':
+    cookedTime: 4
+    mats:
+      SUGAR_CANE,0: 6
+      APPLE,0: 4
+  '2':
+    cookedTime: 16
+    mats:
+      DIAMOND,0: 1
+      WHEAT,0: 10
+  '7':
+    cookedTime: 5
+    mats:
+      SUGAR_CANE,0: 14
+BCauldron:
+  89b70824-5c2c-4bb2-8173-0447325b4f71: {}
+  881a2b14-4b48-46d2-bf20-aed87d0d8102: {}
+  f726f9bd-5715-4cdb-a5b0-7b1e5d5c1569: {}
+  e1050b94-fb1f-44d3-9ecf-4e85cd238ee3: {}
+  86211652-3b5d-45ec-9606-a2669aee6478: {}
+  a53ec673-c55a-41be-94f6-7b03c65457c2:
+    '0':
+      block: 284/89/-315
+      state: 1507
+      ingredients:
+        POTATO_ITEM,0: 10
+Barrel:
+  89b70824-5c2c-4bb2-8173-0447325b4f71: {}
+  881a2b14-4b48-46d2-bf20-aed87d0d8102: {}
+  f726f9bd-5715-4cdb-a5b0-7b1e5d5c1569: {}
+  e1050b94-fb1f-44d3-9ecf-4e85cd238ee3:
+    '0':
+      spigot: -84/22/-96
+      st: -83,22,-97,-83,22,-95,-82,22,-97,-82,22,-95,-81,22,-97,-81,22,-95,-80,22,-97,-80,22,-95,-83,24,-97,-83,24,-95,-82,24,-97,-82,24,-95,-81,24,-97,-81,24,-95,-80,24,-97,-80,24,-95
+      wo: -83,22,-96,-82,22,-96,-81,22,-96,-80,22,-96,-83,23,-97,-83,23,-96,-83,23,-95,-82,23,-97,-82,23,-95,-81,23,-97,-81,23,-95,-80,23,-97,-80,23,-96,-80,23,-95,-83,24,-96,-82,24,-96,-81,24,-96,-80,24,-96
+      time: 0.1
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Golden Rum
+            lore:
+            - ''
+            - §aIngredients
+            - §a5 minutes fermented
+            - §a2-times Distilled
+            - §aWoodtype
+            - §42 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -17
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Golden Rum
+            lore:
+            - ''
+            - §aIngredients
+            - §a5 minutes fermented
+            - §a2-times Distilled
+            - §aWoodtype
+            - §42 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -19
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Golden Rum
+            lore:
+            - ''
+            - §aIngredients
+            - §a5 minutes fermented
+            - §a2-times Distilled
+            - §aWoodtype
+            - §42 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -20
+              amplifier: 0
+              ambient: true
+              has-particles: true
+    '1':
+      spigot: -84/22/-91
+      sign: 1
+      st: -83,22,-92,-83,22,-90,-82,22,-92,-82,22,-90,-81,22,-92,-81,22,-90,-80,22,-92,-80,22,-90,-83,24,-92,-83,24,-90,-82,24,-92,-82,24,-90,-81,24,-92,-81,24,-90,-80,24,-92,-80,24,-90
+      wo: -83,22,-91,-82,22,-91,-81,22,-91,-80,22,-91,-83,23,-92,-83,23,-91,-83,23,-90,-82,23,-92,-82,23,-90,-81,23,-92,-81,23,-90,-80,23,-92,-80,23,-91,-80,23,-90,-83,24,-91,-82,24,-91,-81,24,-91,-80,24,-91
+    '2':
+      spigot: -84/22/-100
+      st: -83,22,-101,-83,22,-99,-82,22,-101,-82,22,-99,-81,22,-101,-81,22,-99,-80,22,-101,-80,22,-99,-83,24,-101,-83,24,-99,-82,24,-101,-82,24,-99,-81,24,-101,-81,24,-99,-80,24,-101,-80,24,-99
+      wo: -83,22,-100,-82,22,-100,-81,22,-100,-80,22,-100,-83,23,-101,-83,23,-100,-83,23,-99,-82,23,-101,-82,23,-99,-81,23,-101,-81,23,-99,-80,23,-101,-80,23,-100,-80,23,-99,-83,24,-100,-82,24,-100,-81,24,-100,-80,24,-100
+      time: 0.1
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §72-times Distilled
+            - §72 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -16
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §72-times Distilled
+            - §72 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -24
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §72-times Distilled
+            - §72 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -36
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §72-times Distilled
+            - §72 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -37
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '4':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §72-times Distilled
+            - §72 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -38
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '5':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -35
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '6':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -34
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '7':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -33
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '8':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -32
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '9':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -29
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '10':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -30
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '11':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -31
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '12':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -25
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '13':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -28
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '14':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -26
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '15':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -51
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '16':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -52
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '17':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -53
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '18':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -43
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '19':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -42
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '20':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §72-times Distilled
+            - §72 Years Barrel aged
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -39
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '21':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -49
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '22':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -50
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '23':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -58
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '24':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -57
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '25':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -48
+              amplifier: 0
+              ambient: true
+              has-particles: true
+        '26':
+          ==: org.bukkit.inventory.ItemStack
+          type: POTION
+          meta:
+            ==: ItemMeta
+            meta-type: POTION
+            display-name: §f§6Gold label reserve WHISKY
+            lore:
+            - ''
+            - §aIngredients
+            - §a10 minutes fermented
+            - §a2-times Distilled
+            - §42 Years Barrel aged
+            - §aWoodtype
+            ItemFlags:
+            - HIDE_POTION_EFFECTS
+            potion-type: minecraft:harming
+            custom-effects:
+            - ==: PotionEffect
+              effect: 10
+              duration: -56
+              amplifier: 0
+              ambient: true
+              has-particles: true
+  86211652-3b5d-45ec-9606-a2669aee6478: {}
+  a53ec673-c55a-41be-94f6-7b03c65457c2:
+    '3':
+      spigot: 285/89/-320
+      st: 286,89,-321,286,89,-319,287,89,-321,287,89,-319,288,89,-321,288,89,-319,289,89,-321,289,89,-319,286,91,-321,286,91,-319,287,91,-321,287,91,-319,288,91,-321,288,91,-319,289,91,-321,289,91,-319
+      wo: 286,89,-320,287,89,-320,288,89,-320,289,89,-320,286,90,-321,286,90,-320,286,90,-319,287,90,-321,287,90,-319,288,90,-321,288,90,-319,289,90,-321,289,90,-320,289,90,-319,286,91,-320,287,91,-320,288,91,-320,289,91,-320
+Player:
+  3045c6fd-b837-3ad8-b29e-d7f647d0e868:
+    quality: 32
+    drunk: 4
+Worlds:
+  89b70824-5c2c-4bb2-8173-0447325b4f71: world
+  881a2b14-4b48-46d2-bf20-aed87d0d8102: world_nether
+  f726f9bd-5715-4cdb-a5b0-7b1e5d5c1569: world_the_end
+  e1050b94-fb1f-44d3-9ecf-4e85cd238ee3: Survival_plots
+  86211652-3b5d-45ec-9606-a2669aee6478: world_pvp
+  a53ec673-c55a-41be-94f6-7b03c65457c2: Survival
+Version: '1.1'

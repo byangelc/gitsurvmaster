@@ -1,0 +1,327 @@
+groups:
+  User:
+    permissions:
+    - ADVANCEDACHIEVEMENTS.1
+    - achievement.book
+    - achievement.list
+    - achievement.top
+    - achievement.week
+    - achievement.month
+    - achievement.stats
+    - CHESTSHOP.2
+    - ChestShop.shop.create.*
+    - ChestShop.shop.sell
+    - ChestShop.shop.buy
+    - CRAZYAUCTIONS.3
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.3
+    - crazyauctions.bid.3
+    - CRAZYCRATES.4
+    - crazycrates.access
+    - crazycrates.menu
+    - EPICSPAWNERLITE.5
+    - epicspawners.overview
+    - epicspawners.place.*
+    - ESSENTIALS.6
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.balance
+    - essentials.pay
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple.User
+    - essentials.delhome
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.lockette
+    - essentials.signs.use.kit
+    - essentials.kit
+    - essentials.kits.New
+    - essentials.kits.PvP
+    - essentials.kits.User
+    - essentials.msg
+    - essentials.recipe
+    - essentials.realname
+    - MARRIAGE.7
+    - marry.default
+    - MYPET.8
+    - MyPet.leash.Bat
+    - MyPet.leash.Blaze
+    - MyPet.leash.CaveSpider
+    - MyPet.leash.Chicken
+    - MyPet.leash.Cow
+    - MyPet.leash.Creeper
+    - MyPet.leash.Donkey
+    - MyPet.leash.ElderGuardian
+    - MyPet.leash.EnderDragon
+    - MyPet.leash.Enderman
+    - MyPet.leash.Endermite
+    - MyPet.leash.Ghast
+    - MyPet.leash.Giant
+    - MyPet.leash.Guardian
+    - MyPet.leash.Horse
+    - MyPet.leash.Husk
+    - MyPet.leash.Illusioner
+    - MyPet.leash.IronGolem
+    - MyPet.leash.Llama
+    - MyPet.leash.MagmaCube
+    - MyPet.leash.Mooshroom
+    - MyPet.leash.Mule
+    - MyPet.leash.Ocelot
+    - MyPet.leash.Parrot
+    - MyPet.leash.Pig
+    - MyPet.leash.PigZombie
+    - MyPet.leash.PolarBear
+    - MyPet.leash.Rabbit
+    - MyPet.leash.Sheep
+    - MyPet.leash.Silverfish
+    - MyPet.leash.Skeleton
+    - MyPet.leash.SkeletonHorse
+    - MyPet.leash.Slime
+    - MyPet.leash.Snowman
+    - MyPet.leash.Spider
+    - MyPet.leash.Squid
+    - MyPet.leash.Stray
+    - MyPet.leash.Vex
+    - MyPet.leash.Vindicator
+    - MyPet.leash.Villager
+    - MyPet.leash.Witch
+    - MyPet.leash.Wither
+    - MyPet.leash.WitherSkeleton
+    - MyPet.leash.Wolf
+    - MyPet.leash.Zombie
+    - MyPet.leash.ZombieHorse
+    - MyPet.leash.ZombieVillager
+    - PROTECTIONSTONE.9
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.members
+    - protectionstones.flags
+    - protectionstones.priority
+    - protectionstones.info
+    - protectionstones.view
+    - protectionstones.center
+    - randomtp.gui
+    - randomtp.basic
+    - randomtp.use.user
+    - SUPERDELIVERYMAN.11
+    - deliveryman.User
+    - PLOTSQUARED.12
+    - plots.use
+    - plots.plot.4
+    - plots.permpack.basic
+    - plots.permpack.basicinbox
+    - plots.permpack.basicflags
+    - modifyworld.*
+    - nte.user
+    - brewery.user
+    - music.list
+    - music.random
+    - music.shuffle
+    - music.shuffle.skip
+    - music.radio
+    - music.radio.skip
+    - music.item.spawn
+    - music.item.use
+    - TrainsFlag.override
+    - TanksFlag.override 
+    - RaftsFlag.override
+    - PlanesFlag.override
+    - ParachutesFlag.override 
+    - HelicoptersFlag.override
+    - CarsFlag.override
+    - BikesFlag.override
+    - SubmarinesFlag.override
+    - BroomsFlag.override 
+    - HoverBikesFlag.override
+    - Bikes.openShop
+    - Cars.openShop
+    - Vehicles.repair
+    - bikes.type.*
+    - cars.type.*
+    - bikes.overrideworld
+    - shopguiplus.shops.* 
+    - MORETPOPTIONS
+    - moretp.open.gui
+    - moretp.tpa
+    - moretp.warp.*
+    - moretp.accept.*
+    - moretp.commandrtp.Survival
+    - profiles.me
+    - profiles.others
+    - profiles.edit
+    - friends.use
+    - friends.commands.add
+    - friends.commands.remove
+    - friends.commands.accept
+    - friends.commands.deny
+    - friends.commands.list
+    - Friends.ExtraFriends
+    options:
+      default: true
+      prefix: '&f'
+      build: true
+      rank: '200'
+  Navigator:
+    permissions:
+    - randomtp.use.vip
+    - plots.plot.4
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.5
+    - crazyauctions.bid.5
+    - essentials.sethome.multiple.Navigator
+    - essentials.kits.Navigator
+    - deliveryman.Navigator
+    - modifyworld.*
+    - -nte.user
+    - nte.navigator
+    - miniaturepets.spawn
+    - miniaturepets.sit
+    - miniaturepets.allpets
+    - miniaturepets.clear
+    - miniaturepets.call
+    inheritance:
+    - User
+    options:
+      build: true
+      rank: '150'
+      prefix: '&3&lNA&b&lVIGA&f&lTOR &3'
+  Admiral:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.8
+    - crazyauctions.bid.8
+    - essentials.sethome.multiple.Admiral
+    - essentials.kits.Admiral
+    - deliveryman.Admiral
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - nte.admiral
+    - miniaturepets.hat
+    inheritance:
+    - User
+    - Navigator
+    options:
+      build: true
+      rank: '150'
+      prefix: '&6&lAD&e&lMIR&f&lAL &6'
+  Captain:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.10
+    - crazyauctions.bid.10
+    - essentials.sethome.multiple.Captain
+    - essentials.kits.Captain
+    - deliveryman.Captain
+    - epicspawners.silkdrop.*
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - nte.captain
+    - miniaturepets.ride
+    inheritance:
+    - User
+    - Navigator
+    - Admiral
+    options:
+      build: true
+      rank: '100'
+      prefix: '&2&lCA&a&lPTA&f&lIN &2'
+  Lieutenant:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.15
+    - crazyauctions.bid.15
+    - essentials.sethome.multiple.Lieutenant
+    - essentials.kits.Lieutenant
+    - deliveryman.Lieutenant
+    - epicspawners.no-silk-drop
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - nte.lieutenant
+    - miniaturepets.disguise
+    options:
+      prefix: '&5&lLI&d&lEUTE&f&lNANT &5'
+      build: true
+      rank: '50'
+    inheritance:
+    - User
+    - Navigator
+    - Admiral
+    - Captain
+  Helper:
+    permissions:
+    - modifyworld.*
+    - -nte.user
+    - nte.helper
+    options:
+      build: true
+      rank: '10'
+      prefix: '&9&lHELPER &9'
+    inheritance:
+    - User
+  Mod:
+    permissions:
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - -nte.lieutenant
+    - -nte.helper
+    - nte.mod
+    inheritance:
+    - User
+    - Navigator
+    - Admiral
+    - Captain
+    options:
+      prefix: '&a&lMOD &a'
+      build: true
+      rank: '10'
+  Admin:
+    permissions:
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - -nte.lieutenant
+    - -nte.helper
+    - -nte.mod
+    - nte.admin
+    inheritance:
+    - User
+    - Navigator
+    - Admiral
+    - Captain
+    options:
+      prefix: '&c&lADMIN &c'
+      build: true
+      rank: '10'
+  Owner:
+    options:
+      prefix: '&4&lOWNER &4'
+      build: true
+    permissions:
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - -nte.lieutenant
+    - -nte.helper
+    - -nte.mod
+    - nte.owner
+    - '*'
+schema-version: 1

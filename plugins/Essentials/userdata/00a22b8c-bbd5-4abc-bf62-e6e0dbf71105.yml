@@ -1,0 +1,27 @@
+lastAccountName: Zitruoc
+timestamps:
+  login: 1532928769025
+  logout: 1532929090016
+  lastteleport: 1531113521083
+  kits:
+    navigator: 1530413476101
+    captain: 1530413485102
+    pvp: 1530413527918
+    user: 1531096703516
+ipAddress: 201.141.201.128
+logoutlocation:
+  world: world
+  x: 37.38124264022417
+  y: 47.0
+  z: 69.4658877537375
+  yaw: 302.39047
+  pitch: -2.3182514
+afk: false
+money: '945370.0'
+lastlocation:
+  world: Survival_plots
+  x: 27.719992894208758
+  y: 21.0
+  z: -5.9812329845844925
+  yaw: 241.31036
+  pitch: 37.08305

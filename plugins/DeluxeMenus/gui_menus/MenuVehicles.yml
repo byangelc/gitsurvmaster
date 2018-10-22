@@ -1,0 +1,291 @@
+#
+menu_title: '&8¡VEHICLES SHOP!'
+open_command: vehiclesshop
+size: 54
+items:
+  'bikeshop':
+    material: 'hdb-16836'
+    slot: 20
+    display_name: '&e&lBIKE SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] bikeshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] bikeshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'carshop':
+    material: 'hdb-831'
+    slot: 21
+    display_name: '&e&lCAR SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] carshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] carshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'trainshop':
+    material: 'hdb-7658'
+    slot: 22
+    display_name: '&e&lTRAINSHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] trainshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] trainshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'  
+  'raftshop':
+    material: 'hdb-1637'
+    slot: 23
+    display_name: '&e&lRAFT SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] raftshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] raftshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'planeshop':
+    material: 'hdb-11444'
+    slot: 24
+    display_name: '&e&lPLANE SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] planeshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] planeshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'parachuteshop':
+    material: 'hdb-4321'
+    slot: 29
+    display_name: '&e&lPARACHUTE SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] parachuteshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] parachuteshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'tankshop':
+    material: 'hdb-15050'
+    slot: 30
+    display_name: '&e&lTANK SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] tankshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] tankshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'helicoptershop':
+    material: 'hdb-17947'
+    slot: 31
+    display_name: '&e&lHELICOPTER SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] helicoptershop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] helicoptershop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'submarineshop':
+    material: 'hdb-17711'
+    slot: 32
+    display_name: '&e&lSUBMARINE SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] submarineshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] submarineshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'broomshop':
+    material: 'hdb-4691'
+    slot: 33
+    display_name: '&e&lBROOM SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] broomshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] broomshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'hoverbikeshop':
+    material: 'hdb-16837'
+    slot: 40
+    display_name: '&e&lHOVER BIKE SHOP'
+    lore:
+    - '&aTo  use click Right/Left!'
+    left_click_commands:
+    - '[player] hoverbikeshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+    right_click_commands:
+    - '[player] hoverbikeshop'
+    - '[sound] LEVEL_UP'
+    - '[close]'
+  'Back':
+    material: 'hdb-10786'
+    slot: 49
+    display_name: '&4&l‹‹ Back'
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'
+  'Next':
+    material: 'hdb-10783'
+    slot: 4
+    display_name: '&2&l›› Next'
+  'Panel1':
+    material: 160
+    data: 15
+    slot: 0
+    display_name: '&8'
+  'Panel2':
+    material: 160
+    data: 15
+    slot: 1
+    display_name: '&8'
+  'Panel3':
+    material: 160
+    data: 15
+    slot: 2
+    display_name: '&8'
+  'Panel4':
+    material: 160
+    data: 15
+    slot: 3
+    display_name: '&8'
+  'Panel5':
+    material: 160
+    data: 15
+    slot: 5
+    display_name: '&8'
+  'Panel6':
+    material: 160
+    data: 15
+    slot: 6
+    display_name: '&8'
+  'Panel7':
+    material: 160
+    data: 15
+    slot: 7
+    display_name: '&8'
+  'Panel8':
+    material: 160
+    data: 15
+    slot: 8
+    display_name: '&8'
+  'Panel9':
+    material: 160
+    data: 15
+    slot: 9
+    display_name: '&8'
+  'Panel10':
+    material: 160
+    data: 15
+    slot: 17
+    display_name: '&8'
+  'Panel11':
+    material: 160
+    data: 15
+    slot: 18
+    display_name: '&8'
+  'Panel12':
+    material: 160
+    data: 15
+    slot: 26
+    display_name: '&8'
+  'Panel13':
+    material: 160
+    data: 15
+    slot: 27
+    display_name: '&8'
+  'Panel14':
+    material: 160
+    data: 15
+    slot: 35
+    display_name: '&8'
+  'Panel16':
+    material: 160
+    data: 15
+    slot: 36
+    display_name: '&8'
+  'Panel17':
+    material: 160
+    data: 15
+    slot: 44
+    display_name: '&8'
+  'Panel18':
+    material: 160
+    data: 15
+    slot: 45
+    display_name: '&8'
+  'Panel19':
+    material: 160
+    data: 15
+    slot: 46
+    display_name: '&8'
+  'Panel20':
+    material: 160
+    data: 15
+    slot: 47
+    display_name: '&8'
+  'Panel21':
+    material: 160
+    data: 15
+    slot: 48
+    display_name: '&8'
+  'Panel23':
+    material: 160
+    data: 15
+    slot: 50
+    display_name: '&8'
+  'Panel24':
+    material: 160
+    data: 15
+    slot: 51
+    display_name: '&8'
+  'Panel25':
+    material: 160
+    data: 15
+    slot: 52
+    display_name: '&8'
+  'Panel26':
+    material: 160
+    data: 15
+    slot: 53
+    display_name: '&8'

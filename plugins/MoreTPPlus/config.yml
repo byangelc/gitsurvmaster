@@ -1,0 +1,125 @@
+# ################################################
+#  __  __                     _______  _____     #
+# |  \/  |                   |__   __||  __ \    #
+# | \  / |  ___   _ __  ___     | |   | |__) |    #
+# | |\/| | / _ \ | '__|/ _ \    | |   |  ___/      #
+# | |  | || (_) || |  |  __/    | |   | |           #
+# |_|  |_| \___/ |_|   \___|    |_|   |_|           #
+#  By Onenrico [A.k.a ENVY]                         #
+# ####################################################                                             
+# Please note: This plugin may contains bug that i'm not realize if there was a bug 
+# that was your job to find one and report that to me on my spigot page
+# 
+# Check out this link to see available Material for item
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Note: This Material list is For the latest release of Spigot version
+# so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
+
+plugin_prefix: '&7&l<&bBLITE&6&lTP&7&l> '
+locales: EN
+plugin_autocheckupdate: true
+plugin_sendmetrics: true
+moretp_menu_title: '&1TP Menu'
+moretp_menuplayer_title: '&1Lista de jugadores &8[&2{cpage}&7/&6{pages}&8]'
+moretp_item_tpa_name: '&6Ver lista de jugadores'
+moretp_item_tpa_desc:
+- '&7Click para abrir la lista'
+moretp_nextpage: '&eSig. pág.'
+moretp_prevpage: '&ePágina anterior'
+moretp_head_tpa: '&8[ &fClick-izquierdo para Tpa &e{player} &8]'
+moretp_head_tpahere: '&8[ &fClick derecho para Tpahere &e{player} &8]'
+teleport_cancel_interact: true
+teleport_cancel_move: true
+teleport_cancel_jump: true
+teleport_cancel_damage: true
+teleport_cancel_damaged: true
+teleport_cancel_break: true
+teleport_cancel_place: true
+teleport_cancel_chat: true
+teleport_cancel_command: true
+particle_teleport_teleporting: true
+particle_teleport_pre-landing: true
+particle_teleport_landing: true
+teleport_default_cooldown: 5
+teleport_default_delay: 5
+teleport_request_timeout: 120
+device_filled_name: '&8[&bLocation Device &8(&bFilled&8)&8]'
+device_empty_name: '&8[&bLocation Device &8(&fEmpty&8)&8]'
+device_empty_lore:
+- '  &8▎ &bShift-Right-Click▞ &7to save location &8▎'
+device_filled_lore:
+- '  &8▎ &bRight-Click▞ &7to teleport &8▎'
+device_lore:
+- ''
+- '&7You Can Rename This Item With Anvil'
+- '&7You Can Share This Device With Other People'
+- ''
+device_recipe_enabled: true
+warp_title: '  &8&lWarp Menu '
+warp_edit_option: '&8&l[ &bShift-Click para editar &8&l]'
+warp_teleport_option: '&8&l[ &fPlease Click para ir &8&l]'
+warp_default_displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+warp_default_permission: moretp.warp.{warpname}
+warp_default_description:
+- '&7&m+-------------------------------+'
+- ''
+- '&f&lPermission: &8[&f{permission}&8]'
+- '&f&lCooldown&f&l: &b{cooldown} Second'
+- '&f&lCost: &b{cost}'
+- ''
+- '&fWorld&f&l: &b{world}'
+- '&fX&f&l: &b{x} &8&l| &fY&f&l: &b{y} &8&l| &fZ&f&l: &b{z}'
+- ''
+- '&7&m+-------------------------------+'
+warp_default_cost: 0
+warp_default_cooldown: 5
+warp_default_glowing: false
+warp_default_item: COMPASS
+quicktp_default_biome: RANDOM
+quicktp_default_radius: 1000
+quicktp_default_cost: 100
+quicktp_default_cooldown: 5
+randomtp_title: '&b&k||&r &1&lRTP Menu &b&k||'
+randomtp_selected_option: '&8&l[ &bSeleccionado &8&l]'
+randomtp_notselected_option: '&8&l[ &fPlease Click para seleccionar &8&l]'
+randomtp_edit_option: '&8&l[ &bPlease Shift-Click para editar &8&l]'
+randomtp_confirm_item:
+  name: '&b&k||&r &bClick para proceder con el tp &b&k||'
+  item: REDSTONE_LAMP_OFF
+  permission: moretp.random.{world}
+  description:
+  - '&8&m-------------------------------------'
+  - '  &fOpctión actual&f&l:'
+  - '  &fBioma &bSeleccionado &7> &b{biome}'
+  - '  &fRadio &bSeleccionado &7> &b{radius}'
+  - ''
+  - '  &fCosto total&f&l: &e{totalcost}'
+  - '&8&m-------------------------------------'
+biome_blacklist:
+- OCEAN
+- DEEP_OCEAN
+block_blacklist:
+- CACTUS
+- LAVA
+world-blacklist:
+- NoRandomTP
+- world_nether
+teleport_button_yes_hover:
+- '{mcolor}Click para &aAceptar'
+- '&fSolicitud de teleport de &b{player}'
+teleport_button_no_hover:
+- '{mcolor}Click para {ecolor}denegar'
+- '&fPetición de tp de &b{player}'
+teleport_button_yes_text: '&8[&a&lAceptar&8]'
+teleport_button_no_text: '&8[&c&lDenegar&8]'
+chat_comehere: '[comehere]'
+chat_takeme: '[takeme]'
+chat_button_comehere_text: '&8[&bTPme&8]&r'
+chat_button_takeme_text: '&8[&aTakeme&8]&r'
+chat_button_comehere_hover:
+- '{mcolor}Click aquí para ir con &f{player}'
+chat_button_takeme_hover:
+- '{mcolor}Click aquí para traer a &f{player} {mcolor}hacia ti'
+teleport_cancel_quit: true
+warp_default_slot: 0
+teleport_cancel_drop: true

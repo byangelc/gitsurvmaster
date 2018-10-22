@@ -1,0 +1,24 @@
+# All saved data for Staff+. Only modify this file if you know what you're doing!
+
+3045c6fd-b837-3ad8-b29e-d7f647d0e868:
+  name: byangelc
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+b594550c-4de6-3c1c-ac02-906a5a793094:
+  name: paintergirl15
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true

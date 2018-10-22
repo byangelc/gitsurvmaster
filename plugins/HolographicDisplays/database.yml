@@ -1,0 +1,82 @@
+spawn:
+  location: world, 0.500, 54.000, 7.500
+  lines:
+  - '&u&lWelcome to the best Survival of BLITEMON'
+  - '&8▆▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▆'
+  - Explore the place and have fun on
+  - great adventures!
+  - '&8'
+  - '&eCurrently available places'
+  - '&aPortals&f, &aHelp&f, &aDrawers&f, &aShop&f, &aFood&f, &aRewards'
+  - '&8[x]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[x]'
+  - '&dwww.blitemon.com'
+  - 'ICON: prismarine:2'
+portals:
+  location: world, 50.349, 49.436, 63.812
+  lines:
+  - '&u&lPlace of parallel worlds'
+  - '&8&m------------------------------='
+  - Travel through parallel worlds and
+  - collects all kinds of experience
+  - '&8&m------------------------------='
+drawers:
+  location: world, 22.556, 50.256, 86.468
+  lines:
+  - '&u&lSection of drawers'
+  - '&8&m=-------------------='
+  - Claim yours Padlocks with
+  - '&3→ &bRewards &3←'
+  - To open your drawers marine
+  - '&r'
+  - '&aDrawers available&8:'
+  - '&e➜ &7User'
+  - '&e➜ &7Navigator'
+  - '&e➜ &7Admiral'
+  - '&e➜ &7Captain'
+  - '&e➜ &7Lieutenant'
+  - '&8'
+  - Get variety of items and
+  - Take care of yourself in
+  - the marine world
+  - '&8&m=-------------------='
+help1:
+  location: world, 79.525, 49.478, 34.393
+  lines:
+  - '&b&l¿Create you shop?'
+help2:
+  location: world, 79.479, 49.399, 42.490
+  lines:
+  - '&b&lProtect your home!'
+nether:
+  location: world_nether, -6.500, 67.200, 0.500
+  lines:
+  - '&c&lWARP NETHER'
+  - Travel the world and explore
+  - '&eEdge: &u250&ak &7x &u250&ak'
+survival:
+  location: Survival, 4.500, 86.200, 44.500
+  lines:
+  - '&a&lWARP SURVIVAL'
+  - Travel the world and explore
+  - '&eEdge: &u250&ak &7x &u250&ak'
+plots:
+  location: Survival_plots, 0.500, 43.200, -5.500
+  lines:
+  - '&6&lWARP &e&lPLOTS'
+  - '&8&m-----------------'
+  - Get a plot with
+  - '&c/plot auto'
+  - Claimea a plot with
+  - '&c/plot claim'
+  - Add a friend to your parcel
+  - '&c/plot add <name>'
+  - '&8'
+  - '&bUse the parcels to store'
+  - '&byour stuff and like this'
+  - '&bhave more security of your items'
+  - '&8&m-----------------'
+  - 'ICON: grass'
+end:
+  location: world_the_end, 97.660, 50.384, 0.469
+  lines:
+  - '&u&lWARP END'

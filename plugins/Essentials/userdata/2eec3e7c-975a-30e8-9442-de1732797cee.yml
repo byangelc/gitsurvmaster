@@ -1,0 +1,24 @@
+lastAccountName: Zitruoc
+timestamps:
+  login: 1531170002997
+  lastteleport: 1531172481021
+  kits:
+    new: 1531172528489
+    pvp: 1531172419103
+  logout: 1531176055396
+ipAddress: 201.141.200.0
+afk: false
+lastlocation:
+  world: world_pvp
+  x: -1.1581150139528735
+  y: 62.0
+  z: 49.06922108366059
+  yaw: -171.98395
+  pitch: 22.380287
+logoutlocation:
+  world: world
+  x: 36.20105942307381
+  y: 46.0
+  z: 74.92019657093098
+  yaw: -90.9245
+  pitch: 18.12182

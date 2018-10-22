@@ -1,0 +1,108 @@
+#Check out this link to see available Material for item
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#Note: This Material list is For the latest release of Spigot version
+#so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
+
+#=====-----=====[ Placeholder Message ]=====-----=====# 
+# {r} would replaced by radius option
+# {cost} Cost for the Option
+# {perm} permission 
+#=====-----=====[ Placeholder Message ]=====-----=====#
+ 
+#[IMPORTANT] There must be at least 1 Option in menu radius list , And max option is 7
+radius_list:
+  1: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: SIGN
+    radius: 500
+    cost: 0
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport de &e{r} &fbloques de Radio"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermission: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  2: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: SIGN
+    radius: 2500
+    cost: 500
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport de &e{r} &fbloques de Radio"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  3: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: SIGN
+    radius: 5000
+    cost: 750
+    permission: ""
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport de &e{r} &fbloques de Radio"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  4: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: WOOD_DOOR
+    radius: 10000
+    cost: 1000
+    permission: "moretp.radius.housing"
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport a &e{r} &fbloques de Radio"
+    - "  &fAdecuado para &bfines de &fVivienda"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  5: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: IRON_DOOR
+    radius: 20000
+    cost: 1500
+    permission: "moretp.radius.housing2"
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport a &e{r} &fbloques de Radio"
+    - "  &fAdecuado para &aestablecer &fasentamientos"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  6: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: OBSIDIAN
+    radius: 50000
+    cost: 3000
+    permission: "moretp.radius.safety"
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport a &e{r} &fbloques de Radio"
+    - "  &fIdeal para las personas que prefieren &cSeguridad &fante todo"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"
+  7: 
+    name: "&fRadio&f&l: &8[&f{r}&8]"
+    item: BEDROCK
+    radius: 100000
+    cost: 5000
+    permission: "moretp.radius.pervert"
+    description:
+    - "&8&m-------------------------------------"
+    - "  &fTeleport At &e{r} &fRadius"
+    - "  &fEstás loco? necesitas ir a un &dDoctor &f!!"
+    - "  &fCosto&f&l: &6{cost}"
+    - " "
+    - "  &fPermiso: &8[&f{perm}&8]"
+    - "&8&m-------------------------------------"

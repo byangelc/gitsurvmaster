@@ -1,0 +1,20 @@
+name: plots
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+permission: moretp.warp.{warpname}
+description:
+- '&7&m+-------------------------------+'
+- ''
+- '&f&lPermission: &8[&f{permission}&8]'
+- '&f&lCooldown&f&l: &b{cooldown} Second'
+- '&f&lCost: &b{cost}'
+- ''
+- '&fWorld&f&l: &b{world}'
+- '&fX&f&l: &b{x} &8&l| &fY&f&l: &b{y} &8&l| &fZ&f&l: &b{z}'
+- ''
+- '&7&m+-------------------------------+'
+cost: 0.0
+cooldown: 5
+slot: 10
+glowing: false
+item: COMPASS:0
+location: Survival_plots<>0.499729275032028<>39.0<>0.4990853701498168<>-3.4500003<>-179.42957

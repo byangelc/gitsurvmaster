@@ -1,0 +1,21 @@
+lastAccountName: byangelc
+timestamps:
+  login: 1537670447302
+  logout: 1537667558879
+  lastteleport: 1537670497433
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 24.328865531202666
+  y: 45.0
+  z: 24.788626526591525
+  yaw: 79.35039
+  pitch: 20.249992
+lastlocation:
+  world: world
+  x: 20.222669837355582
+  y: 44.0
+  z: 145.87346596736893
+  yaw: 129.45036
+  pitch: -0.74999696
+money: '0.0'

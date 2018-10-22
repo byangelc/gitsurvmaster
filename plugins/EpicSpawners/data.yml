@@ -1,0 +1,208 @@
+# EpicSpawners Data File
+data:
+  Entities: {}
+  spawnerstats:
+    w:worldx:58y:43z:115:
+      spawns: 83
+    w:worldx:67y:43z:120:
+      spawns: 20
+    w:worldx:66y:43z:111:
+      spawns: 47
+    w:worldx:58y:43z:117:
+      spawns: 63
+    w:worldx:57y:43z:116:
+      spawns: 62
+    w:worldx:65y:43z:112:
+      spawns: 50
+    w:worldx:67y:43z:112:
+      spawns: 39
+    w:worldx:66y:43z:113:
+      spawns: 44
+    w:worldx:59y:43z:116:
+      spawns: 55
+    w:worldx:66y:43z:120:
+      spawns: 30
+    w:worldx:73y:43z:112:
+      spawns: 24
+    w:worldx:74y:43z:118:
+      spawns: 19
+    w:worldx:69y:44z:130:
+      spawns: 18
+    w:worldx:66y:43z:121:
+      spawns: 30
+    w:worldx:73y:43z:117:
+      spawns: 18
+    w:worldx:67y:43z:121:
+      spawns: 25
+    w:worldx:74y:43z:117:
+      spawns: 19
+    w:worldx:51y:44z:124:
+      spawns: 27
+    w:worldx:52y:44z:124:
+      spawns: 24
+    w:worldx:73y:43z:118:
+      spawns: 21
+    w:worldx:87y:44z:99:
+      spawns: 5
+    w:worldx:86y:44z:100:
+      spawns: 8
+    w:worldx:86y:44z:99:
+      spawns: 4
+    w:worldx:87y:44z:100:
+      spawns: 8
+    w:worldx:84y:44z:105:
+      spawns: 5
+    w:worldx:83y:44z:94:
+      spawns: 5
+    w:worldx:84y:44z:94:
+      spawns: 3
+    w:worldx:84y:44z:93:
+      spawns: 8
+    w:worldx:83y:44z:93:
+      spawns: 8
+    w:worldx:52y:44z:125:
+      spawns: 19
+    w:worldx:51y:44z:125:
+      spawns: 12
+    w:worldx:46y:44z:122:
+      spawns: 28
+    w:worldx:45y:44z:121:
+      spawns: 13
+    w:worldx:45y:44z:122:
+      spawns: 27
+    w:worldx:46y:44z:121:
+      spawns: 26
+    w:Survivalx:99y:52z:-136:
+      spawns: 2
+    w:worldx:70y:44z:130:
+      spawns: 13
+    w:world_the_endx:53y:64z:-20:
+      player: a0abafe8-bdeb-459f-8cda-c283cd952603
+      spawns: 20
+    w:world_the_endx:53y:63z:-20:
+      player: a0abafe8-bdeb-459f-8cda-c283cd952603
+      spawns: 7
+    w:world_the_endx:46y:65z:29:
+      spawns: 2
+    w:world_the_endx:9y:66z:52:
+      spawns: 3
+    w:world_the_endx:-37y:61z:72:
+      spawns: 3
+    w:world_the_endx:-29y:65z:-15:
+      spawns: 2
+    w:world_the_endx:-5y:64z:-41:
+      spawns: 3
+    w:Survivalx:285y:81z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:80z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:79z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:81z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:80z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:79z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:266y:81z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:266y:80z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:266y:79z:-304:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:81z:-313:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:80z:-313:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:79z:-313:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:81z:-313:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:80z:-313:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:79z:-313:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:81z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:80z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:79z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:81z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:80z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:276y:79z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:81z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:80z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:79z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:81z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:80z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:285y:79z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:81z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:80z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:275y:79z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:266y:81z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:266y:80z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:266y:79z:-323:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:267y:81z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:267y:80z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:267y:79z:-314:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+    w:Survivalx:215y:75z:-317:
+      player: 0a506f37-63a9-392b-bd6f-fcf6d94c0e71
+  spawner:
+    w:world_the_endx:53y:64z:-20: 1
+    w:world_the_endx:53y:63z:-20: 1
+    w:Survivalx:285y:81z:-304: 5
+    w:Survivalx:285y:80z:-304: 5
+    w:Survivalx:285y:79z:-304: 5
+    w:Survivalx:276y:81z:-304: 5
+    w:Survivalx:276y:80z:-304: 5
+    w:Survivalx:276y:79z:-304: 5
+    w:Survivalx:266y:81z:-304: 5
+    w:Survivalx:266y:80z:-304: 5
+    w:Survivalx:266y:79z:-304: 5
+    w:Survivalx:276y:81z:-313: 5
+    w:Survivalx:276y:80z:-313: 5
+    w:Survivalx:276y:79z:-313: 5
+    w:Survivalx:275y:81z:-313: 5
+    w:Survivalx:275y:80z:-313: 5
+    w:Survivalx:275y:79z:-313: 5
+    w:Survivalx:275y:81z:-314: 5
+    w:Survivalx:275y:80z:-314: 5
+    w:Survivalx:275y:79z:-314: 5
+    w:Survivalx:276y:81z:-314: 5
+    w:Survivalx:276y:80z:-314: 5
+    w:Survivalx:276y:79z:-314: 5
+    w:Survivalx:285y:81z:-314: 5
+    w:Survivalx:285y:80z:-314: 5
+    w:Survivalx:285y:79z:-314: 5
+    w:Survivalx:285y:81z:-323: 5
+    w:Survivalx:285y:80z:-323: 5
+    w:Survivalx:285y:79z:-323: 5
+    w:Survivalx:275y:81z:-323: 5
+    w:Survivalx:275y:80z:-323: 5
+    w:Survivalx:275y:79z:-323: 5
+    w:Survivalx:266y:81z:-323: 5
+    w:Survivalx:266y:80z:-323: 5
+    w:Survivalx:266y:79z:-323: 5
+    w:Survivalx:267y:81z:-314: 5
+    w:Survivalx:267y:80z:-314: 5
+    w:Survivalx:267y:79z:-314: 5
+    w:Survivalx:215y:75z:-317: 1

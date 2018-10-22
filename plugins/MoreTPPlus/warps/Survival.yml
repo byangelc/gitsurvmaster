@@ -1,0 +1,20 @@
+name: Survival
+displayname: §8§l[§b§m=---=§8§l> §f§lSurvival §8§l<§7§b§m=---=§8§l]
+permission: moretp.warp.Survival
+description:
+- §7§m+-------------------------------+
+- ''
+- '§f§lPermission: §8[§fmoretp.warp.Survival§8]'
+- '§f§lCooldown§f§l: §b5 Second'
+- '§f§lCost: §b$0'
+- ''
+- '§fWorld§f§l: §bSurvival'
+- '§fX§f§l: §b11 §8§l| §fY§f§l: §b82 §8§l| §fZ§f§l: §b-6'
+- ''
+- §7§m+-------------------------------+
+cost: 0.0
+cooldown: 5
+slot: 21
+glowing: false
+item: COMPASS:0
+location: Survival<>11.522327614898256<>82.0<>-5.518954648073878<>-0.09418934<>90.67179
