@@ -173,11 +173,11 @@ groups:
     - crazyauctions.sell.5
     - crazyauctions.bid.5
     - essentials.sethome.multiple.europa
-    - essentials.kits.Navigator
+    - essentials.kits.europa
     - deliveryman.Navigator
     - modifyworld.*
     - -nte.user
-    - nte.navigator
+    - nte.europa
     - miniaturepets.spawn
     - miniaturepets.sit
     - miniaturepets.allpets
@@ -195,13 +195,13 @@ groups:
     - crazyauctions.view
     - crazyauctions.sell.8
     - crazyauctions.bid.8
-    - essentials.sethome.multiple.Admiral
-    - essentials.kits.Admiral
+    - essentials.sethome.multiple.ganymedes
+    - essentials.kits.ganymedes
     - deliveryman.Admiral
     - modifyworld.*
     - -nte.user
     - -nte.navigator
-    - nte.admiral
+    - nte.ganymedes
     - miniaturepets.hat
     inheritance:
     - User
@@ -216,15 +216,15 @@ groups:
     - crazyauctions.view
     - crazyauctions.sell.10
     - crazyauctions.bid.10
-    - essentials.sethome.multiple.Captain
-    - essentials.kits.Captain
+    - essentials.sethome.multiple.helios
+    - essentials.kits.helios
     - deliveryman.Captain
     - epicspawners.silkdrop.*
     - modifyworld.*
     - -nte.user
     - -nte.navigator
     - -nte.admiral
-    - nte.captain
+    - nte.helios
     - miniaturepets.ride
     inheritance:
     - User
@@ -240,8 +240,8 @@ groups:
     - crazyauctions.view
     - crazyauctions.sell.15
     - crazyauctions.bid.15
-    - essentials.sethome.multiple.Lieutenant
-    - essentials.kits.Lieutenant
+    - essentials.sethome.multiple.kepler
+    - essentials.kits.kepler
     - deliveryman.Lieutenant
     - epicspawners.no-silk-drop
     - modifyworld.*
@@ -249,7 +249,7 @@ groups:
     - -nte.navigator
     - -nte.admiral
     - -nte.captain
-    - nte.lieutenant
+    - nte.kepler
     - miniaturepets.disguise
     options:
       prefix: '&5&lKE&d&lPLER&f&lNANT &5'
@@ -266,8 +266,8 @@ groups:
     - crazyauctions.view
     - crazyauctions.sell.15
     - crazyauctions.bid.15
-    - essentials.sethome.multiple.Lieutenant
-    - essentials.kits.Lieutenant
+    - essentials.sethome.multiple.marss
+    - essentials.kits.kepler
     - deliveryman.Lieutenant
     - epicspawners.no-silk-drop
     - modifyworld.*
@@ -275,18 +275,105 @@ groups:
     - -nte.navigator
     - -nte.admiral
     - -nte.captain
-    - nte.lieutenant
+    - nte.marss
     - miniaturepets.disguise
     options:
-      prefix: '&5&lKE&d&lPLER&f&lNANT &5'
+      prefix: '&5&lMA&d&lRSS &5'
       build: true
-      rank: '50'
+      rank: '40'
     inheritance:
     - User
     - europa
     - ganymedes
     - helios
     - kepler
+  neon:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.15
+    - crazyauctions.bid.15
+    - essentials.sethome.multiple.neon
+    - essentials.kits.kepler
+    - deliveryman.Lieutenant
+    - epicspawners.no-silk-drop
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - nte.neon
+    - miniaturepets.disguise
+    options:
+      prefix: '&5&lNE&d&lON &5'
+      build: true
+      rank: '35'
+    inheritance:
+    - User
+    - europa
+    - ganymedes
+    - helios
+    - kepler
+    - marss
+  photon:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.15
+    - crazyauctions.bid.15
+    - essentials.sethome.multiple.photon
+    - essentials.kits.kepler
+    - deliveryman.Lieutenant
+    - epicspawners.no-silk-drop
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - nte.photon
+    - miniaturepets.disguise
+    options:
+      prefix: '&5&lPHO&d&lTON &5'
+      build: true
+      rank: '30'
+    inheritance:
+    - User
+    - europa
+    - ganymedes
+    - helios
+    - kepler
+    - marss
+    - neon
+  oxygen:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.15
+    - crazyauctions.bid.15
+    - essentials.sethome.multiple.oxygen
+    - essentials.kits.kepler
+    - deliveryman.Lieutenant
+    - epicspawners.no-silk-drop
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - nte.oxygen
+    - miniaturepets.disguise
+    options:
+      prefix: '&5&lOXY&d&lGEN &5'
+      build: true
+      rank: '20'
+    inheritance:
+    - User
+    - europa
+    - ganymedes
+    - helios
+    - kepler
+    - marss
+    - neon
+    - photon
   Helper:
     permissions:
     - modifyworld.*

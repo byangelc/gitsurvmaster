@@ -5,22 +5,42 @@ Groups:
     Suffix: '&f'
     SortPriority: 1
   NAVIGATOR:
-    Permission: nte.navigator
+    Permission: nte.europa
     Prefix: '&3'
     Suffix: '&f'
     SortPriority: 1
   ADMIRAL:
-    Permission: nte.admiral
+    Permission: nte.ganymedes
     Prefix: '&6'
     Suffix: '&f'
     SortPriority: 1
   CAPTAIN:
-    Permission: nte.captain
+    Permission: nte.helios
     Prefix: '&2'
     Suffix: '&f'
     SortPriority: 1
   LIEUTENANT:
-    Permission: nte.lieutenant
+    Permission: nte.kepler
+    Prefix: '&5'
+    Suffix: '&f'
+    SortPriority: 1
+  MARSS:
+    Permission: nte.marss
+    Prefix: '&5'
+    Suffix: '&f'
+    SortPriority: 1
+  NEON:
+    Permission: nte.neon
+    Prefix: '&5'
+    Suffix: '&f'
+    SortPriority: 1
+  PHOTON:
+    Permission: nte.photon
+    Prefix: '&5'
+    Suffix: '&f'
+    SortPriority: 1
+  OXYGEN:
+    Permission: nte.oxygen
     Prefix: '&5'
     Suffix: '&f'
     SortPriority: 1
@@ -34,9 +54,19 @@ Groups:
     Prefix: '&a&lMOD&r '
     Suffix: '&f'
     SortPriority: 1
+  GMOD:
+    Permission: nte.mod
+    Prefix: '&l[G] &a&l-MOD&r '
+    Suffix: '&f'
+    SortPriority: 1
   ADMIN:
     Permission: nte.admin
     Prefix: '&c&lADMIN&r '
+    Suffix: '&f'
+    SortPriority: 1
+  DEV:
+    Permission: nte.dev
+    Prefix: '&2&lDEV &&l&a '
     Suffix: '&f'
     SortPriority: 1
   OWNER:

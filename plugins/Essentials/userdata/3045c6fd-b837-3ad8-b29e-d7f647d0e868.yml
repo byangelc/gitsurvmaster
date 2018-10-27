@@ -22,7 +22,7 @@ lastlocation:
   yaw: 18.57237
   pitch: 6.1888714
 money: '999985245.0'
-afk: true
+afk: false
 homes:
   home:
     world: Survival
