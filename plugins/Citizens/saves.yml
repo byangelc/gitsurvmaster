@@ -8,11 +8,11 @@ last-created-npc-id: 12
 npc:
   '6':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTI4NjAsInByb2ZpbGVJZCI6IjY1MzEyMmQyNmM0ODQ0M2E4YjZmZWQ3ODg5Y2IzN2Y0IiwicHJvZmlsZU5hbWUiOiJBbGZyZWQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMxMGIwNDYxOTVjMDZmYzI4ZDg1MzI3MjAyOWRiMGY1ZjE5NjE1ZDVkMDQ5N2FkOGY1NmQ2YjJlOGUyZDZmMTQiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTc5NzgsInByb2ZpbGVJZCI6IjY1MzEyMmQyNmM0ODQ0M2E4YjZmZWQ3ODg5Y2IzN2Y0IiwicHJvZmlsZU5hbWUiOiJBbGZyZWQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMxMGIwNDYxOTVjMDZmYzI4ZDg1MzI3MjAyOWRiMGY1ZjE5NjE1ZDVkMDQ5N2FkOGY1NmQ2YjJlOGUyZDZmMTQiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
       cached-skin-uuid-name: alfred
       cached-skin-uuid: 653122d2-6c48-443a-8b6f-ed7889cb37f4
       player-skin-name: alfred
-      player-skin-signature: OM5qLgcOoCqmlyKkXbMRGvFA4oAEQoeYHmLtdqoq7xcJ95xUFapXREkfjIjUjBvSIowy1WqzM1h3tDYboH6cckI97DEm0q6z1X1KKKs2f8NuHkpscZMuMSXYQv80pQ5/yvxN9+xJo3HwaQB9g1rM2b+T7WC1UBXSbs4RixFQJt/jcDVU5P3lt/TS0kcNJX1U4AJwvDjxXVx9U1TFzQ8jiJS0gZ+hucJl/q9oIsp1WfWDALjOgRPZBa1ZdaJvE+WrAiBjrJYlUhKclI+QweFscWtrVbN8mR8Wfo/fKkyFfD54wKk5sAnxEZ/Nz55tR/A3cMbUMERO5sVJbh5f9To73o5QZefZwT5fdeIWIYspmx+/ON30wtVraBC8yCS5KRv7nLNQ18oPMiJRNufx5XWK2Lu7sr97qf2DXgNNisDtRZ5Hm4U2Y3OBoKOQSS8GwMzD/uX4I8aFpEJEE6Jolx/ww4AxWYPwSVLucKciMoCbmBiL+j1WkfWuhf7BEx5vPE3NeoeBqLf1FCgWzLiE7bH0+cDgELDHJcP8DGhVT2QjQWnm8woKE2kVNlGh+EATXQnO/N7W+JXGjM0w0MY8N1pyPjwPbk+croPt9Qg5KcEJAkgiAtim48iWIzcnn4B2OWI7jb89a7in0Iko0EtAACegGZxRjrefJarkCJNfVPiQqZM=
+      player-skin-signature: Yg9ZkwStD8tqs2SwddfNVP92ETHol9tSNknPR7EHSo3iVCHMxf2PeyzUr+ernPbqGOmc4XF8NvS+A7vgvaBGsHBMDeY//2mVIcsjaRkOpxx9N5juvnGOSWK4d0apQJJ+XNdoXCqhn77pyi5nUdM/d6x+PrRDhMZ6eJgXmPdu/oykGD6YkiRKN2mkkMsC48YwUn0vHw65iN4Uk1SbMX83SxifocEN4Po4f7iflsHWebVYM42qlSDwy/tcaFWEdTshvlA0isoMA6HthIAFhxt5PnMKk50IXYXCe7vur7IQtv/GFlvfwjkuNyGLyPo2Ib6BQpAqq4FZFX6ZwIjPhNS9mUyhDC+POSLvv5yaB8PPJmdnjKrA1n+jCpAIgLPGfcnFHRYXcy4Ovf19l+sK7DaEmG1HnfXg18nt2JO9VYij/VvUbXL8nO14jsacMk1UmP3Ttd4qBMMoMP1SsJywTwgDxIihu6TtL6SUKDpebhF3IdjynZzHkL5raBdXRTEghpJtJGV5Pz8oLHc2hVTrg1sVtUrj4ExWTRl25ufyagzIdrbiyURSlZubBu2/a/5mnloug0Yv1YFAqBhEBJVBOhnhxD4phWRV6JhfFkkhfwFu9lf8UKN24w2T5XG310aHGwiJv66qa3l7BXgPrLWt8JjZVHEHkt06F+14qNPOL/PRRlk=
     name: Â§eÂ§lMerchant
     uuid: dd87a6ce-4797-4c44-855a-54fcc8b2de13
     traits:
@@ -35,18 +35,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: inventory,equipment,owner,mounttrait,spawned,location,type,gravity
+    traitnames: inventory,location,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '5':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTE1OTEsInByb2ZpbGVJZCI6IjRmMjU4OTRhMjY2NDRmZmU4ZjU1MWY4OWE3YTYzZDhjIiwicHJvZmlsZU5hbWUiOiJSb3NlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOWJiODZkY2M3YTRiOWJkMjQzNjllNmEzM2Q5NTZmMDI0MzBkNzc4MzRkYjBjNTY5NTE5M2M4ZmRiNmMwMDIxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTY1NjMsInByb2ZpbGVJZCI6IjRmMjU4OTRhMjY2NDRmZmU4ZjU1MWY4OWE3YTYzZDhjIiwicHJvZmlsZU5hbWUiOiJSb3NlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOWJiODZkY2M3YTRiOWJkMjQzNjllNmEzM2Q5NTZmMDI0MzBkNzc4MzRkYjBjNTY5NTE5M2M4ZmRiNmMwMDIxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=
       cached-skin-uuid-name: rose
       cached-skin-uuid: 4f25894a-2664-4ffe-8f55-1f89a7a63d8c
       player-skin-name: rose
-      player-skin-signature: wlHNu2Z0Xxh1ow0eXCTnuKycYSFdvmyF4pl7+Y6i5h3O9AJxWge3Jcxh4BEYV5cAWd9Zzcx+5OE3eu97LlmGqB+zq1O28AvE1xjcScQEuPYsAJ56a8tlN8LO0VBPtuCu61xW0ZdciOMx/58ePbkHwYRU8XhxDftq62uZBwDFk31ZcOnJ/NbfiMeOxR+aApLg/D61W8KpS2AlhKS0e8w0lu4T2IxkLoviiaobsX8OAFdhL3jw+xXdSu/ddjTmCu0aBcuoQ3mQWy8XQpSEBkLqC0yLG3ScOvJyISFy0l9R8aHFhNKLV/G+kxG9gPNXwihXIHwAgmIjREq8dcnec8BEsd8p12EXiizrXlN4U12U/n18YHfJ+3r/bhNtYLLyoCgm5CrBQECwyTMBTwMzXZ9rmCy8vwWhUaO6DYTgz0r4ch8qBd2xX8YRCfngMdHgMWJpF9PeOsf14Rxmzdg9tQ0mKJD94riWy04pXzI9ergQ+JKEqe3rN+mfa4VKEh5z9h+lFhTMLqPrEBIBdhEXvRhKBFfm9cuP5QnZ1CZDQwB3CnwwQWFCk4x11YJYGzorBQuWM25kDZ5h5U2NOz/ikawp4zqPK6ldofdemSOu1FVihyUg5zzmHce+rrKiTG82Sr5j1ixePWio7KWZZolq0n1GXksG1OC6/C6INqc+fMYoNyE=
+      player-skin-signature: jaggRGsq+cML66aLO92m75l8SxfCooemmoI7gf3dtoQkBIi20BxC2+3OaWmSO4D4zndIIWRjyIHZOpwONKUPj+DvcCEtoPWrNxeKCzeFpaikcBNs0Dor1hJits5RKsYkEn0juMIOTD9eNPkti8ao4YdbkOmdRr4gIE3+Tpoh5tGv/qxhgg/GWqmhfMjzlMlakyT9UC+VyQl/oiuzVTFkFhSax63oHcU12bcuWNN9M8F3Xt/5paeF/0qnOCYDXam0+HBWDmwdfMyKa5igNGhNXpxF9GgBl9dSihArGTvCgj8rOleDKpRldLc6R+VKzatooluvoga45pmHSI8kCUVBt0V5/hzPA8rHubSczn1YBTkUcwNhvvYwpw9ix37t4FR+qbjLd0hQACC18G7N4CXNQqR6LJC6CUwZ8TBlyiFYp5XcvQpUcMq3op1hH9TSjHTvLF/rhLjq89Hr8iNvd/pv57i8YVQEcJlMNoZ2WnQ79tYXKUzWtoVDeRDXRknkt2LvU4XQ53C1ffdpn5/fl8occN9pJeS9fbPr2eGioRBrt9y1+J5oWAly4IsftOT3JY8xrkmkDMPkEBp0FUjYb97sH9hkH7OY7Xr295u8pTvyJnNzGMVjPcVyEI50xyZJmNnOkXc3p+/PkmAG7G5i2V11+kEMvgdS5AvoyznpPQgtGK4=
     name: Â§6Â§lÂ¿Food?
     uuid: 7a053705-a02c-45fa-8f8d-864d19ba525f
     traits:
@@ -69,18 +69,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: owner,equipment,inventory,mounttrait,spawned,location,type,gravity,lookclose
+    traitnames: location,inventory,type,gravity,equipment,mounttrait,owner,lookclose,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '4':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTA5MzgsInByb2ZpbGVJZCI6IjkyOGZjN2M1NThiNzRmNTk4ODljMzVlY2VjZTVlNGJhIiwicHJvZmlsZU5hbWUiOiJlZ2ciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JhNTZmNDQyMmI1NTkxODkwMzczMTYxMzQyOTUwMGM5NGNlZjc1ODQ2ZmY5ZDZjNmZmZTc4ZTdlNmFhMmIxMjUiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTU4MzUsInByb2ZpbGVJZCI6IjkyOGZjN2M1NThiNzRmNTk4ODljMzVlY2VjZTVlNGJhIiwicHJvZmlsZU5hbWUiOiJlZ2ciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JhNTZmNDQyMmI1NTkxODkwMzczMTYxMzQyOTUwMGM5NGNlZjc1ODQ2ZmY5ZDZjNmZmZTc4ZTdlNmFhMmIxMjUiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
       cached-skin-uuid-name: egg
       cached-skin-uuid: 928fc7c5-58b7-4f59-889c-35ecece5e4ba
       player-skin-name: egg
-      player-skin-signature: DG8DJTlMVIoJc7jRzFHZ1+I+yuXnzNQMAtSqfFlQXh1dkuxF8H2LTvDa9hEw0VhWQwVBJEw93kdEVrnmYOv2coYAEQ3oBQJtwCu+4n+TtzCxpFq+7OoY+NOEtKCLdPGp8STBcD+KljWKy8nwlDRF1y6UuruKU0UVyReuPiWCijG3uF7wJMhBS3vgVeJ0crPCsRuRHI8Ww+LqjskzeFLJD0OeY0T6ParR5n39aUwumSQqR00+fuY32FnVd+rzRYqoUn1v/zsjMRDOAprgbG4R/2xaJZ4eidHkRBfiHUShmgyVsuhf1KBH/EjH8yTvY67GDxa4D8ZzKuMtmYAKBY6ZwtMSGy5tKOTKIOu8JboRvM5n4Gto49SN9QkROKYV2e1j24Xq6BASXvJj0RLyGEPjmPJ8HAjJR23N4ox4AG6KSzwGU1WQMMSRsOCxhodPN1z6n5DO3v1e2CGExRpA26xiEK1+xK7+PzSIusrjDPhtzLrbSUGxy2a2a8i1dKr8cRzgpft6MV+gI7aK12ERakSo+wA4KPssgett06yvukAcqBQ4ps74nY8XQDfiGh5Xyz2qo+Yl1Wxlx8oOiq44CceN9d1PLWT3YoqTksK7QrCCacJ+Fq4EmqCevAL3vTUEF4JQJo994hV9TPbcRvBlksuHNktWcHBH2aFnMnuR5fPhd/g=
+      player-skin-signature: rm0h30hR15aNZD/seb+xpU2xiWg/jKEs4mPNXtGwv0tfc3MIIrre1BI73VEemk32ggbacQUL4EbJnJM/O/UVsdJa1ogdHPA+ixfhTcnc0zN64yCk0EjOPsmHJ+3cDEXzB75AlvM79BO+WLpKYDFA5Dg5kXFVx95FamyAc3lAzMQwnjSLFzH6VeThbXUdCCo663k3ftGsiOOUfiIRKFxdagMGIAWuDEAofOG1G6P11gnVZ/BvsjkBXbxHeMFPpLwW1GqhdiBtMgCXHoJcRhuR2o1v6lPuHPVlNXriETr1HJO+THX/Rc1rk4QfGxOpJtw0XKFNw7R6CID8NLmcf2VM09DF8Aw+SlVSVC7QHWGZJ9Q9lnJJMaTF9MxO5fWc+HHNTt2O5YK5kmMPSqhC+JVhXCRnXx6EZz/4qbwu5Y8pfsDdh/+InpoEOPlMftG2Gu29VThd92He73xY/PqB03cvJJi9rG4P7YaB4O0BZjiA2x4Lp2uCDHM1YDt8CGBw3FAZ9m7lab9Efdn98f+MNXZ2Olv84l8mg095uZ30AI5At9v3Gg+/dIAS7rcQwHuDykaZxhUCQGNZHs8ZeKf9FGRgyeVLi4v5atFKNtPbmVgfIAa5pKK52zO8+bfAxEbaYsVsjtE2ujOcyIBq377b54N84ZyLVgXeT4GaEiQe1vb/z/g=
     name: Â§5Â§lMysteris
     uuid: 68d31179-4961-40ad-a7a7-5f1226b9701c
     traits:
@@ -103,18 +103,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: equipment,owner,inventory,mounttrait,spawned,location,type,gravity
+    traitnames: location,inventory,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '3':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTA0NjIsInByb2ZpbGVJZCI6IjYwNzE1Mzg1MmI4YzQ5MDk4MTFmNTA3ZWQ4ZWU3MzdmIiwicHJvZmlsZU5hbWUiOiJDaGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSJ9fX0=
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTUzMzcsInByb2ZpbGVJZCI6IjYwNzE1Mzg1MmI4YzQ5MDk4MTFmNTA3ZWQ4ZWU3MzdmIiwicHJvZmlsZU5hbWUiOiJDaGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSJ9fX0=
       cached-skin-uuid-name: chest
       cached-skin-uuid: 60715385-2b8c-4909-811f-507ed8ee737f
       player-skin-name: chest
-      player-skin-signature: gCGnMV7nwEF7k+RGxix6iqgm/Zamk4BKy+fQTtHzEN2FOdeBohCtlAVD++r8GQkSuk6tf3wAjvGqvvW/cg9h9zsFx1Y8H1JMeH+BAzYz2FPfXsOHWzrxzC61eqIzOBeuEaO4tw40hNvYz3AAmeZPhjDq4XjiW7uYokGYRljUHl/Pt4dJ0DML/3s0/J0SAyb0xAPijXc5sQ/ATgBNRMU1eQ32vMfLUG6vYSQ4Jt62YKn0EckFPCjJdy6pApHvL+ZKAq7JoLyiNa52tugUjOt4RF/SnWwQ76PYzK1d1Fwr9gt+n6BSOvB0AWDzDF1vWx74tCHj2jMmMFXV4CVaoe9bTF3QcVt5EVbMus2W3BP7VToGavaaJAJ2uu/rEs2aBsf4rwiNewP4DGxLjcYDqc6iRZI7UxsEAlYc6O5mkoYC5atldeJpPpj271Ynzou5nCoQFiN8AF7v6B4ABIRIfFRFS/EIEe6Yua+0dYVLpPkJ2/vALrtSBx1i56jI0zEqsyAmE8zZwkhfrv3QTPjTzv7zONekdeEcrH2ufKO5EavZR8sFvZh0v31wu5uJLM7p8YNqW2tV1TYirx9n8d0CIt4vP0YRbExK7S9aHVQosy6V1wWyVYG7/SsoiWhmc/DBhKUqVGEZP7yuEgZtD10nFnJNvZrzB+0YdjrHyv30m7QET9g=
+      player-skin-signature: gb0ylgKo1aRivojpr8oTNbDiT3s+QeUXOu1I9ysW5J3YD/On4TnFqpMJ+ZTT6oQQoZV+kUQrSDOA+lb/JklH1OYiCC73CQXCwU2vwIMtX+hfHZPTJyFYtFf/YpgU64rIwlVDIAgdfH9gmpVoabvz+qP2E1dDMCEPwWvvJkiPJrOfgzbz2KOtNsqkHOd7MMk8+pt+ni25NO8hWwJSLWAhrGtnY9piZOFSkETY4ylwilurDEUmEPPhzeijQjj8TgYINbu1StuIY5t0sCnA/xW8kRTdY0zx5pH33yUrJNPuSFMQTEZeUX7kyEzuk26bpCRQTSUGE420RMQyj/U6PLZ/n3HCJZiEx/eBL5GwfiP6YQbjzMibXcceuuBEhxooKzKQCTKY3aK5W5M3BtLO0XOqNVqdwlmLRDd1Q9WeFvsxhZSIw+b032cHYfi+YlE57BkYMdfZ20AvUldN2s9CAIc3CjmefuyefJXmqQHg8OSpO5G/UcsuRuPc1X8xGpDM+lYgLo0JcC1lccdJtLPR8VwZzkaZjAOEUrCAigi9lwweTvpv85lVEgAR5b2TIBuEOieVhBzjPD4yQKqQjTwGN/8KZbDiJ3hfNtQkz1f/kBKDM9BhuXFnkm9IymgUOrjuHNyiL/kOlJEUgs0WrRenYIRSJexGsSbecNzogPZVxurTuy4=
     name: Â§aÂ§lDrawers
     uuid: f2a829b1-fbfb-426f-a719-d03158670f8a
     traits:
@@ -133,18 +133,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: equipment,owner,inventory,mounttrait,spawned,location,type,gravity
+    traitnames: location,inventory,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '2':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTA0NjIsInByb2ZpbGVJZCI6IjYwNzE1Mzg1MmI4YzQ5MDk4MTFmNTA3ZWQ4ZWU3MzdmIiwicHJvZmlsZU5hbWUiOiJDaGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSJ9fX0=
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTUzMzcsInByb2ZpbGVJZCI6IjYwNzE1Mzg1MmI4YzQ5MDk4MTFmNTA3ZWQ4ZWU3MzdmIiwicHJvZmlsZU5hbWUiOiJDaGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSJ9fX0=
       cached-skin-uuid-name: chest
       cached-skin-uuid: 60715385-2b8c-4909-811f-507ed8ee737f
       player-skin-name: chest
-      player-skin-signature: gCGnMV7nwEF7k+RGxix6iqgm/Zamk4BKy+fQTtHzEN2FOdeBohCtlAVD++r8GQkSuk6tf3wAjvGqvvW/cg9h9zsFx1Y8H1JMeH+BAzYz2FPfXsOHWzrxzC61eqIzOBeuEaO4tw40hNvYz3AAmeZPhjDq4XjiW7uYokGYRljUHl/Pt4dJ0DML/3s0/J0SAyb0xAPijXc5sQ/ATgBNRMU1eQ32vMfLUG6vYSQ4Jt62YKn0EckFPCjJdy6pApHvL+ZKAq7JoLyiNa52tugUjOt4RF/SnWwQ76PYzK1d1Fwr9gt+n6BSOvB0AWDzDF1vWx74tCHj2jMmMFXV4CVaoe9bTF3QcVt5EVbMus2W3BP7VToGavaaJAJ2uu/rEs2aBsf4rwiNewP4DGxLjcYDqc6iRZI7UxsEAlYc6O5mkoYC5atldeJpPpj271Ynzou5nCoQFiN8AF7v6B4ABIRIfFRFS/EIEe6Yua+0dYVLpPkJ2/vALrtSBx1i56jI0zEqsyAmE8zZwkhfrv3QTPjTzv7zONekdeEcrH2ufKO5EavZR8sFvZh0v31wu5uJLM7p8YNqW2tV1TYirx9n8d0CIt4vP0YRbExK7S9aHVQosy6V1wWyVYG7/SsoiWhmc/DBhKUqVGEZP7yuEgZtD10nFnJNvZrzB+0YdjrHyv30m7QET9g=
+      player-skin-signature: gb0ylgKo1aRivojpr8oTNbDiT3s+QeUXOu1I9ysW5J3YD/On4TnFqpMJ+ZTT6oQQoZV+kUQrSDOA+lb/JklH1OYiCC73CQXCwU2vwIMtX+hfHZPTJyFYtFf/YpgU64rIwlVDIAgdfH9gmpVoabvz+qP2E1dDMCEPwWvvJkiPJrOfgzbz2KOtNsqkHOd7MMk8+pt+ni25NO8hWwJSLWAhrGtnY9piZOFSkETY4ylwilurDEUmEPPhzeijQjj8TgYINbu1StuIY5t0sCnA/xW8kRTdY0zx5pH33yUrJNPuSFMQTEZeUX7kyEzuk26bpCRQTSUGE420RMQyj/U6PLZ/n3HCJZiEx/eBL5GwfiP6YQbjzMibXcceuuBEhxooKzKQCTKY3aK5W5M3BtLO0XOqNVqdwlmLRDd1Q9WeFvsxhZSIw+b032cHYfi+YlE57BkYMdfZ20AvUldN2s9CAIc3CjmefuyefJXmqQHg8OSpO5G/UcsuRuPc1X8xGpDM+lYgLo0JcC1lccdJtLPR8VwZzkaZjAOEUrCAigi9lwweTvpv85lVEgAR5b2TIBuEOieVhBzjPD4yQKqQjTwGN/8KZbDiJ3hfNtQkz1f/kBKDM9BhuXFnkm9IymgUOrjuHNyiL/kOlJEUgs0WrRenYIRSJexGsSbecNzogPZVxurTuy4=
     name: Â§aÂ§lDrawers
     uuid: 29e60e25-cb53-4f17-93db-0c126f47c70c
     traits:
@@ -163,18 +163,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: owner,equipment,inventory,mounttrait,spawned,location,type,gravity
+    traitnames: inventory,location,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '1':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTE3NzcsInByb2ZpbGVJZCI6ImRlZWUyYWRhMzZlZjQ2ZjQ5Y2UwYmE2OGVlNmM5YzljIiwicHJvZmlsZU5hbWUiOiJKb3N1ZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg1ODIzOWFkNGVlMmE2OTA4Mzg5Yjc3ZDg2N2VmYjg0OTVjNjZmZDZmZmM1YWU2YTQwYjVkYjlhOWU3YmVkMCJ9fX0=
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTY3OTEsInByb2ZpbGVJZCI6ImRlZWUyYWRhMzZlZjQ2ZjQ5Y2UwYmE2OGVlNmM5YzljIiwicHJvZmlsZU5hbWUiOiJKb3N1ZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg1ODIzOWFkNGVlMmE2OTA4Mzg5Yjc3ZDg2N2VmYjg0OTVjNjZmZDZmZmM1YWU2YTQwYjVkYjlhOWU3YmVkMCJ9fX0=
       cached-skin-uuid-name: josue
       cached-skin-uuid: deee2ada-36ef-46f4-9ce0-ba68ee6c9c9c
       player-skin-name: josue
-      player-skin-signature: eLCOtMvz5fTP02zwpYnbIlkQipRMSvlPVMqBGMiK0jHo0YjfyLezlzC0Art49F43rJyZUmh2SqLWDx40NjuzwrC9T7opMLq4zwRPbMNOlvYeoJGGdB/P4ioOJ20E8gE5PNIrDaxizINpnmYoE829V4ATutsoFhiFiYvTDsvWYbBU85u1W/piLeeTkcYsuI00yHmspkMoacM7O+OtiNFQ6CNh5TnZYTjV22ra0s5nBRetQPX3F1FSUCRs72yilrvg8P18CLu5/CD2E3dpJi6XvsW2454GGH/AEO1jp/I9ICKkpydxPQO4eJu2HZx0hVjutwAedelVyPeLiMz7R7PMzQlMiiKh5pwheHDteshBubolVA+j5c8gZMze9MpRhUNUZGZkvpwkHmn80R0QXz9zJZSmkbjNeTfeoBcIVy+7Q/Js287klOPlg7zHsHO4ax4alZeqzKbv2qALfCMz9z2zeEoAQSoGTiihv58GM9auhfgyAie92ZSOlKNtWMHGCyvuVFoJrO49LH/a+VDOk3y/+vf07/WhQ3yw6G2LCfqDFf0WSwg1imLZbqDr8/9/GjFBBxhC0v2ZNIfXblGyzvgdiHA/6LSNkbURLpYn2OgacEpbxdNR5ybC1sdiGf+UTlrXUdG9sjMpLllIRfHdlfNfrxsk3M1YV3W4c4ETdV+LzqE=
+      player-skin-signature: qP65SfDkHtD930x//X7Xyi0MQkHqdwIgkjWHGM0g9DmFNlzCSBeT4TDQDM9PyBJb/pmgtzlLqXjhyWvJEda5ktkrBWbF6UjY7an3s3RLIVXN+fI7RDncloupDRLO7pDhREeK5lHxjV4tymX2OOmJrWQB5tqwG+/TxDnIBvKBi0EcRyY2MHFbZYC1gbBh+eeewNOFfQKXRXfic9Tx9DNJv3wPnQ7KW4bVq+irbYrmqiDRb205LY3HAWvxNFDDpHfVMVjJTCrOhyB02OX6Up6RvEPNnbOpm/t9jLjW/O/BZG57gqg3lBi0D0yuWDQxZcN+hfmVeTdPF898nEPsQPkaYdOyp8ix1FA96LCqplOy8/bE78pxS/9Q7nIg5JZF8boyEssN0uV8Yogbd67xlDhfQiuIBxBY5jD3cEeNffV9FlnVm/IU1LGvjjyPpFlfVtYvDo/UXZg7Wyi0F22LvCOyfKynXU0Wszb1eSgWZ2dPZ1C3scLac70BQIXH1UnxRX6T/DWhVdcITHwbZ+9JWgtn9PdcvHDLfQRIu95TIqPSlcGKR8UNAJG4SO5y+ghF+2XfqXd6+6jVU+eYNxMNN73GdXYHfpWiGPsZlu6U148UvNaUPA1q0C/yXfKfFGGFZkHD4IPgx54mxLPxShgEaubmFayiBXqA2aBjbf8/UCN9TT4=
     name: Â§bÂ§lRewards
     uuid: 68304797-5514-4041-a6ef-530ae2ecb85a
     traits:
@@ -208,18 +208,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: inventory,owner,equipment,mounttrait,spawned,location,type,gravity
+    traitnames: inventory,location,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '0':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTIyMzMsInByb2ZpbGVJZCI6IjljODJmNTdjOGJlZTRkZTBiZTNiMjI5NTVmMmIxYzZhIiwicHJvZmlsZU5hbWUiOiJ3aWxkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NTM3NWIzMDliZDc5YmM1MGEwOThmNzhhYzZiZjBkYmU2YTZiMDE2ZmZiYzRjN2ZlZjM4MTUwOTk1ZTVhNzQzIn19fQ==
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTczMjMsInByb2ZpbGVJZCI6IjljODJmNTdjOGJlZTRkZTBiZTNiMjI5NTVmMmIxYzZhIiwicHJvZmlsZU5hbWUiOiJ3aWxkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NTM3NWIzMDliZDc5YmM1MGEwOThmNzhhYzZiZjBkYmU2YTZiMDE2ZmZiYzRjN2ZlZjM4MTUwOTk1ZTVhNzQzIn19fQ==
       cached-skin-uuid-name: wild
       cached-skin-uuid: 9c82f57c-8bee-4de0-be3b-22955f2b1c6a
       player-skin-name: wild
-      player-skin-signature: n/qoE7DAI9xFVPjx5HChlFCoUGwSfBZhUtGKm6F+uuZaFxaXOidrSl6TcgNrh94PfLyXcip6bBQhXy1Lkx4jSe9P/HlOQyD9oiU8wmqQzCATLPCPmbW18b50kN3PAlmUCGBQBD1P1pu17I0WVVCtjXUc8cvb3Fkkc9Mut394cvy2hi/PfdDkUH6zFxKYqTuAfApIDEF/T344Jo2s658YVPrTJ9bnHJRD+9G1/9+zv9elHTKv/TijPwk2TdSweCxasEA2d9iM3q+cVC9OOfdObRLAcXaLydvbw5cB8w5HmZq1kIII1ubxwOO0UxPB8OTAQbmOPkuDtARC8R7a/nl+feVCf0LRgxZTElId7hV6K1JLZ2gWn2YI2SHNes7rd7b/LnG5GNqOQAwfvrqhKp0DZlIubSD2TZsucz7TNLQSlZ8Iai5fvoC7mS3879KuvK4/BKoMHc3aceft32ttjebMcy9BYDbDU1RPxI9KiJYgh2oeDgnkjuPmP0XSZY5u1ccFpDCbYX99mDuz63T6ds8ZChjEysRN/tLBURbV2mOJ51wGdi2a/EcadBwjuMZlT4A/obvnvV2vkWSR1PnDqvEd72pQf4YWIyjXW6KXE98xWSyKZw2wdmdSrSQ2QLNb8aPVN1s2DQszOYJIpoRxFsT0BSaULdiTCKkLHEg+jFRiCJQ=
+      player-skin-signature: IBOOsVAgKo/fgdGItT8bk1QdUaLHvB95mIi3HjQb6n34J9QXSRdqRUSKEecIDC2TiEtHfnnWZgFTcJ9Iwf151AtvWT0/vBjmW/GTP0qFNNGo5b7C13g57SwCLawzTPHFLshEB8LW+knhM6zZMiBqD3NpSjotHqr4K9CH7tR601i1UdRlAHizhYvOi+HQ0h1uzVDB0X1hk5bQSY05t1A6cis7KMoUdlmoHygkLDkj2JoWxq2P/bdpAImK9NfEp92MjL1NwJJmrty1/fIJ0iPcfBlD21LimhpfZ0xNvnPwEHzItG+P2pyqBMy2Rrz8UQH5auclqwrt54cKfDhVPKvRPzK20+ouDNHB8n2xduxeEBA2b26IGDnWkbD4qHv6KNjvZoJA1eLTCNpPe/gDjuGM2BBtlg7XlNOafOLlYY0FJPejyxj0o/EplVFLOPz8JZINSyLK/S900l/IA/qYfgl2aq2hoXcf2jCCgMK72B7gwT6qvpVNH3BXCvMQ6JAk4xz5bpn3nT+BEqXHhEWzB72NLLU0QD6Z0Hhw3igFD8ndlOUJmByNuKM/6Veq9de2FOt+S4Q3dj2kjoqH1ctXw1zpFe/9aJtqQfStWSfyQaQEL1BrcpGTIDVaANKyVUAuA7dEIYB247CUYbovWEtKPo0GUld878TaS9dMfMx9VQo48sk=
     name: Â§eÂ§lÂ¿Help?
     uuid: 0a07fd1e-46f6-4b46-b851-9fc3bee1f159
     traits:
@@ -238,18 +238,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: owner,inventory,equipment,mounttrait,spawned,location,type,gravity
+    traitnames: inventory,location,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '7':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTI0MzUsInByb2ZpbGVJZCI6ImUxYmQwNTI2YWE4ZTQxMjdhMjE0NGNlZTAyMjNmMjZiIiwicHJvZmlsZU5hbWUiOiJkZW1vbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI1MWRhYjcyOTIxMWZmNTBhMDI3NzAwMDEzZWEyNTNmYzQ3MjgyNWYzZDdhZDUwNDE3MTcyMmJlMzhmODk3MiJ9fX0=
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTc1MDcsInByb2ZpbGVJZCI6ImUxYmQwNTI2YWE4ZTQxMjdhMjE0NGNlZTAyMjNmMjZiIiwicHJvZmlsZU5hbWUiOiJkZW1vbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI1MWRhYjcyOTIxMWZmNTBhMDI3NzAwMDEzZWEyNTNmYzQ3MjgyNWYzZDdhZDUwNDE3MTcyMmJlMzhmODk3MiJ9fX0=
       cached-skin-uuid-name: demon
       cached-skin-uuid: e1bd0526-aa8e-4127-a214-4cee0223f26b
       player-skin-name: demon
-      player-skin-signature: PltYdcMcFW31tFFusEf+WXlNnktiZNs1A/KRqMpli6K2SStSUYeoqcHYIvFh5gvWa04JuzEVndBWsP4nMwfztkat6sz0DpaEEgtv7OTawjeTzawJUG8PfxcsNNlhye9acSZ8i0aCnI4rCdVtoXRzrLgthyuKq0L5K4xbt8Nx8P6K+cSOFi0g/dJeFMiLqwoVCrIj6bA0naIzDQrhLZsPzXMeVdlOYH0iVgiHd0O3vXUA77Uwxe9I5psLTChARberftmRJoepGdCpBKaC7Y7q7+AlAx1VPdPQouCs9RFFgR3pp/YY7trojb2BPUCdVwMuBeao/q/r6pkKX9bQTG3JdVv6J0HyuWu3JXAQSdi8yy5MxBnr/wG4ppYD5Z3ypWC4PH04nl71hnxg3lJKZL+cM6s7Evi0n7FnQ+w1GhV9xfjCtaB0/99inKOxWPy3OuGpCvUzqbV5zZOPXLIRDP0Rs97Uf9N64xD3jl/1JpTYnLWyjYirONh9wJp5pAXb57npjDjiFnx+T2vAl19XaMQznZ51CfkfZzLHOM4tfhCWT5WoqKT2VcX/rPvyhtv+JSqAqamLniHSSYZ6wJeBpxC4OpXTJCqWxd3eAEQO7b0YemHzGkZGB+mpXvHckXxXwu+Xejvgyv6wUSVPR7TRyPIdUgxJluU9kMmedpUtsGKcoss=
+      player-skin-signature: JZjgQhh1CVK13jHtIvAOxF9dXSNqbfOYjz4zarjve599JWjpKMrFALQfSM8Wlf8xf5fNMue2VirwjEDFtNaBY5sIa8KAqhtxYCotji8SC70r73sYyR7sT+fbcnIAHA1oA2borFkIMAl42tz8Lr+IPzNQEKtQiM5HXPlPd2xU9AUxJHAQ4FRGznDhqoxjfE3uMccyD2fUdtDrefHm4NirQMHdph30SXDOUHK/jRb6HFHns1wJfoOQPTqmnBstp2XUqWH9WkdUfKo28FPf5Zh63JOSc8Vs4ngvB/z8FqO51eKfuJleOjTl3EUNUvpK/uCAuqdUvAYuWJToi6p9epoHp/agMp9QgtUGwJq00RA7cU/zYxSAjKFuk+htReDtYkk0v4aziU3d01ePBTg+/Syxz69Pb6Rp3NmTeDNJ5gxfGQ+AkZXnP73Fgf98W9pzgjmY0+NP1fr9/YmVFOnGODyoOPAGqi8qbc7kAfyB49r0zo/jcyHaMKzk6NsE8Jg/IweUYEcHiuVrmRVMCdqJorxC+zTI5Lm7ljpC7uUPvANEh9YJbTsyk0IFnqBpY7rrnUvahU0mf0fgglUHJiuE5JCEr/emRr6VmBsx0jnPOrCkbgnhUE0c4kRiwQGNJQdVRKm7rq3KyQyYVzPh37CKZcBl1jJMPpfxZypLT/8s0BK839k=
     name: Â§cÂ§lPVP
     uuid: e86082e6-dbfe-43b7-b176-2adf71283260
     traits:
@@ -326,7 +326,7 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: owner,inventory,equipment,mounttrait,spawned,location,type,gravity,waypoints
+    traitnames: location,inventory,type,gravity,equipment,mounttrait,owner,waypoints,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -414,13 +414,6 @@ npc:
           meta:
             unbreakable: false
             repaircost: 0
-            skull:
-              uuid: 04049c90-d3e9-4621-9caf-00000aaa3233
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE5MTUxYTYyMzIxZWIzNGFlNGIzOWRmMzhjODE5MmVhNTliNGFkZDQ4OGNjYmQyMjI4ZTVjN2JhY2U5YzZhNCJ9fX0=
       lookclose:
         enabled: false
         range: '5.0'
@@ -431,18 +424,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: owner,inventory,equipment,mounttrait,spawned,location,type,gravity
+    traitnames: inventory,location,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '10':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTExMjgsInByb2ZpbGVJZCI6IjMyNTA5NzYzNzZhNTRmOWRhY2EzNGI5ZmQ2NWNlMTI0IiwicHJvZmlsZU5hbWUiOiJOb2NoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZjQ2ZWU5ZDIxZDdlNTExNmQxNDUwZDgzZWMzYjI3NzlkNjVhZWYyNjI5ODQxZGQ4ODFlYjExMTNjZTY3YmM2In19fQ==
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTYwMzAsInByb2ZpbGVJZCI6IjMyNTA5NzYzNzZhNTRmOWRhY2EzNGI5ZmQ2NWNlMTI0IiwicHJvZmlsZU5hbWUiOiJOb2NoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZjQ2ZWU5ZDIxZDdlNTExNmQxNDUwZDgzZWMzYjI3NzlkNjVhZWYyNjI5ODQxZGQ4ODFlYjExMTNjZTY3YmM2In19fQ==
       cached-skin-uuid-name: noch
       cached-skin-uuid: 32509763-76a5-4f9d-aca3-4b9fd65ce124
       player-skin-name: noch
-      player-skin-signature: T2y96IPY/G+3f1NYqSb+ofn3xDVsGpoTqcLRCm3Wwx8gTdE/TQ0zWsajMpzVl4M0bIn+T1eHuJNdIfHPgq139pjNbbW5+bsxdQrqq86ElVfHvQoDmBnMwM3CoajKrAWHPxmpAFpuUPcq4qUV8hgdP20oVy9DLAXdRBrn4C/S36Ybe0fnIo5n6w7O6qeMVdvtH0SBvtc7+pPaZD8MGEAzL9TKizgDVLSXojgGg1jNKeJYmXw0L7UMTnmFtJ6xXe53tugsZSnUq0POAvvj5MKSU2FCF16Jkx13eBwdxmvuBLFyu5A7Z8WWeWmi/TLAvI8qcJnBkW210GgAU+PJLzy/rX6YAdSvIsFXAgRmGjTw+jXHXMEKxcMpWvs6Zagu6AHA8ta4euqu/0+YAfp7czG865huNyGCIU29n4v3xjei04ocg/Lmsf7PjeZTPIMaLbtMO7vIaGzZvcSpJNan0IEKIZ8KTdNBBr+Jb1tYuKL3wmC1UGOFh8z3RkXX0Jg1vsX0fdXxfJZUh3YFvOhtrQ3tIoBjf7TdH3bOpY0/OCsixDclbcFjFRxfMiXo+Om1BwXfpvBQMiVPYfoHiA+TbhNSQSCaL83z6e8wzRezzYz8GiYEAHPS0oVnpKPprTvDX1sUuQWf2Gq/eND8Hei0d0qn/Mkrcy8TMRW5rw0ptAdlZzM=
+      player-skin-signature: dS94FdiaZzL4OlRbAoC/IJvJofjDL0BqrkWEbsuhlYo/3l2K4jE6ZWijlaGPnb4qZ9Tu7krOAPdn4/Mv3DpbmL/shRCF8UgaOPXiFV0a8VLApKFhA42AtWdXCuQXle5BSoJrg8vuFYsNUxRF+XmETONjPjl3PVPUFrIa1oZbgTajhVTdkN78LfB3SChhUahpoYX9xggqU7h5n92Oda/wyAyPj7mPJH5maA+Wrr1d2eTrCFo91vVbYQ20wnVxmd1Vsth+ChNhX6LmQk4mGJcfO3mSnEQGBHO30HO1R0vMpzWEHNfqHu1EiwVSdtaCqmn1R74PeWor4PGGE7Q8wRjRdkwF6xcCh4Xrq209WOrpA6GZDctyTTYrOKhFtjMGrpZ9M0HmgCp0asmsi2C0BwjnS2RPfo3nw3yL6Dzmq+pIs021o0XY9luA8DX45m9cEW5wak6hd5PL7VuCNrJSK1DSE6a8p2zr24pFKdfEqRwflPqW/3dJw4dG9fA7fzgRtujRoiQDwv22k746jsIMb8vhySF4ARtlPZxqNBaSWo+dXRMdo08DbKP8ASgeF9LHGP+g6yWkDhnuE1ZXWOIJVzOXRTvgOuGz36hByd/guIf+PMDDDD4/jhleIdAXjCrMqyRp7zJVmTVrmL+Qc71do9AqPxHuEpIam+p6M/q0Fuy1T8Q=
     name: Â§bÂ§lÂ¿Plots?
     uuid: 4cc9cef8-428f-415c-9508-4d697346c413
     traits:
@@ -461,18 +454,18 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: inventory,equipment,owner,mounttrait,spawned,location,type,gravity
+    traitnames: location,inventory,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '11':
     metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2NzI4MTAyNjMsInByb2ZpbGVJZCI6IjAwYTIyYjhjYmJkNTRhYmNiZjYyZTZlMGRiZjcxMTA1IiwicHJvZmlsZU5hbWUiOiJaaXRydW9jIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYjU2M2VjZGFiODAwZTU5ZDA2OGRjZGEzNjEzYjk5MzMwOWVkN2ZkOWI3MmZlNDcyMzA3NjMwZGNiNzAzMGNiIn19fQ==
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NDA2Nzg3OTUxMDIsInByb2ZpbGVJZCI6IjAwYTIyYjhjYmJkNTRhYmNiZjYyZTZlMGRiZjcxMTA1IiwicHJvZmlsZU5hbWUiOiJaaXRydW9jIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYjU2M2VjZGFiODAwZTU5ZDA2OGRjZGEzNjEzYjk5MzMwOWVkN2ZkOWI3MmZlNDcyMzA3NjMwZGNiNzAzMGNiIn19fQ==
       cached-skin-uuid-name: zitruoc
       cached-skin-uuid: 00a22b8c-bbd5-4abc-bf62-e6e0dbf71105
       player-skin-name: zitruoc
-      player-skin-signature: WZEkeKWGPAIKEj1HiR1WyV9y7ry7QFjXXGLtZPQgVBwirLv2uYwstwB49davHaTR1nJ3i10aAK/WCRyScdkFKUR5lWvaMF2ezMSI4BjmGwWCjMWeec6Aoy8bka1uSmPa1pqznMa5n1ByRG4T8dbZoC3GW0xxcNmcZnfaEEPh7Rc92Wx2loPCFiTh5TjV99J276VYHc+gMHOuOMz5/uilkdGXkPdfNX2z2brx9OtkZbQyHfW3DbZOznMfVCGqtc75S/62KE2lUfv6Ni6+wcrKyj2IgA/wT5mYDWireiNF1vN6U3Dzjyy6vLoSXFbet4bCCxqRdVMpWhz907jRklgRWCZyTIlE3XuZpY4fDoz55aob3up9mv3a7Z5C1ksbm29dtuL6SK5yimJ+sWP5uLWXzfloxC8rs9bpI5Bg9LxB4nWX7nWuilLO5CpXwubpy/zE/b327D/WfNNeIHoGrSW2Vd8L3Jv0O/86sQxfEbgFNaCi2W+JywUh7E5zhCHX8JzMCgCtgnf58xT6d9LKcyZxRdZmYWt3xLNbdzfyKG/BSu+tSohW1aPUVvIEJ7zOSU9K8tcxUsVRLlguK02RnUHJoDasWK9USI8UEI9Hu+10JNuFsxnelBIomoe6ITgOVcgMMABBdEJGS8G6RgLyufXiI7PQLH/hmsCumpnuNG1k50s=
+      player-skin-signature: DYkN0kINObOYkBn6LvBryEomuJWo9xniDZY8Y5it0b6d3FplU0XDZ7aAa6L2EaWs29fxO1IPV4FkzF57KUQS/I/UUyBWDXca0neMMB/7pT6L4pe1ururc0OdWU/4ay0pNViB8uIVa4xh8nPrAkzgiXWlEKX+mOV3NBpRCHdG8H1ZYFPj25TepjU2HmN+NH/9Srsp/dIlKx+0Me5JBNueX3CWmhjUzmeGBZJW4bCZAyWWnpYtj1Iv8afiuLibSMViiKK3lQIvkHTExDKGtxzlhcJcafFxNgHqNcsNSXUqLxXLRhgy3agM/V26GJZ+xOpIVpe/mqBA7QWVKWETfDg0t2plotBLin5LO2rCoHFNWRFFHUOM2Cn2kI1K3zWlQ2hw0IB6RHM7NfkBEnaW/eK8Bp5rrgsnMCvfVIcpGrIU8MIDo33Q5w7EUXCAwTGA25nissajpuaOItaiL066HeIDriF3zGKo7RY/OzWEM1+kj7gRgdM4jqovZEpXWzDOnB10K34MGPlOLOF6nLZaIMWnX+C5JilngJ8Bi2+IIC/yizD4pwkxKg8xGFJrEX64CXLarNzAu+mJ0ogl4Kl1pDyBwHnJBDfYLJRcTu83VvtMM4C0uJenqNjK/qTsjpmEUOBUur6CJyVwrToEZJH0+vJliv3EP9sPGKZbZQ0l8m7rfiQ=
     name: Â§6Â§lTPÂ§eÂ§lRANDOM
     uuid: b11b4111-fac0-4162-a3dd-c918c3ed7337
     traits:
@@ -495,7 +488,7 @@ npc:
       owner:
         owner: Florensia_321
         uuid: a0abafe8-bdeb-459f-8cda-c283cd952603
-    traitnames: owner,inventory,equipment,mounttrait,spawned,location,type,gravity
+    traitnames: inventory,location,type,gravity,equipment,mounttrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

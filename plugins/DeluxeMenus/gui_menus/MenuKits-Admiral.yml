@@ -1,61 +1,61 @@
 #
-menu_title: '&8!Kit &6&lAD&e&lMIR&f&lAL&8¡'
+menu_title: '&8!Kit &6&lGAN&e&lYME&f&lDES&8¡'
 open_command: MenuKitsAdmiral
 size: 54
 items:
   'Sword':
     material: 276
     slot: 19
-    display_name: '&8Sword of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Sword of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'DAMAGE_ALL;2'
     - 'DURABILITY;1'
   '1':
     material: 310
     slot: 11
-    display_name: '&8Helmet of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Helmet of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;2'
     - 'DURABILITY;1'
   '2':
     material: 311
     slot: 20
-    display_name: '&8Chestplate of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Chestplate of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;2'
     - 'DURABILITY;1'
   '3':
     material: 312
     slot: 29
-    display_name: '&8Leggings of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Leggings of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;2'
     - 'DURABILITY;1'
   '4':
     material: 313
     slot: 38
-    display_name: '&8Boots of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Boots of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;2'
     - 'DURABILITY;1'
   'Pickaxe':
     material: 278
     slot: 22
-    display_name: '&8Pickaxe of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Pickaxe of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'DIG_SPEED;2'
     - 'DURABILITY;1'
   'Axe':
     material: 279
     slot: 23
-    display_name: '&8Axe of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Axe of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'DIG_SPEED;2'
     - 'DURABILITY;1'
   'Shovel':
     material: 277
     slot: 24
-    display_name: '&8Shovel of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Shovel of &6&lGAN&e&lYME&f&lDES'
     enchantments:
     - 'DIG_SPEED;2'
     - 'DURABILITY;1'

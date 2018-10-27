@@ -1,12 +1,12 @@
 #
-menu_title: '&8!Kit &2&lCA&a&lPTA&f&lIN&8¡'
+menu_title: '&8!Kit &2&lHE&a&lLI&f&lOS&8¡'
 open_command: MenuKitsCaptain
 size: 54
 items:
   'Sword':
     material: 276
     slot: 19
-    display_name: '&8Sword of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Sword of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'DAMAGE_ALL;4'
     - 'FIRE_ASPECT;1'
@@ -14,49 +14,49 @@ items:
   '1':
     material: 310
     slot: 11
-    display_name: '&8Helmet of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Helmet of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;3'
     - 'DURABILITY;2'
   '2':
     material: 311
     slot: 20
-    display_name: '&8Chestplate of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Chestplate of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;3'
     - 'DURABILITY;2'
   '3':
     material: 312
     slot: 29
-    display_name: '&8Leggings of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Leggings of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;3'
     - 'DURABILITY;2'
   '4':
     material: 313
     slot: 38
-    display_name: '&8Boots of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Boots of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'PROTECTION_ENVIRONMENTAL;3'
     - 'DURABILITY;2'
   'Pickaxe':
     material: 278
     slot: 22
-    display_name: '&8Pickaxe of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Pickaxe of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'DIG_SPEED;3'
     - 'DURABILITY;2'
   'Axe':
     material: 279
     slot: 23
-    display_name: '&8Axe of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Axe of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'DIG_SPEED;3'
     - 'DURABILITY;2'
   'Shovel':
     material: 277
     slot: 24
-    display_name: '&8Shovel of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Shovel of &2&lHE&a&lLI&f&lOS'
     enchantments:
     - 'DIG_SPEED;3'
     - 'DURABILITY;2'

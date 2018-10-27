@@ -18,8 +18,8 @@ regions:
             other-explosion: deny
             creeper-explosion: deny
             build: deny
-            use: allow
             invincible: allow
+            use: allow
             potion-splash: allow
             interact: allow
             pvp: deny
@@ -36,8 +36,8 @@ regions:
             enderpearl: allow
             creeper-explosion: deny
             build: deny
-            use: allow
             fall-damage: deny
+            use: allow
             potion-splash: allow
             interact: allow
             pvp: allow

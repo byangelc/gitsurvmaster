@@ -37,7 +37,7 @@ items:
     material: 276
     data: 0
     slot: 20
-    display_name: '&8Kit of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Kit of &3&lEU&b&lRO&f&lPA'
     lore:
     - ''
     - '&7Claim this kit every'
@@ -47,10 +47,10 @@ items:
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
-    - '[player] kit navigator'
+    - '[player] kit europa'
     - '[close]'
     right_click_commands:
-    - '[player] kit navigator'
+    - '[player] kit europa'
     - '[close]'
   Chest-2:
     material: 403
@@ -65,7 +65,7 @@ items:
     material: 276
     data: 0
     slot: 21
-    display_name: '&8Kit of &6&lAD&e&lMIR&f&lAL'
+    display_name: '&8Kit of &6&lGAN&e&lYME&f&lDES'
     lore:
     - ''
     - '&7Claim this kit every'
@@ -75,10 +75,10 @@ items:
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
-    - '[player] kit admiral'
+    - '[player] kit ganymedes'
     - '[close]'
     right_click_commands:
-    - '[player] kit admiral'
+    - '[player] kit ganymedes'
     - '[close]'
   Chest-3:
     material: 403
@@ -93,7 +93,7 @@ items:
     material: 276
     data: 0
     slot: 22
-    display_name: '&8Kit of &2&lCA&a&lPTA&f&lIN'
+    display_name: '&8Kit of &2&lHE&a&lLI&f&lOS'
     lore:
     - ''
     - '&7Claim this kit every'
@@ -103,10 +103,10 @@ items:
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
-    - '[player] kit captain'
+    - '[player] kit helios'
     - '[close]'
     right_click_commands:
-    - '[player] kit captain'
+    - '[player] kit helios'
     - '[close]'
   Chest-4:
     material: 403
@@ -121,7 +121,7 @@ items:
     material: 276
     data: 0
     slot: 23
-    display_name: '&8Kit of &5&lLI&d&lEUTE&f&lNANT'
+    display_name: '&8Kit of &5&lKE&d&lPLER'
     lore:
     - ''
     - '&7Claim this kit every'
@@ -131,10 +131,10 @@ items:
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
-    - '[player] kit lieutenant'
+    - '[player] kit kepler'
     - '[close]'
     right_click_commands:
-    - '[player] kit lieutenant'
+    - '[player] kit kepler'
     - '[close]'
   Chest-5:
     material: 403

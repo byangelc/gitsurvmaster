@@ -1,40 +1,40 @@
 #
-menu_title: '&8!Kit &3&lNA&b&lVIGA&f&lTOR&8¡'
+menu_title: '&8!Kit &6&lEU&e&lRO&f&lPA&8¡'
 open_command: MenuKitsNavigator
 size: 54
 items:
   'Sword':
     material: 276
     slot: 19
-    display_name: '&8Sword of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Sword of &6&lEU&e&lRO&f&lPA'
   '1':
     material: 310
     slot: 11
-    display_name: '&8Helmet of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Helmet of &6&lEU&e&lRO&f&lPA'
   '2':
     material: 311
     slot: 20
-    display_name: '&8Chestplate of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Chestplate of &6&lEU&e&lRO&f&lPA'
   '3':
     material: 312
     slot: 29
-    display_name: '&8Leggings of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Leggings of &6&lEU&e&lRO&f&lPA'
   '4':
     material: 313
     slot: 38
-    display_name: '&8Boots of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Boots of &6&lEU&e&lRO&f&lPA'
   'Pickaxe':
     material: 278
     slot: 22
-    display_name: '&8Pickaxe of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Pickaxe of &6&lEU&e&lRO&f&lPA'
   'Axe':
     material: 279
     slot: 23
-    display_name: '&8Axe of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Axe of &6&lEU&e&lRO&f&lPA'
   'Shovel':
     material: 277
     slot: 24
-    display_name: '&8Shovel of &3&lNA&b&lVIGA&f&lTOR'
+    display_name: '&8Shovel of &6&lEU&e&lRO&f&lPA'
   'Golden-Apple':
     material: 322
     data: 1

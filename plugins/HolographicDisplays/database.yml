@@ -1,79 +1,79 @@
 spawn:
   location: world, 0.500, 54.000, 7.500
   lines:
-  - '&u&lWelcome to the best Survival of BLITEMON'
+  - '&u&lBIENVENIDOS A WOOL CRAFT SURVIVAL'
   - '&8▆▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▆'
-  - Explore the place and have fun on
-  - great adventures!
+  - Explora, diviertete y
+  - ve a por grandes aventuras!
   - '&8'
-  - '&eCurrently available places'
+  - '&eLugares disponibles en este momento'
   - '&aPortals&f, &aHelp&f, &aDrawers&f, &aShop&f, &aFood&f, &aRewards'
   - '&8[x]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[x]'
-  - '&dwww.blitemon.com'
+  - '&dwww.woolcraft.gq'
   - 'ICON: prismarine:2'
 portals:
   location: world, 50.349, 49.436, 63.812
   lines:
-  - '&u&lPlace of parallel worlds'
+  - '&u&lUn lugar de mundos paralelos'
   - '&8&m------------------------------='
-  - Travel through parallel worlds and
-  - collects all kinds of experience
+  - Viaja a traves de mundos paralelos y
+  - consigue todo tipo de experiencia
   - '&8&m------------------------------='
 drawers:
   location: world, 22.556, 50.256, 86.468
   lines:
-  - '&u&lSection of drawers'
+  - '&u&lSeccion de drawers'
   - '&8&m=-------------------='
-  - Claim yours Padlocks with
+  - Reclama tus premios con
   - '&3→ &bRewards &3←'
-  - To open your drawers marine
+  - Para abrir tus cajas
   - '&r'
-  - '&aDrawers available&8:'
+  - '&aCajas disponibles&8:'
   - '&e➜ &7User'
   - '&e➜ &7Navigator'
   - '&e➜ &7Admiral'
   - '&e➜ &7Captain'
   - '&e➜ &7Lieutenant'
   - '&8'
-  - Get variety of items and
-  - Take care of yourself in
-  - the marine world
+  - Consigue variedad de items
+  - Ten cuidado de ti mismo en
+  - woolcraft survival
   - '&8&m=-------------------='
 help1:
   location: world, 79.525, 49.478, 34.393
   lines:
-  - '&b&l¿Create you shop?'
+  - '&b&l¿Crear tu tienda?'
 help2:
   location: world, 79.479, 49.399, 42.490
   lines:
-  - '&b&lProtect your home!'
+  - '&b&lProtege tu casa!'
 nether:
   location: world_nether, -6.500, 67.200, 0.500
   lines:
   - '&c&lWARP NETHER'
-  - Travel the world and explore
-  - '&eEdge: &u250&ak &7x &u250&ak'
+  - Viaja y explora
+  - '&eBorde: &u250&ak &7x &u250&ak'
 survival:
   location: Survival, 4.500, 86.200, 44.500
   lines:
   - '&a&lWARP SURVIVAL'
-  - Travel the world and explore
+  - Viaja y explora
   - '&eEdge: &u250&ak &7x &u250&ak'
 plots:
   location: Survival_plots, 0.500, 43.200, -5.500
   lines:
   - '&6&lWARP &e&lPLOTS'
   - '&8&m-----------------'
-  - Get a plot with
+  - Consigue un terreno con
   - '&c/plot auto'
-  - Claimea a plot with
+  - Reclama un terreno con
   - '&c/plot claim'
-  - Add a friend to your parcel
+  - Añade a un amigo a tu terreno con
   - '&c/plot add <name>'
   - '&8'
-  - '&bUse the parcels to store'
-  - '&byour stuff and like this'
-  - '&bhave more security of your items'
+  - '&bUsa las parcelas para almacenar'
+  - '&btus cosas y algo como eso'
+  - '&bAquí es mucho mas seguro'
   - '&8&m-----------------'
   - 'ICON: grass'
 end:

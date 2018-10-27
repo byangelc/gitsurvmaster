@@ -1038,3 +1038,27 @@
 10-27-2018 15:39 [INFO] [MyPet]    added 'world_pvp' to 'default'
 10-27-2018 15:39 [INFO] [MyPet] -------------------------------------------------
 10-27-2018 15:39 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+10-27-2018 17:04 [INFO] [MyPet] Disabling MyPet v2.3.5
+10-27-2018 17:04 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+10-27-2018 17:18 [INFO] [MyPet] Enabling MyPet v2.3.5
+10-27-2018 17:18 [INFO] [MyPet] No Update available.
+10-27-2018 17:18 [INFO] [MyPet] Citizens (2.0.22-SNAPSHOT (build 1487)) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] MiniaturePets (2.0.9) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] PlaceholderAPI (2.9.1) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] WorldGuard (6.2.1;84bc322) hook activated.
+10-27-2018 17:18 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+10-27-2018 17:18 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+10-27-2018 17:18 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+10-27-2018 17:18 [INFO] [MyPet]    added 'world' to 'default'
+10-27-2018 17:18 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-27-2018 17:18 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-27-2018 17:18 [INFO] [MyPet]    added 'Survival' to 'default'
+10-27-2018 17:18 [INFO] [MyPet]    added 'Survival_plots' to 'default'
+10-27-2018 17:18 [INFO] [MyPet]    added 'world_pvp' to 'default'
+10-27-2018 17:18 [INFO] [MyPet] -------------------------------------------------
+10-27-2018 17:18 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+10-27-2018 17:25 [INFO] [MyPet] Disabling MyPet v2.3.5
+10-27-2018 17:25 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
