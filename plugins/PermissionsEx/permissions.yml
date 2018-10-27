@@ -164,7 +164,7 @@ groups:
       prefix: '&f'
       build: true
       rank: '200'
-  vip:
+  europa:
     permissions:
     - randomtp.use.vip
     - plots.plot.4
@@ -172,7 +172,7 @@ groups:
     - crazyauctions.view
     - crazyauctions.sell.5
     - crazyauctions.bid.5
-    - essentials.sethome.multiple.Navigator
+    - essentials.sethome.multiple.europa
     - essentials.kits.Navigator
     - deliveryman.Navigator
     - modifyworld.*
@@ -188,8 +188,8 @@ groups:
     options:
       build: true
       rank: '150'
-      prefix: '&3&lNA&b&lVIGA&f&lTOR &3'
-  vip+:
+      prefix: '&3&lEU&b&lRO&f&lPA &3'
+  ganymedes:
     permissions:
     - crazyauctions.access
     - crazyauctions.view
@@ -205,12 +205,12 @@ groups:
     - miniaturepets.hat
     inheritance:
     - User
-    - Navigator
+    - europa
     options:
       build: true
       rank: '150'
-      prefix: '&6&lAD&e&lMIR&f&lAL &6'
-  vip++:
+      prefix: '&6&lGAN&e&lYME&f&lDES &6'
+  helios:
     permissions:
     - crazyauctions.access
     - crazyauctions.view
@@ -228,13 +228,13 @@ groups:
     - miniaturepets.ride
     inheritance:
     - User
-    - Navigator
-    - Admiral
+    - europa
+    - ganymedes
     options:
       build: true
       rank: '100'
-      prefix: '&2&lCA&a&lPTA&f&lIN &2'
-  vipl:
+      prefix: '&2&lHE&a&lLI&f&lOS &2'
+  kepler:
     permissions:
     - crazyauctions.access
     - crazyauctions.view
@@ -252,14 +252,41 @@ groups:
     - nte.lieutenant
     - miniaturepets.disguise
     options:
-      prefix: '&5&lLI&d&lEUTE&f&lNANT &5'
+      prefix: '&5&lKE&d&lPLER&f&lNANT &5'
       build: true
       rank: '50'
     inheritance:
     - User
-    - Navigator
-    - Admiral
-    - Captain
+    - europa
+    - ganymedes
+    - helios
+  Marss:
+    permissions:
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.15
+    - crazyauctions.bid.15
+    - essentials.sethome.multiple.Lieutenant
+    - essentials.kits.Lieutenant
+    - deliveryman.Lieutenant
+    - epicspawners.no-silk-drop
+    - modifyworld.*
+    - -nte.user
+    - -nte.navigator
+    - -nte.admiral
+    - -nte.captain
+    - nte.lieutenant
+    - miniaturepets.disguise
+    options:
+      prefix: '&5&lKE&d&lPLER&f&lNANT &5'
+      build: true
+      rank: '50'
+    inheritance:
+    - User
+    - europa
+    - ganymedes
+    - helios
+    - kepler
   Helper:
     permissions:
     - modifyworld.*

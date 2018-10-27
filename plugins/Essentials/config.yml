@@ -191,10 +191,14 @@ update-bed-at-daytime: false
 world-home-permissions: false
 sethome-multiple:
   User: 2
-  Navigator: 3
-  Admiral: 5
-  Captain: 10
-  Lieutenant: 20
+  europa: 3
+  ganymedes: 5
+  helios: 7
+  kepler: 10
+  marss: 13
+  neon: 16
+  photon: 19
+  oxygen: 25
 tpa-accept-cancellation: 120
 allow-direct-hat: false
 starting-balance: 0
@@ -316,53 +320,53 @@ kits:
     - 258:0 1 name:§8Axe_of_§f§lUSER
     - 256:0 1 name:§8Shovel_of_§f§lUSER
     - 322:0 2
-  Navigator:
+  europa:
     delay: 1296000
     items:
-    - 276:0 1 name:§8Sword_of_§3§lNA§b§lVIGA§f§lTOR
-    - 310:0 1 name:§8Helmet_of_§3§lNA§b§lVIGA§f§lTOR
-    - 311:0 1 name:§8Chestplate_of_§3§lNA§b§lVIGA§f§lTOR
-    - 312:0 1 name:§8Leggings_of_§3§lNA§b§lVIGA§f§lTOR
-    - 313:0 1 name:§8Boots_of_§3§lNA§b§lVIGA§f§lTOR
-    - 278:0 1 name:§8Pickaxe_of_§3§lNA§b§lVIGA§f§lTOR
-    - 279:0 1 name:§8Axe_of_§3§lNA§b§lVIGA§f§lTOR
-    - 277:0 1 name:§8Shovel_of_§3§lNA§b§lVIGA§f§lTOR
+    - 276:0 1 name:§8Sword_of_§3§lEU§b§lRO§f§lPA
+    - 310:0 1 name:§8Helmet_of_§3§lEU§b§lRO§f§lPA
+    - 311:0 1 name:§8Chestplate_of_§3§lEU§b§lRO§f§lPA
+    - 312:0 1 name:§8Leggings_of_§3§lEU§b§lRO§f§lPA
+    - 313:0 1 name:§8Boots_of_§3§lEU§b§lRO§f§lPA
+    - 278:0 1 name:§8Pickaxe_of_§3§lEU§b§lRO§f§lPA
+    - 279:0 1 name:§8Axe_of_§3§lEU§b§lRO§f§lPA
+    - 277:0 1 name:§8Shovel_of_§3§lEU§b§lRO§f§lPA
     - 322:1 2
-  Admiral:
+  ganymedes:
     delay: 1296000
     items:
-    - 276:0 1 damage_all:2 durability:1 name:§8Sword_of_§6§lAD§e§lMIR§f§lAL
-    - 310:0 1 protection_environmental:2 durability:1 name:§8Helmet_of_§6§lAD§e§lMIR§f§lAL
-    - 311:0 1 protection_environmental:2 durability:1 name:§8Chestplate_of_§6§lAD§e§lMIR§f§lAL
-    - 312:0 1 protection_environmental:2 durability:1 name:§8Leggings_of_§6§lAD§e§lMIR§f§lAL
-    - 313:0 1 protection_environmental:2 durability:1 name:§8Boots_of_§6§lAD§e§lMIR§f§lAL
-    - 278:0 1 dig_speed:2 durability:1 name:§8Pickaxe_of_§6§lAD§e§lMIR§f§lAL
-    - 279:0 1 dig_speed:2 durability:1 name:§8Axe_of_§6§lAD§e§lMIR§f§lAL
-    - 277:0 1 dig_speed:2 durability:1 name:§8Shovel_of_§6§lAD§e§lMIR§f§lAL
+    - 276:0 1 damage_all:2 durability:1 name:§8Sword_of_§6§lGAN§e§lYME§f§lDES
+    - 310:0 1 protection_environmental:2 durability:1 name:§8Helmet_of_§6§lGAN§e§lYME§f§lDES
+    - 311:0 1 protection_environmental:2 durability:1 name:§8Chestplate_of_§6§lGAN§e§lYME§f§lDES
+    - 312:0 1 protection_environmental:2 durability:1 name:§8Leggings_of_§6§lGAN§e§lYME§f§lDES
+    - 313:0 1 protection_environmental:2 durability:1 name:§8Boots_of_§6§lGAN§e§lYME§f§lDES
+    - 278:0 1 dig_speed:2 durability:1 name:§8Pickaxe_of_§6§lGAN§e§lYME§f§lDES
+    - 279:0 1 dig_speed:2 durability:1 name:§8Axe_of_§6§lGAN§e§lYME§f§lDES
+    - 277:0 1 dig_speed:2 durability:1 name:§8Shovel_of_§6§lGAN§e§lYME§f§lDES
     - 322:1 3
-  Captain:
+  helios:
     delay: 1296000
     items:
-    - 276:0 1 damage_all:4 fire_aspect:1 durability:2 name:§8Sword_of_§2§lCA§a§lPTA§f§lIN
-    - 310:0 1 protection_environmental:3 durability:2 name:§8Helmet_of_§2§lCA§a§lPTA§f§lIN
-    - 311:0 1 protection_environmental:3 durability:2 name:§8Chestplate_of_§2§lCA§a§lPTA§f§lIN
-    - 312:0 1 protection_environmental:3 durability:2 name:§8Leggings_of_§2§lCA§a§lPTA§f§lIN
-    - 313:0 1 protection_environmental:3 durability:2 name:§8Boots_of_§2§lCA§a§lPTA§f§lIN
-    - 278:0 1 dig_speed:4 durability:2 name:§8Pickaxe_of_§2§lCA§a§lPTA§f§lIN
-    - 279:0 1 dig_speed:4 durability:2 name:§8Axe_of_§2§lCA§a§lPTA§f§lIN
-    - 277:0 1 dig_speed:4 durability:2 name:§8Shovel_of_§2§lCA§a§lPTA§f§lIN
+    - 276:0 1 damage_all:4 fire_aspect:1 durability:2 name:§8Sword_of_§2§lHE§a§lLI§f§lOS
+    - 310:0 1 protection_environmental:3 durability:2 name:§8Helmet_of_§2§lHE§a§lLI§f§lOS
+    - 311:0 1 protection_environmental:3 durability:2 name:§8Chestplate_of_§2§lHE§a§lLI§f§lOS
+    - 312:0 1 protection_environmental:3 durability:2 name:§8Leggings_of_§2§lHE§a§lLI§f§lOS
+    - 313:0 1 protection_environmental:3 durability:2 name:§8Boots_of_§2§lHE§a§lLI§f§lOS
+    - 278:0 1 dig_speed:4 durability:2 name:§8Pickaxe_of_§2§lHE§a§lLI§f§lOS
+    - 279:0 1 dig_speed:4 durability:2 name:§8Axe_of_§2§lHE§a§lLI§f§lOS
+    - 277:0 1 dig_speed:4 durability:2 name:§8Shovel_of_§2§lHE§a§lLI§f§lOS
     - 322:1 5
-  Lieutenant:
+  kepler:
     delay: 1296000
     items:
-    - 276:0 1 damage_all:5 durability:3 fire_aspect:2 loot_bonus_mobs:3 name:§8Sword_of_§5§lLI§d§lEUTE§f§lNANT
-    - 310:0 1 protection_environmental:4 durability:3 name:§8Helmet_of_§5§lLI§d§lEUTE§f§lNANT
-    - 311:0 1 protection_environmental:4 durability:3 name:§8Chestplate_of_§5§lLI§d§lEUTE§f§lNANT
-    - 312:0 1 protection_environmental:4 durability:3 name:§8Leggings_of_§5§lLI§d§lEUTE§f§lNANT
-    - 313:0 1 protection_environmental:4 durability:3 name:§8Boots_of_§5§lLI§d§lEUTE§f§lNANT
-    - 278:0 1 dig_speed:5 durability:3 name:§8Pickaxe_of_§5§lLI§d§lEUTE§f§lNANT
-    - 279:0 1 dig_speed:5 durability:3 name:§8Axe_of_§5§lLI§d§lEUTE§f§lNANT
-    - 277:0 1 dig_speed:5 durability:3 name:§8Shovel_of_§5§lLI§d§lEUTE§f§lNANT
+    - 276:0 1 damage_all:5 durability:3 fire_aspect:2 loot_bonus_mobs:3 name:§8Sword_of_§5§lKE§d§lPLER
+    - 310:0 1 protection_environmental:4 durability:3 name:§8Helmet_of_§5§lKE§d§lPLER
+    - 311:0 1 protection_environmental:4 durability:3 name:§8Chestplate_of_§5§lKE§d§lPLER
+    - 312:0 1 protection_environmental:4 durability:3 name:§8Leggings_of_§5§lKE§d§lPLER
+    - 313:0 1 protection_environmental:4 durability:3 name:§8Boots_of_§5§lKE§d§lPLER
+    - 278:0 1 dig_speed:5 durability:3 name:§8Pickaxe_of_§5§lKE§d§lPLER
+    - 279:0 1 dig_speed:5 durability:3 name:§8Axe_of_§5§lKE§d§lPLER
+    - 277:0 1 dig_speed:5 durability:3 name:§8Shovel_of_§5§lKE§d§lPLER
     - 322:1 10
   PvP:
     delay: 30
@@ -383,5 +387,5 @@ kits:
     - 301:0 1
     - 297:0 24
     - 16:0 1
-    - 387:0 1 title:Aa author:Submarine World lore:[§aFind out about things you might not know..] book:New0 name:§8B§7o§fo§ek_§6o§cf_§4B§3e§bg§3i§cn§6n§ee§7r§8s lore:§aFind_out_about_things_you_might_not_know..
+    - 387:0 1 title:Aa author:wool lore:[§aFind out about things you might not know..] book:New0 name:§8B§7o§fo§ek_§6o§cf_§4B§3e§bg§3i§cn§6n§ee§7r§8s lore:§aFind_out_about_things_you_might_not_know..
     - 54:0 1
