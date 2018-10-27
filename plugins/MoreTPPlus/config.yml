@@ -15,7 +15,7 @@
 # Note: This Material list is For the latest release of Spigot version
 # so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
 
-plugin_prefix: '&7&l<&bBLITE&6&lTP&7&l> '
+plugin_prefix: '&7&l<&bWOOL&6&lTP&7&l> '
 locales: EN
 plugin_autocheckupdate: true
 plugin_sendmetrics: true

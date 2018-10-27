@@ -76,7 +76,7 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  - '${shine:[0;2;0][0;25;0][0;25;0][&e&l;&f&l]THE BEST SURVIVAL}'
+  - '${shine:[0;2;0][0;25;0][0;25;0][&e&l;&f&l]SIMPLEMENTE EL MEJOR SURVIVAL}'
   - ''
 
   # Sets the footer of the player list.
@@ -91,8 +91,8 @@ player-list:
   # - 'My third line'
   footer:
   - ''
-  - ' &eWeb&8:&bhttps://blitemon.com&r     &eShop&8:&bblitemon.tebex.io&r '
-  - ' &eTwitter&8:&b@blitemon' 
+  - ' &eWeb&8:&bhttps://woolcraft.gq&r     &eShop&8:&bwoolcraft.es&r '
+  - ' &eTwitter&8:&b@woolcraft' 
   - ''
 
 ############################################################
@@ -109,10 +109,10 @@ welcome-title:
   enabled: true
 
   # The title shown.
-  title: '&f&lBLITE&8&LMON'
+  title: '&f&lWOOL&8&lCRAFT'
 
   # The subtitle shown.
-  subtitle: 'Loading game..'
+  subtitle: 'Cargando..'
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -130,7 +130,7 @@ welcome-title:
     title: '&r'
 
     # The subtitle shown.
-    subtitle: '&bWelcome to &f&lBLITE&8&LMON'
+    subtitle: '&bBienvenido a &f&lWOOL&8&lCRAFT'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -146,10 +146,10 @@ welcome-actionbar:
   enabled: false
 
   # The message shown.
-  title: 'Welcome to &f&lBLITE&8&LMON'
+  title: '&bBienvenido a &f&lWOOL&8&lCRAFT'
 
   # The message shown when the player joins the server for the first time.
-  first-join: 'Welcome to &f&lBLITE&8&LMON, &fthis is your first time!'
+  first-join: '&bBienvenido a &f&lWOOL&8&lCRAFT, &fes tu primera vez aquí!'
 
 ############################################################
 # +------------------------------------------------------+ #

@@ -1,4 +1,4 @@
-This is the book file.
+﻿This is the book file.
 
 This file format works similar to the info.txt, motd.txt and rules.txt
 
@@ -17,193 +17,50 @@ Minecraft colors:
 &&m &mStrike&r  &&n &nUline
 &&o &oItalic&r   &&r &rReset
 #New0
--------------------§3§lWelcome to§0
-§b§lSUBMARINE WORLD§0
-§8Thanks for playing..§0
+§3§lBienvenido a§0
+§b§lWOOLCRAFT§0
+§8Gracias por jugar..§0
 §0
-§0Beginner's Guide:§0
-§7Then you will observe§0
-§7a detailed server.§0
+§0Guía del principiante:§0
+§7Aquí puedes ver§0
+§7de manera detallada.§0
 §0
 §c§lInfo§0
-§8How to protect yourself?§0
+§8Como protegerte?§0
 §2↪ §3page 1
-§8Getting money?§0
+§8Consiguiendo dinero?§0
 §2↪ §3page 4§0
 §0
-§8Auctions?§0
+§8Subastas?§0
 §2↪ §3page 5§0
 §0
 §8Pvp?§0
 §2↪ §3page 6§0
 §0
-§4Can you survive your§0
-§4first days?§0
+§4Puedes sobrevivir tus§0
+§4Primeros días?§0
 §0
-§0-------------------Good Luck!
-§2§lPROTECT YOUR HOUSE§0
+§0-------------------Suerte ;)!
+§2§lProtege tu casa§0
 §0
-§8Use the block of protection that you get when you first enter the server and use / sethome to not forget where you put it.§0
+§8Usa el bloque de protección que tienes al iniciar en el servidor y usa / sethome Para recordarlo.§0
 §0
-§aUsers currently have 3 homes available.
-§6§lWHERE TO MAKE MONEY§0
+§aUsuarios normales tienen 3 homes por ahora.
+§6§lDonde hacer dinero?§0
 §0
-§8The / warp shop section has a variety of things where you can sell items you farmeaste and sell them at good prices.§0
+§8La / warp shop o la / shop tiene gran variedad de items que puedes vender para conseguir dinero.§0
 §0
-§eYou can create your own stores and earn much more than expected.
-§3§lWHERE TO AUCK§0
+§ePuedes crear tus propias tiendas y ganar mas dinero de lo que esperas.
+§3§lDonde subastar§0
 §0
-§8You can use the menu to get much more information on how to auction and sell items virtually.§0
+§8Tu puedes usar / menu para ver mucha mas informacíon virtualmente.§0
 §0
-§bEach article has a time limit, try to be connected to not have future problems.
-§4§lKILL PEOPLE§0
+§bCada artículo tiene un tiempo límite, intenta estar conectado para no tener problemas futuros.
+§4§lAsesinando§0
 §0
-§8Use / warp pvp to go to the most bloody place of every server.§0
+§8Usa / warp pvp para ir al lugar mas sangriento de aquí.§0
 §0
-§cDo not forget to wear armor to fight!
-
-#New0
-§3§lWelcome to§0
-§b§lSUBMARINE WORLD§0
-§8Thanks for playing..§0
-§8 §0
-§0Beginner's Guide:§0
-§7Then you will observe§0
-§7a detailed server§0
-§8 §0
-§c§lInfo§0
-§8How to protect yourself?§0
-§2↪ §3page 3§0
-§8 §0
-§8 
-§8Getting money? §0
-§2↪ §3page 4§0
-§8 §0
-§8Auctions? §0
-§2↪ §3page 5§0
-§8 §0
-§8Pvp? §0
-§2↪ §3page 6§0
-§8 §0
-§4Can you survive your§0
-§4first days?§0
-§0 §0
-§0Good Luck!§0
-§8 
-§2§lPROTECT YOUR HOUSE§0
-§8 §0
-§8Use the block of protection that you get when you first enter the server and use / sethome to not forget where you put it.§0
-§8 §0
-§aUsers currently have 3 homes available.§0
-§8 §0
-§8 
-§6§lWHERE TO MAKE MONEY§0
-§8 §0
-§8The / warp shop section has a variety of things where you can sell items you farmeaste and sell them at good prices.§0
-§8 §0
-§eYou can create your own stores and earn much more than expected.
-§3§lWHERE TO AUCK§0
-§8 §0
-§8You can use the menu to get much more information on how to auction and sell items virtually.§0
-§8 §0
-§bEach article has a time limit, try to be connected to not have future problems.§0
-§8 §0
-§8 
-§4§lKILL PEOPLE§0
-§8 §0
-§8Use / warp pvp to go to the most bloody place of every server.§0
-§8 §0
-§cDo not forget to wear armor to fight!§0
+§cNo olvides tu armadura!
 
 
-#New0
-§3§lWelcome to§0
-§b§lSUBMARINE§0
-§b§lWORLD§0
-§8Thanks for playing..§0
-§8 §0
-§0Beginner's Guide:§0
-§7Then you will§0
-§7observe§0
-§7a detailed server§0
-§8 §0
-§c§lInfo§0
-§8How to protect§0
-§8yourself?§0
-
-§2↪ §3page 3§0
-§8 §0
-§8 §0
-§8Getting money? §0
-§2↪ §3page 4§0
-§8 §0
-§8Auctions? §0
-§2↪ §3page 5§0
-§8 §0
-§8Pvp? §0
-§2↪ §3page 6§0
-§8 §0
-§4Can you survive§0
-
-your§0
-§4first days?§0
-§0 §0
-§0Good Luck!§0
-§8 §0
-§2§lPROTECT YOUR§0
-§2§lHOUSE§0
-§8 §0
-§8Use the block of§0
-§8protection that you§0
-§8get when you first§0
-§8enter the server and§0
-§8use / sethome to not§0
-
-forget where you put§0
-§0it.§0
-§8 §0
-§aUsers currently have§0
-§a3 homes available.§0
-§8 §0
-§8 §0
-§6§lWHERE TO MAKE§0
-§6§lMONEY§0
-§8 §0
-§8The / warp shop§0
-§8section has a variety§0
-§8of things where you§0
-
-can sell items you§0
-§0farmeaste and sell§0
-§0them at good prices.§0
-§8 §0
-§eYou can create your§0
-§eown stores and earn§0
-§emuch more than§0
-§eexpected.§0
-§3§lWHERE TO AUCK§0
-§8 §0
-§8You can use the menu§0
-§8to get much more§0
-§8information on how to§0
-
-auction and sell items§0
-§0virtually.§0
-§8 §0
-§bEach article has a time§0
-§blimit, try to be§0
-§bconnected to not have§0
-§bfuture problems.§0
-§8 §0
-§8 §0
-§4§lKILL PEOPLE§0
-§8 §0
-§8Use / warp pvp to go§0
-§8to the most bloody§0
-
-place of every§0
-§0server.§0
-§8 §0
-§cDo not forget to wear§0
-§carmor to fight!§0
 

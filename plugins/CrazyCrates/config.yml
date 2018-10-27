@@ -1,7 +1,7 @@
 #List of all the enchantments: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 Settings:
   Prefix: '&8'
-  InventoryName: '&8¡Skyblock Drawers!'
+  InventoryName: '&8¡Ruleta Survival!'
   InventorySize: 45
   KnockBack: true
   Update-Checker: true

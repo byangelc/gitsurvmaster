@@ -24,7 +24,7 @@ Crate:
     - '&7'
     - '&7Buy padlocks in the store'
     - '&7from the forum:'
-    - '&7Shop&8: &6server.es/donate'
+    - '&7Shop&8: &6https://woolcraft-tienda.tebex.io/'
     - '&7'
     - '&8&m-----&7&m-----&f&m-----&7&m-----&8&m-----'
     - '&a&lUse click to open drawer!'
@@ -624,7 +624,7 @@ Crate:
       Firework: true
       Glowing: false
       Commands:
-        - 'pex user %Player% group set Navigator'
-        - 'bc &2&lCONGRATULATIONS&8: &b%Player% &7won the rank &3&lNA&b&lVIGA&f&lTOR'
+        - 'pex user %Player% group set europa'
+        - 'bc &2&lCONGRATULATIONS&8: &b%Player% &7won the rank &3&leu&b&lro&f&lpa'
       Messages:
-        - '&6&lPRIZE&8: &dRank &3&lNA&b&lVIGA&f&lTOR'
+        - '&6&lPRIZE&8: &dRank &3&leu&b&lro&f&lpa'
