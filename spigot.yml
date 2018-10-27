@@ -14,17 +14,17 @@ config-version: 11
 settings:
   debug: false
   save-user-cache-on-stop-only: false
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
   player-shuffle: 0
-  sample-count: 12
-  bungeecord: false
-  item-dirty-ticks: 20
   int-cache-limit: 1024
-  user-cache-size: 1000
+  item-dirty-ticks: 20
   late-bind: true
-  netty-threads: 4
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./iniciar.sh
+  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -32,9 +32,9 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  filter-creative-items: true
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  bungeecord: false
+  sample-count: 12
+  user-cache-size: 1000
   moved-too-quickly-threshold: 100.0
 messages:
   whitelist: '&7The server is improving. Come back later.'
@@ -45,61 +45,50 @@ messages:
   restart: Restarting server
 commands:
   tab-complete: -1
-  spam-exclusions:
-  - /skill
-  log: true
+  silent-commandblock-console: false
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  silent-commandblock-console: false
-stats:
-  disable-saving: false
-  forced-stats: {}
+  log: true
+  spam-exclusions:
+  - /skill
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    seed-monument: 10387313
+    seed-slime: 987234911
     merge-radius:
-      exp: 7.0
       item: 5.5
-    nerf-spawner-mobs: false
+      exp: 7.0
     item-despawn-rate: 1200
-    view-distance: 24
-    arrow-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: false
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
+    view-distance: 24
+    arrow-despawn-rate: 1200
     mob-spawn-range: 4
-    save-structure-info: true
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    random-light-updates: false
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
+    entity-activation-range:
+      animals: 6
+      monsters: 8
+      misc: 2
     growth:
       cactus-modifier: 70
       cane-modifier: 70
@@ -111,15 +100,26 @@ world-settings:
       netherwart-modifier: 70
       vine-modifier: 70
       cocoa-modifier: 70
-    entity-activation-range:
-      animals: 6
-      monsters: 8
-      misc: 2
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    seed-monument: 10387313
-    seed-slime: 987234911
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    max-tnt-per-tick: 100
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    random-light-updates: false
+    save-structure-info: true
+    max-tick-time:
+      tile: 50
+      entity: 50
+    nerf-spawner-mobs: false
+    zombie-aggressive-towards-villager: true
     max-bulk-chunks: 10
     max-entity-collisions: 1
     anti-xray:

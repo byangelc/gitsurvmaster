@@ -1,7 +1,7 @@
 lastAccountName: byangelc
 timestamps:
-  login: 1540153085885
-  logout: 1540153494252
+  login: 1540664337924
+  logout: 1540661017794
   lastteleport: 1540140729357
   kits:
     pvp: 1540068111375
@@ -9,11 +9,11 @@ timestamps:
 ipAddress: 127.0.0.1
 logoutlocation:
   world: Survival
-  x: -481.33855363597746
+  x: -481.0575160396505
   y: 64.0
-  z: 26.121870556927167
-  yaw: 170.18874
-  pitch: 7.2459064
+  z: 25.380423060146654
+  yaw: 222.28717
+  pitch: 20.391077
 lastlocation:
   world: world
   x: 8.054418359193564
@@ -21,8 +21,8 @@ lastlocation:
   z: 31.105463717702932
   yaw: 18.57237
   pitch: 6.1888714
-money: '999985195.0'
-afk: false
+money: '999985245.0'
+afk: true
 homes:
   home:
     world: Survival

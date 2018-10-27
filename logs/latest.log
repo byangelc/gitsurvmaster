@@ -1,930 +1,855 @@
-[15:14:46] [Server thread/INFO]: Starting minecraft server version 1.12
-[15:14:46] [Server thread/INFO]: Loading properties
-[15:14:46] [Server thread/INFO]: Default game type: SURVIVAL
-[15:14:47] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-596221b-9a1fc1e (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[15:14:47] [Server thread/INFO]: Debug logging is disabled
-[15:14:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:14:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:14:47] [Server thread/INFO]: Generating keypair
-[15:14:48] [Server thread/INFO]: Starting Minecraft server on *:2
-[15:14:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %name% for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %BannerBoard:name% for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %uuid% for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard placeholder %BannerBoard:uuid% for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer COLOR for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:COLOR for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer IMAGE for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:IMAGE for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer TEXT for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:TEXT for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer SKIN for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:SKIN for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer LIVEIMG for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:LIVEIMG for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer URLIMG for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:URLIMG for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer INTERACT for plugin BannerBoard...[m
-[15:14:48] [Server thread/INFO]: [BannerBoard] [INFO] Successfully registered BannerBoard custom renderer BannerBoard:INTERACT for plugin BannerBoard...[m
-[15:14:57] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.1
-[15:14:57] [Server thread/INFO]: [Vehicles] Loading Vehicles v9.3.2
-[15:14:57] [Server thread/INFO]: [BetterChairs] Loading BetterChairs v0.9.5
-[15:14:57] [Server thread/INFO]: [Profiles] Loading Profiles v2.1
-[15:14:57] [Server thread/INFO]: [SpawnJoin] Loading SpawnJoin v2.0.0
-[15:14:57] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
-[15:14:57] [Server thread/INFO]: [RewardPRO] Loading RewardPRO v3.17
-[15:14:57] [Server thread/INFO]: [Arconix] Loading Arconix v1.1.1
-[15:14:57] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.5-SNAPSHOT
-[15:14:57] [Server thread/INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
-[15:14:57] [Server thread/INFO]: [WelcomeWarpSigns] Loading WelcomeWarpSigns v1.3
-[15:14:57] [Server thread/INFO]: [icJukeBox] Loading icJukeBox v1.6.4
-[15:14:57] [Server thread/INFO]: [PlayerHeads] Loading PlayerHeads v3.10-SNAPSHOT-jenkins-PlayerHeads-1-61-g39b94b4
-[15:14:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
-[15:14:57] [Server thread/INFO]: [CombatLog] Loading CombatLog v2.3.0
-[15:14:57] [Server thread/INFO]: [PacketListenerApi] Loading PacketListenerApi v3.7.1-SNAPSHOT
-[15:14:57] [Server thread/INFO]: [ReflectionHelper] Version is v1_12_R1 (11201)
-[15:14:57] [Server thread/INFO]: [PacketListenerAPI] Using INChannel
-[15:14:57] [Server thread/INFO]: Injected custom channel handlers.
-[15:14:57] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
-[15:14:57] [Server thread/INFO]: [AutoUpdaterAPI] Loading AutoUpdaterAPI v2.5.3-SNAPSHOT
-[15:14:57] [Server thread/INFO]: [VehiclesFlags] Loading VehiclesFlags v1.0
-[15:14:57] [Server thread/INFO]: [BannerBoard] Loading BannerBoard v1.9.9
-[15:14:57] [Server thread/INFO]: [MVdWPlaceholderAPI] Loading MVdWPlaceholderAPI v2.5.1
-[15:14:57] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.10.5
-[15:14:57] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[15:14:57] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[15:14:57] [Server thread/INFO]: [FeatherBoard] Loading FeatherBoard v4.13.0
-[15:14:57] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[15:14:57] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.8.3
-[15:14:57] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v3.5.0-SNAPSHOT-95f8aaa
-[15:14:57] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.18
-[15:14:57] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
-[15:14:57] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
-[15:14:57] [Server thread/INFO]: [Brewery] Loading Brewery v1.5
-[15:14:57] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.4.1
-[15:14:58] [Server thread/INFO]: [ViaVersion] ViaVersion 1.4.1 is now loaded, waiting for boot. (late-bind)
-[15:14:58] [Server thread/INFO]: [StaffPlus] Loading StaffPlus v3.2.7.1
-[15:14:58] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-bSNAPSHOT
-[15:14:58] [Server thread/INFO]: [AdvancedEnchantments] Loading AdvancedEnchantments v4.4.7
-[15:14:58] [Server thread/INFO]: [EpicSpawners] Loading EpicSpawners v1.0.1
-[15:14:58] [Server thread/INFO]: [HeadDatabase] Loading HeadDatabase v4.2.0
-[15:14:58] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
-[15:14:58] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
-[15:14:58] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1487)
-[15:14:58] [Server thread/INFO]: [AdvancedAchievements] Loading AdvancedAchievements v5.9.0
-[15:14:58] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.6
-[15:14:58] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-bSNAPSHOT
-[15:14:58] [Server thread/INFO]: [ProtectionStones] Loading ProtectionStones v1.9j
-[15:14:58] [Server thread/INFO]: [BlockParticles] Loading BlockParticles v1.9.7.2
-[15:14:58] [Server thread/INFO]: [MiniaturePets] Loading MiniaturePets v2.0.9
-[15:14:58] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.8.12
-[15:14:58] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
-[15:14:58] [Server thread/INFO]: [CitizensCMD] Loading CitizensCMD v1.2.2
-[15:14:58] [Server thread/INFO]: [MoreTPPlus] Loading MoreTPPlus v0.9l
-[15:14:58] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-bSNAPSHOT
-[15:14:58] [Server thread/INFO]: [LeaderHeads] Loading LeaderHeads v3.1.6
-[15:14:58] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-bSNAPSHOT
-[15:14:58] [Server thread/INFO]: [ShopGUIPlus] Loading ShopGUIPlus v1.19.1
-[15:14:58] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.1.2
-[15:14:58] [Server thread/INFO]: [MyPet] Loading MyPet v2.3.5
-[15:15:00] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[15:15:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[15:15:00] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[15:15:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:15:00] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[15:15:00] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[15:15:00] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v3.5.0-SNAPSHOT-95f8aaa
-[15:15:00] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;33;22mMetrics enabled.[m
-[15:15:00] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m [0;33;22mPlotSquared is using online UUIDs[m
-[15:15:01] [Server thread/INFO]: PlotSquared hooked into WorldEdit.[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mplot-expiry[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mkill-road-mobs[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mworldedit-restrictions[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mdatabase-purger[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22meconomy[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mblock-cache[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mkill-road-vehicles[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mpersistent-meta[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mban-deleter[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mupdater[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mdatabase[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mplotme-converter[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mpermission-cache[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mrating-cache[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mcomment-notifier[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mmetrics[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mchunk-processor[0;31;1m, Value: [0;33;22mfalse[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22muuid-cache[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mevents[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;31;1mKey: [0;33;22mcommands[0;31;1m, Value: [0;33;22mtrue[m
-[15:15:01] [Server thread/INFO]: [0;33;22mPlotSquared is now enabled[m
-[15:15:01] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;33;22mMetrics enabled.[m
-[15:15:01] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
-[15:15:01] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[15:15:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:15:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:15:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:15:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:15:01] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[15:15:01] [Server thread/INFO]: Preparing level "world"
-[15:15:01] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:15:01] [Server thread/INFO]: Experience Merge Radius: 7.0
-[15:15:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:15:01] [Server thread/INFO]: Item Despawn Rate: 1200
-[15:15:01] [Server thread/INFO]: Item Merge Radius: 5.5
-[15:15:01] [Server thread/INFO]: View Distance: 24
-[15:15:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:15:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:15:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[15:15:01] [Server thread/INFO]: Mob Spawn Range: 4
-[15:15:01] [Server thread/INFO]: Structure Info Saving: true
-[15:15:01] [Server thread/INFO]: Max TNT Explosions: 100
-[15:15:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:15:01] [Server thread/INFO]: Random Lighting Updates: false
-[15:15:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:15:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:15:01] [Server thread/INFO]: Cactus Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Cane Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Melon Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Mushroom Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Pumpkin Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Sapling Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Wheat Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: NetherWart Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Vine Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Cocoa Growth Modifier: 70%
-[15:15:01] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 8 / Mi 2
-[15:15:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:15:03] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
-[15:15:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:15:03] [Server thread/INFO]: Experience Merge Radius: 7.0
-[15:15:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:15:03] [Server thread/INFO]: Item Despawn Rate: 1200
-[15:15:03] [Server thread/INFO]: Item Merge Radius: 5.5
-[15:15:03] [Server thread/INFO]: View Distance: 24
-[15:15:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:15:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:15:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[15:15:03] [Server thread/INFO]: Mob Spawn Range: 4
-[15:15:03] [Server thread/INFO]: Structure Info Saving: true
-[15:15:03] [Server thread/INFO]: Max TNT Explosions: 100
-[15:15:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:15:03] [Server thread/INFO]: Random Lighting Updates: false
-[15:15:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:15:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:15:03] [Server thread/INFO]: Cactus Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Cane Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Melon Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Mushroom Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Pumpkin Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Sapling Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Wheat Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: NetherWart Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Vine Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Cocoa Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 8 / Mi 2
-[15:15:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:15:03] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
-[15:15:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:15:03] [Server thread/INFO]: Experience Merge Radius: 7.0
-[15:15:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:15:03] [Server thread/INFO]: Item Despawn Rate: 1200
-[15:15:03] [Server thread/INFO]: Item Merge Radius: 5.5
-[15:15:03] [Server thread/INFO]: View Distance: 24
-[15:15:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:15:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:15:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[15:15:03] [Server thread/INFO]: Mob Spawn Range: 4
-[15:15:03] [Server thread/INFO]: Structure Info Saving: true
-[15:15:03] [Server thread/INFO]: Max TNT Explosions: 100
-[15:15:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:15:03] [Server thread/INFO]: Random Lighting Updates: false
-[15:15:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:15:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:15:03] [Server thread/INFO]: Cactus Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Cane Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Melon Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Mushroom Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Pumpkin Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Sapling Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Wheat Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: NetherWart Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Vine Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Cocoa Growth Modifier: 70%
-[15:15:03] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 8 / Mi 2
-[15:15:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:15:03] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
-[15:15:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6808108429559819258)
-[15:15:04] [Server thread/INFO]: Preparing spawn area: 34%
-[15:15:05] [Server thread/INFO]: Preparing spawn area: 50%
-[15:15:06] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3720660245164173377)
-[15:15:07] [Server thread/INFO]: Preparing spawn area: 54%
-[15:15:08] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3720660245164173377)
-[15:15:08] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.9.1
-[15:15:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[15:15:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
-[15:15:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[15:15:08] [Server thread/INFO]: [Vehicles] Enabling Vehicles v9.3.2
-[15:15:08] [Server thread/INFO]: [0;32;1m[Vehicles] Cracked by BlackSpigot Staff Team[m
-[15:15:09] [Server thread/INFO]: Vehicles >> lang.yml loaded.
-[15:15:09] [Server thread/INFO]: [BetterChairs] Enabling BetterChairs v0.9.5
-[15:15:09] [Server thread/INFO]: [BetterChairs] Your server is running version v1_12_R1
-[15:15:09] [Server thread/INFO]: [BetterChairs] NMS hooked !
-[15:15:09] [Server thread/INFO]: [Profiles] Enabling Profiles v2.1
-[15:15:09] [Server thread/INFO]:  [m
-[15:15:09] [Server thread/INFO]: [0;35;22mProfiles 2.1 [0;35;1menabled[m
-[15:15:09] [Server thread/INFO]: [0;35;1mplugins\Profiles[0;35;22m - [0;32;1mloaded[m
-[15:15:09] [Server thread/INFO]: [0;35;1mmessages.yml[0;35;22m - [0;32;1mloaded[m
-[15:15:09] [Server thread/INFO]: [0;35;1mgui.yml[0;35;22m - [0;32;1mloaded[m
-[15:15:09] [Server thread/INFO]: [0;35;1musers.yml[0;35;22m - [0;32;1mloaded[m
-[15:15:09] [Server thread/INFO]: [0;35;1mcommands.yml[0;35;22m - [0;32;1mloaded[m
-[15:15:09] [Server thread/INFO]: [0;35;1mREADME.txt[0;35;22m - [0;32;1mloaded[m
-[15:15:09] [Server thread/INFO]:  [m
-[15:15:09] [Server thread/INFO]: [SpawnJoin] Enabling SpawnJoin v2.0.0
-[15:15:09] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
-[15:15:09] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
-[15:15:09] [Server thread/INFO]: [RewardPRO] Enabling RewardPRO v3.17
-[15:15:09] [Server thread/INFO]: [RewardPRO] eu.superm.minecraft.rewardpro.hauptklasse.Main: - isVoting: true
-[15:15:09] [Server thread/ERROR]: [RewardPRO] Plugin RewardPRO v3.17 has failed to register events for class eu.superm.minecraft.rewardpro.util.VotingListener because com/vexsoftware/votifier/model/VotifierEvent does not exist.
-[15:15:09] [Server thread/INFO]: [0;36;22m[21mRewardPro >>> Plugin RewardPro is enabled with version: 3.17[m
-[15:15:11] [Server thread/INFO]: [Arconix] Enabling Arconix v1.1.1
-[15:15:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.5-SNAPSHOT
-[15:15:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_12_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[15:15:11] [Server thread/INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
-[15:15:12] [Server thread/INFO]: [0;33;1mFriends [0;37;22m| [0;31;1mA new update is available![m
-[15:15:12] [Server thread/INFO]: [0;33;1mFriends [0;37;22m| [0;31;1mPlease update your plugin![m
-[15:15:12] [Server thread/INFO]: [0;33;1mFriends [0;37;22m| [0;31;1mYou will get no support for this version![m
-[15:15:12] [Server thread/INFO]: [0;33;1mFriends [0;37;22m| [0;32;1mThe plugin was successfully loaded! [0;36;22m< FlatFile >[m
-[15:15:12] [Server thread/INFO]: [WelcomeWarpSigns] Enabling WelcomeWarpSigns v1.3
-[15:15:12] [Server thread/INFO]: [icJukeBox] Enabling icJukeBox v1.6.4
-[15:15:12] [Server thread/WARN]: [icJukeBox] Could not save configuration.yml to plugins\icJukeBox\configuration.yml because configuration.yml already exists.
-[15:15:19] [Server thread/INFO]: [PlayerHeads] Enabling PlayerHeads v3.10-SNAPSHOT-jenkins-PlayerHeads-1-61-g39b94b4
-[15:15:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
-[15:15:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:15:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
-[15:15:21] [Server thread/INFO]: [CombatLog] Enabling CombatLog v2.3.0
-[15:15:21] [Server thread/INFO]: [CombatLog] WorldGuard plugin found! PvP regions are now detected.
-[15:15:21] [Server thread/INFO]: [CombatLog] Loading config.yml
-[15:15:22] [Server thread/INFO]: [CombatLog] v2.3.0 has been enabled.
-[15:15:22] [Server thread/INFO]: [PacketListenerApi] Enabling PacketListenerApi v3.7.1-SNAPSHOT
-[15:15:22] [Server thread/INFO]: Adding channels for online players...
-[15:15:22] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
-[15:15:22] [Server thread/INFO]: [ClearLag] Loading modules...
-[15:15:22] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[15:15:22] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[15:15:22] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[15:15:22] [Thread-17/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
-[15:15:22] [Server thread/INFO]: [AutoUpdaterAPI] Enabling AutoUpdaterAPI v2.5.3-SNAPSHOT
-[15:15:22] [Server thread/INFO]: [AutoUpdaterAPI] Loading dependency HTMLUnit 2.15 ...
-[15:15:22] [Server thread/INFO]: [AutoUpdaterAPI] HTMLUnit 2.15 is now loaded!
-[15:15:23] [Thread-17/INFO]: [ClearLag] No updates found!
-[15:15:23] [Server thread/INFO]: [AutoUpdaterAPI] Initializing connection with spigot...
-[15:15:23] [Server thread/INFO]: [AutoUpdaterAPI] AutoUpdaterAPI V2.5.3-SNAPSHOT enabled!
-[15:15:23] [Server thread/INFO]: [VehiclesFlags] Enabling VehiclesFlags v1.0
-[15:15:23] [Server thread/INFO]: [BannerBoard] Enabling BannerBoard v1.9.9
-[15:15:23] [Server thread/INFO]:  [0;37;1m[21m---------------------------    [0;31;22m[21mBannerBoard [0;34;1m[21mPlugin Cracked By  [0;33;22m[21m@BlackGiveITA-@demybig [0;34;1m[21mOn Telegram[0;37;1m[21m ---------------------------[m
-[15:15:23] [Server thread/INFO]: [0;37;1m[21m---------------------------    [0;31;22m[21mBannerBoard [0;34;1m[21mPlugin Cracked By  [0;33;22m[21m@BlackGiveITA-@demybig [0;34;1m[21mOn Telegram[0;37;1m[21m ---------------------------[m
-[15:15:23] [Server thread/INFO]: [MVdWPlaceholderAPI] Enabling MVdWPlaceholderAPI v2.5.1
-[15:15:23] [Server thread/INFO]: [MVdWPlaceholderAPI] Initializing ...
-[15:15:23] [Server thread/INFO]: [MVdWPlaceholderAPI] Sending metrics ...
-[15:15:23] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.10.5
-[15:15:23] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
-[15:15:24] [Server thread/INFO]: [DeluxeMenus] 16 GUI menus loaded!
-[15:15:24] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[15:15:24] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
-[15:15:24] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
-[15:15:24] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[15:15:24] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[15:15:24] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[15:15:24] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[15:15:24] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[15:15:24] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[15:15:24] [Server thread/INFO]: [FeatherBoard] Enabling FeatherBoard v4.13.0
-[15:15:24] [Server thread/INFO]: [FeatherBoard] [0;31;1mCracked by xAffinity,[0;36;1mDIRECTLEAKS.[m
-[15:15:26] [Server thread/INFO]: [FeatherBoard] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-[15:15:28] [Server thread/INFO]: [FeatherBoard] Plugin: FeatherBoard v4.13.0
-[15:15:29] [Server thread/INFO]: [FeatherBoard] Framework version: 2018-06
-[15:15:30] [Server thread/INFO]: [FeatherBoard] Author: Maximvdw (Maxim Van de Wynckel)
-[15:15:30] [Server thread/INFO]: [FeatherBoard] Site: https://www.mvdw-software.com/
-[15:15:30] [Server thread/INFO]: [FeatherBoard] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading database driver ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading dependency Javax Persistence 2.1.0 ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Javax Persistence 2.1.0 is now loaded!
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading dependency ORMLite 5 ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] ORMLite 5 is now loaded!
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading dependency ORMLite 5 JDBC ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] ORMLite 5 JDBC is now loaded!
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading configuration ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading messages ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading language file: lang_en
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading placeholders and event triggers ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Loading internal placeholders ...
-[15:15:33] [Server thread/INFO]: [FeatherBoard] Fetching available placeholders from server ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Armor] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Bukkit] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [BungeeCord] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Color] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [CommandPlaceholderPack] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Compass placeholders] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Economy] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Effects] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Entities] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Essentials] ...
-[15:15:35] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Facebook] ...
-[15:15:37] [Server thread/INFO]: [FeatherBoard] Loading placeholder [FireworkEffect] ...
-[15:15:37] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Geographical] ...
-[15:15:37] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Hotbar] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [JavaInfo] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [LeaderHeads] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Marriage] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Memory] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Multiverse-Core] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Permissions] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [PlaceholderAPI] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Player] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [PlotSquared] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading event hook: PlotSquared Plot ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading event hook: PlotSquared Plot ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Previous Names] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [RedisBungee] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [ServerPinger] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Sound Effects] ...
-[15:15:38] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Statistics] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading placeholder [TicksPerSecond] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Twitter] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading placeholder [Unicode Characters] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading placeholder [VanillaEvents] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Combat hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Block break hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Block place hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player rejoin ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player join ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Death hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Create portal hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player first join ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Combat hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Block break hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Block place hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player rejoin ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player join ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Death hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla Create portal hook ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: Vanilla player first join ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading placeholder [World] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading placeholder [WorldGuard] ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: WorldGuard Region ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loading event hook: WorldGuard Region ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Checking for placeholder updates ...
-[15:15:39] [Server thread/INFO]: [FeatherBoard] Loaded 2963 of the 2963 placholders
-[15:15:39] [Server thread/INFO]: [MVdWPlaceholderAPI] Hooked into MVdW plugin: FeatherBoard
-[15:15:40] [Server thread/INFO]: [FeatherBoard] Loading custom effect 'example1' ...
-[15:15:40] [Server thread/INFO]: [FeatherBoard] Creating new custom effect: example1
-[15:15:40] [Server thread/INFO]: [FeatherBoard] Loading custom effect 'example2' ...
-[15:15:40] [Server thread/INFO]: [FeatherBoard] Creating new custom effect: example2
-[15:15:40] [Server thread/INFO]: [FeatherBoard] Loading custom effect 'example3' ...
-[15:15:40] [Server thread/INFO]: [FeatherBoard] Creating new custom effect: example3
-[15:15:41] [Server thread/INFO]: [FeatherBoard] Using OPTIMAL as the update strategy
-[15:15:41] [Server thread/INFO]: [FeatherBoard] Loading scoreboard 'default' ...
-[15:15:41] [Server thread/INFO]: [FeatherBoard] Added 'PERMISSION' as the default scoreboard assign method
-[15:15:41] [Server thread/INFO]: [FeatherBoard] Generating metrics information ...
-[15:15:42] [Server thread/INFO]: [0;35;22m[[0;34;1mFeatherBoard[0;35;22m] [0;32;1mYour version is up to date![m
-[15:15:43] [Server thread/INFO]: [FeatherBoard] Toggle persistence is disabled!
-[15:15:43] [Server thread/INFO]: [FeatherBoard] Adding command 'featherboard'
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.8.3
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading custom files.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Admiral.yml.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Captain.yml.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Lieutenant.yml.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Navigator.yml.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/User.yml.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
-[15:15:45] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
-[15:15:45] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@617afdbd}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@617afdbd_physical}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@617afdbd_total}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@576c7cbb}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@576c7cbb_physical}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@576c7cbb_total}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@1ec127c2}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@1ec127c2_physical}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@1ec127c2_total}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@e39c45d}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@e39c45d_physical}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@e39c45d_total}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@1c137db7}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@1c137db7_physical}
-[15:15:45] [Server thread/INFO]: [MVdWPlaceholderAPI] CrazyCrates added custom placeholder {crazycrates_me.badbones69.crazycrates.api.objects.crate@1c137db7_total}
-[15:15:45] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.18
-[15:15:45] [Server thread/INFO]: [Marriage] Loading config...
-[15:15:45] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
-[15:15:45] [Server thread/INFO]: [Marriage] Loading dependencies...
-[15:15:45] [Server thread/INFO]: [Marriage] Loading commands...
-[15:15:45] [Server thread/INFO]: [Marriage] Loading listeners...
-[15:15:45] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v3.5.0-SNAPSHOT-95f8aaa
-[15:15:45] [Server thread/INFO]: [Marriage] Loading database...
-[15:15:45] [Server thread/INFO]: [Marriage] Loading updater...
-[15:15:45] [Server thread/INFO]: [Marriage] Loading converter...
-[15:15:45] [Server thread/INFO]: [Marriage] Completed plugin load stage.
-[15:15:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world) All fire spread is disabled.
-[15:15:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_nether) All fire spread is disabled.
-[15:15:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[15:15:46] [Server thread/INFO]: [WorldGuard] (world_the_end) All fire spread is disabled.
-[15:15:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[15:15:46] [Server thread/INFO]: [WorldGuard] Loading region data...
-[15:15:46] [Server thread/INFO]: [Brewery] Enabling Brewery v1.5
-[15:15:47] [Server thread/INFO]: [0;32;22m[Brewery] [0;37;1mBrewery enabled![m
-[15:15:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.4.1
-[15:15:47] [Server thread/INFO]: Loading block mapping...
-[15:15:48] [Server thread/INFO]: Loading item mapping...
-[15:15:48] [Server thread/INFO]: Loading new tags...
-[15:15:48] [Server thread/INFO]: Loading enchantments...
-[15:15:48] [Server thread/INFO]: Loading sound mapping...
-[15:15:48] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.2.7.1
-[15:15:48] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mVersion protocol set to 'v1_12_R1'.[m
-[15:15:48] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ has been enabled! Initialization took 107ms.[m
-[15:15:48] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mPlugin created by Shortninja.[m
-[15:15:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-bSNAPSHOT
-[15:15:48] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[15:15:48] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[15:15:48] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[15:15:48] [Server thread/INFO]: Using locale en
-[15:15:48] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
-[15:15:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:15:48] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[15:15:48] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[15:15:48] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v4.4.7
-[15:15:50] [Server thread/INFO]: [AdvancedEnchantments] internal minecraft ver.: 112
-[15:16:12] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into WorldGuard
-[15:16:29] [Server thread/INFO]: [AdvancedEnchantments NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
-[15:16:29] [Server thread/INFO]: [AdvancedEnchantments NBTAPI] NMS support 'MC1_12_R1' loaded!
-[15:16:38] [Server thread/INFO]: [EpicSpawners] Enabling EpicSpawners v1.0.1
-[15:16:38] [Server thread/INFO]: [0;32;1m=============================[m
-[15:16:38] [Server thread/INFO]: [0;37;22mEpicSpawners 1.0.1 by [0;35;22mBrianna <3[0;37;22m![m
-[15:16:38] [Server thread/INFO]: [0;37;22mAction: [0;32;1mEnabling[0;37;22m...[m
-[15:16:39] [Server thread/INFO]: [EpicSpawners] Loading data file
-[15:16:39] [Server thread/INFO]: [EpicSpawners] Loading Language File
-[15:16:39] [Server thread/INFO]: [EpicSpawners] Loading Data File
-[15:16:39] [Server thread/INFO]: [0;32;1m=============================[m
-[15:16:39] [Server thread/INFO]: [HeadDatabase] Enabling HeadDatabase v4.2.0
-[15:16:39] [Server thread/INFO]: [HeadDatabase] Economy succesfully setup!
-[15:16:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
-[15:16:40] [Server thread/INFO]: -------- World Settings For [Survival_plots] --------
-[15:16:40] [Server thread/INFO]: Experience Merge Radius: 7.0
-[15:16:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:16:40] [Server thread/INFO]: Item Despawn Rate: 1200
-[15:16:40] [Server thread/INFO]: Item Merge Radius: 5.5
-[15:16:40] [Server thread/INFO]: View Distance: 24
-[15:16:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:16:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:16:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[15:16:40] [Server thread/INFO]: Mob Spawn Range: 4
-[15:16:40] [Server thread/INFO]: Structure Info Saving: true
-[15:16:40] [Server thread/INFO]: Max TNT Explosions: 100
-[15:16:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:16:40] [Server thread/INFO]: Random Lighting Updates: false
-[15:16:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:16:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:16:40] [Server thread/INFO]: Cactus Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Cane Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Melon Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Mushroom Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Pumpkin Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Sapling Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Wheat Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: NetherWart Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Vine Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Cocoa Growth Modifier: 70%
-[15:16:40] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 8 / Mi 2
-[15:16:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:16:41] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;32;1mDetected world load for 'Survival_plots'[m
-[15:16:41] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;36;22m - generator: [0;37;22mPlotSquared>PlotSquared[m
-[15:16:41] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;36;22m - plotworld: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotWorld[m
-[15:16:41] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;36;22m - manager: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotManager[m
-[15:16:41] [Server thread/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;36;22m - schematic: [0;37;22mfalse[m
-[15:16:41] [Server thread/INFO]: World possibly already loaded: Survival_plots[m
-[15:16:41] [Server thread/INFO]: Preparing start region for level 3 (Seed: 8558054770769006382)
-[15:16:43] [Server thread/INFO]: Preparing spawn area for Survival_plots, 0%
-[15:16:44] [Server thread/INFO]: Preparing spawn area for Survival_plots, 52%
-[15:16:44] [Server thread/INFO]: [WorldGuard] (Survival_plots) TNT ignition is PERMITTED.
-[15:16:44] [Server thread/INFO]: [WorldGuard] (Survival_plots) Lighters are PERMITTED.
-[15:16:44] [Server thread/INFO]: [WorldGuard] (Survival_plots) Lava fire is blocked.
-[15:16:44] [Server thread/INFO]: [WorldGuard] (Survival_plots) All fire spread is disabled.
-[15:16:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_plots'
-[15:16:45] [Server thread/INFO]: -------- World Settings For [world_pvp] --------
-[15:16:45] [Server thread/INFO]: Experience Merge Radius: 7.0
-[15:16:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:16:45] [Server thread/INFO]: Item Despawn Rate: 1200
-[15:16:45] [Server thread/INFO]: Item Merge Radius: 5.5
-[15:16:45] [Server thread/INFO]: View Distance: 24
-[15:16:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:16:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:16:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[15:16:45] [Server thread/INFO]: Mob Spawn Range: 4
-[15:16:45] [Server thread/INFO]: Structure Info Saving: true
-[15:16:45] [Server thread/INFO]: Max TNT Explosions: 100
-[15:16:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:16:45] [Server thread/INFO]: Random Lighting Updates: false
-[15:16:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:16:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:16:45] [Server thread/INFO]: Cactus Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Cane Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Melon Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Mushroom Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Pumpkin Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Sapling Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Wheat Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: NetherWart Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Vine Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Cocoa Growth Modifier: 70%
-[15:16:45] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 8 / Mi 2
-[15:16:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:16:46] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
-[15:16:46] [Server thread/INFO]: Preparing start region for level 4 (Seed: -5080005957675913741)
-[15:16:47] [Server thread/INFO]: Preparing spawn area for world_pvp, 52%
-[15:16:47] [Server thread/INFO]: [WorldGuard] (world_pvp) TNT ignition is PERMITTED.
-[15:16:47] [Server thread/INFO]: [WorldGuard] (world_pvp) Lighters are PERMITTED.
-[15:16:47] [Server thread/INFO]: [WorldGuard] (world_pvp) Lava fire is blocked.
-[15:16:47] [Server thread/INFO]: [WorldGuard] (world_pvp) All fire spread is disabled.
-[15:16:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_pvp'
-[15:16:47] [Server thread/INFO]: -------- World Settings For [Survival] --------
-[15:16:47] [Server thread/INFO]: Experience Merge Radius: 7.0
-[15:16:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:16:47] [Server thread/INFO]: Item Despawn Rate: 1200
-[15:16:47] [Server thread/INFO]: Item Merge Radius: 5.5
-[15:16:47] [Server thread/INFO]: View Distance: 24
-[15:16:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:16:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:16:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[15:16:47] [Server thread/INFO]: Mob Spawn Range: 4
-[15:16:47] [Server thread/INFO]: Structure Info Saving: true
-[15:16:47] [Server thread/INFO]: Max TNT Explosions: 100
-[15:16:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:16:47] [Server thread/INFO]: Random Lighting Updates: false
-[15:16:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:16:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:16:47] [Server thread/INFO]: Cactus Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Cane Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Melon Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Mushroom Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Pumpkin Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Sapling Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Wheat Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: NetherWart Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Vine Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Cocoa Growth Modifier: 70%
-[15:16:47] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 8 / Mi 2
-[15:16:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:16:48] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
-[15:16:48] [Server thread/INFO]: Preparing start region for level 5 (Seed: 3111208360046127535)
-[15:16:49] [Server thread/INFO]: Preparing spawn area for Survival, 0%
-[15:16:50] [Server thread/INFO]: Preparing spawn area for Survival, 20%
-[15:16:51] [Server thread/INFO]: Preparing spawn area for Survival, 48%
-[15:16:52] [Server thread/INFO]: Preparing spawn area for Survival, 61%
-[15:16:53] [Server thread/INFO]: Preparing spawn area for Survival, 69%
-[15:16:54] [Server thread/INFO]: Preparing spawn area for Survival, 89%
-[15:16:55] [Server thread/INFO]: Preparing spawn area for Survival, 93%
-[15:16:56] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
-[15:16:56] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
-[15:16:56] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
-[15:16:56] [Server thread/INFO]: [WorldGuard] (Survival) All fire spread is disabled.
-[15:16:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
-[15:16:58] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
-[15:16:59] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[15:17:00] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1487)
-[15:17:00] [Server thread/INFO]: [AdvancedAchievements] Enabling AdvancedAchievements v5.9.0
-[15:17:01] [Server thread/INFO]: [AdvancedAchievements] Loading and backing up configuration files...
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] Loaded 403 achievements in 37 categories.
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] 10 disabled categories: [PetMasterReceive, DistanceLlama, LavaBuckets, Breeding, DistanceGliding, PlayedTime, PetMasterGive, ConsumedPotions, Custom, DistanceFoot]
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] Registering event listeners...
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] Initialising database...
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] Setting up command executor and custom tab completers...
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] Launching scheduled tasks...
-[15:17:02] [Server thread/INFO]: [AdvancedAchievements] Registering permissions...
-[15:17:03] [Server thread/INFO]: [AdvancedAchievements] Plugin has finished loading and is ready to run! Took 2101ms.
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.6
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Loading the config.yml
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Successfully loaded config.yml
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Loading the Data.yml
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Data.yml
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Loading the Messages.yml
-[15:17:03] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Messages.yml
-[15:17:03] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-bSNAPSHOT
-[15:17:03] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v1.9j
-[15:17:03] [Server thread/INFO]: [ProtectionStones] Configuring...
-[15:17:03] [Server thread/INFO]: [ProtectionStones] ...Enabled
-[15:17:03] [Server thread/INFO]: [BlockParticles] Enabling BlockParticles v1.9.7.2
-[15:17:03] [Server thread/INFO]: [MiniaturePets] Enabling MiniaturePets v2.0.9
-[15:17:03] [Server thread/INFO]: [0;31;22mCracked by mindburned[m
-[15:17:03] [Server thread/INFO]: Loading reflections....[m
-[15:17:03] [Server thread/INFO]: Done loading[m
-[15:17:04] [Server thread/INFO]: [MiniaturePets] Starting to calculate Radians!
-[15:17:05] [Server thread/INFO]: [0;31;1m[MinaiturePet] Couldn't export pet file Fox.mpet[m
-[15:17:05] [Server thread/INFO]: [0;31;1m[MinaiturePet] Couldn't export pet file LightBlueCrystal.mpet[m
-[15:17:05] [Server thread/INFO]: [0;31;1m[MinaiturePet] Couldn't export pet file LightPurpleCrystal.mpet[m
-[15:17:06] [Server thread/INFO]: [0;31;1m[MinaiturePet] Couldn't export pet file Squirly.mpet[m
-[15:17:07] [Server thread/INFO]: [0;31;1m[MinaiturePet] Couldn't export pet file Witherboss.mpet[m
-[15:17:07] [Server thread/INFO]: [MiniaturePets] Hello! If you are having problems with WorldGuard, such as being unable to spawn pets in regions, try to follow this steps:
-[15:17:07] [Server thread/INFO]: [MiniaturePets] [1] Open the WorldGuard main config
-[15:17:07] [Server thread/INFO]: [MiniaturePets] [2] Press CTRL_+ F or use the search tool. Now search for 'block-plugin-spawning'.
-[15:17:07] [Server thread/INFO]: [MiniaturePets] [3] Change the value to: 'false'
-[15:17:07] [Server thread/INFO]: [MiniaturePets] [4] Restrart the server or reload WorldGuard
-[15:17:07] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.8.12
-[15:17:07] [Server thread/ERROR]: WARNING: you seem to not be using the Xerial SQLite driver.  See ORMLite docs on SQLite: http://ormlite.com/docs/sqlite
-[15:17:07] [Server thread/INFO]: creating table 'items'
-[15:17:07] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `items` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `code` VARCHAR NOT NULL ,  UNIQUE (`code`)) 
-[15:17:07] [Server thread/ERROR]: WARNING: you seem to not be using the Xerial SQLite driver.  See ORMLite docs on SQLite: http://ormlite.com/docs/sqlite
-[15:17:07] [Server thread/INFO]: creating table 'accounts'
-[15:17:07] [Server thread/INFO]: creating index 'accounts_shortName_idx' for table 'accounts
-[15:17:07] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `accounts` (`lastSeenName` VARCHAR NOT NULL , `name` VARCHAR NOT NULL , `shortName` VARCHAR NOT NULL , `uuid` VARCHAR NOT NULL , PRIMARY KEY (`name`) ) 
-[15:17:07] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE INDEX IF NOT EXISTS `accounts_shortName_idx` ON `accounts` ( `shortName` )
-[15:17:08] [Server thread/INFO]: [ChestShop] Vault loaded! Found an economy plugin!
-[15:17:08] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
-[15:17:08] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
-[15:17:08] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
-[15:17:08] [Server thread/INFO]: [CitizensCMD] Enabling CitizensCMD v1.2.2
-[15:17:08] [Server thread/INFO]: [MoreTPPlus] Enabling MoreTPPlus v0.9l
-[15:17:08] [Server thread/INFO]: [0;32;1mYou are running on [0;37;22m'[0;36;1mv1_12_R1[0;37;22m' [0;32;1mversion[m
-[15:17:08] [Server thread/INFO]: [0;32;1mNMS support [0;37;22m'[0;36;1mMC1_12_R1[0;37;22m' [0;32;1mloaded![m
-[15:17:08] [Server thread/WARN]: java.lang.NoSuchMethodException: net.minecraft.server.v1_12_R1.TileEntity.load(net.minecraft.server.v1_12_R1.NBTTagCompound)
-[15:17:08] [Server thread/WARN]: 	at java.lang.Class.getMethod(Unknown Source)
-[15:17:08] [Server thread/WARN]: 	at me.onenrico.moretpplus.nbt.ReflectionMethod.<init>(ReflectionMethod.java:85)
-[15:17:08] [Server thread/WARN]: 	at me.onenrico.moretpplus.nbt.ReflectionMethod.<clinit>(ReflectionMethod.java:55)
-[15:17:08] [Server thread/WARN]: 	at me.onenrico.moretpplus.nbt.NBTCompound.setBoolean(NBTCompound.java:113)
-[15:17:08] [Server thread/WARN]: 	at me.onenrico.moretpplus.main.Core.onEnable(Core.java:84)
-[15:17:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[15:17:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
-[15:17:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
-[15:17:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:374)
-[15:17:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:323)
-[15:17:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421)
-[15:17:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382)
-[15:17:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337)
-[15:17:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
-[15:17:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544)
-[15:17:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[15:17:09] [Server thread/INFO]: [0;36;1m[21m<MoreTP+> API Version: [0;37;1m112[m
-[15:17:09] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-bSNAPSHOT
-[15:17:10] [Server thread/INFO]: [LeaderHeads] Enabling LeaderHeads v3.1.6
-[15:17:11] [Server thread/INFO]: [LeaderHeads] Correctly initialized skin manager
-[15:17:12] [Server thread/INFO]: [LeaderHeads] Loaded automatic reward: kills
-[15:17:12] [Server thread/INFO]: [LeaderHeads] Loaded automatic reward: votes
-[15:17:12] [Server thread/INFO]: [LeaderHeads] Hooked into Citizens
-[15:17:12] [Server thread/INFO]: [LeaderHeads] Hooked into HolographicDisplays
-[15:17:12] [Server thread/INFO]: [LeaderHeads] Hooked into SkinsRestorer
-[15:17:12] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-bSNAPSHOT
-[15:17:12] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.19.1
-[15:17:12] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
-[15:17:12] [Server thread/WARN]: [ShopGUIPlus] Spawners plugin not found, spawners won't be supported.
-[15:17:12] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
-[15:17:12] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.1.2
-[15:17:14] [Server thread/INFO]: Level: INFO
-[15:17:14] [Server thread/INFO]: [[0;32;22mMyPet[m] [mEnabling MyPet v2.3.5[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mNo Update available.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mCitizens (2.0.22-SNAPSHOT (build 1487)) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mMiniaturePets (2.0.9) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mPlaceholderAPI (2.9.1) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mPlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mProtocolLib (4.3.0) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mVault (1.5.6-b49) (Economy: Essentials Economy) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mWorldGuard (6.2.1;84bc322) hook activated.[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mCustom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry[m
-[15:17:15] [Server thread/INFO]: [[0;32;22mMyPet[m] [mCompat mode for v1_12_R1 loaded.[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m--- Loading WorldGroups ---------------------------[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added 'world' to 'default'[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added 'world_nether' to 'default'[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added 'world_the_end' to 'default'[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added 'Survival' to 'default'[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added 'Survival_plots' to 'default'[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added 'world_pvp' to 'default'[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [m-------------------------------------------------[m
-[15:17:17] [Server thread/INFO]: [[0;32;22mMyPet[m] [mversion 2.3.5-b1239[0;32;1m ENABLED[m
-[15:17:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:17:18] [Server thread/INFO]: Done (136,541s)! For help, type "help" or "?"
-[15:17:18] [Server thread/INFO]: Starting GS4 status listener
-[15:17:18] [Query Listener #1/INFO]: Query running on 0.0.0.0:41745
-[15:17:18] [Server thread/INFO]: Using default channel type
-[15:17:19] [Server thread/INFO]: [WelcomeWarpSigns] Loading warps...
-[15:17:20] [Craft Scheduler Thread - 3/INFO]: You are running the latest version of PlotSquared![m
-[15:17:20] [Craft Scheduler Thread - 13/INFO]: [PacketListenerApi] Plugin is up-to-date
-[15:17:20] [Server thread/INFO]: [INFO] [BannerBoard] Loading images...[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image auctions.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image blocks.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image coliseum.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image drawers.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image enchant.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image end.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image food.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image help.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image millonaire.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image others.png.[m
-[15:17:21] [Craft Scheduler Thread - 7/INFO]: [PlaceholderAPI] 123 placeholder expansions are available on the cloud.
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image portals.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image resources.png.[m
-[15:17:21] [Craft Scheduler Thread - 7/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image shop.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image shop2.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image survival.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image tops.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded image warppvp.png.[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded 17 image(s).[m
-[15:17:21] [Server thread/INFO]: [INFO] [BannerBoard] Connecting to skinrender.com with key ***********EY_HERE...[m
-[15:17:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12(335)
-[15:17:21] [Craft Scheduler Thread - 45/INFO]: [Marriage] Purged 0 player entries in 28ms
-[15:17:22] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v2.3.1
-[15:17:22] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
-[15:17:22] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
-[15:17:24] [Server thread/INFO]: [Citizens] Cargando a 11 NPCs.
-[15:17:24] [Craft Scheduler Thread - 37/INFO]: [Vault] Checking for Updates ... 
-[15:17:24] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.9.2) is available at:
-[15:17:24] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [1]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [2]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [3]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [4]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [5]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [6]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [8]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [9]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [10]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [11]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [12]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [13]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [14]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [15]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [16]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [17]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [18]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [19]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [21]
-[15:17:24] [Server thread/INFO]: [INFO] [BannerBoard] Succesfully loaded BannerBoard [22]
-[15:17:24] [Server thread/WARN]: [ViaVersion] There is a newer version available: 1.5.2, you're on: 1.4.1
-[15:17:25] [Craft Scheduler Thread - 18/WARN]: [SpigetUpdate] Invalid SemVer versions specified [135-SNAPSHOT] [1351]
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.5-SNAPSHOT[m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[15:17:25] [Craft Scheduler Thread - 18/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[15:17:25] [Craft Scheduler Thread - 37/WARN]: [Vault] Stable Version: 1.7.1 is out! You are still running version: 1.5.6
-[15:17:25] [Craft Scheduler Thread - 37/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
-[15:17:33] [Server thread/INFO]: Starting UUID caching[m
-[15:17:33] [Craft Scheduler Thread - 12/INFO]: [HeadDatabase] Succesfully loaded 17364 heads!
-[15:17:36] [Server thread/INFO]: [FeatherBoard] Checking for module updates ...
-[15:17:36] [Server thread/INFO]: [FeatherBoard] Fetching modules from server ...
-[15:17:40] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into economy plugin (Vault)
-[15:17:40] [Craft Scheduler Thread - 72/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;33;22mStarting player data caching for: world[m
-[15:17:40] [Craft Scheduler Thread - 72/INFO]: [0;32;1mFast mode UUID caching enabled![m
-[15:17:40] [Craft Scheduler Thread - 72/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;33;22mCached a total of: 3 UUIDs[m
-[15:17:40] [Craft Scheduler Thread - 72/INFO]: Failed to cache: 1 uuids - slowly processing all files[m
-[15:17:40] [Craft Scheduler Thread - 72/INFO]: [0;30;1m[[0;32;22m[21mP[0;32;1m[21mLO[0;37;1m[21mTS[0;30;1m] [m[0;33;22mCached a total of: 13 UUIDs[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;36;1mNMS Version [0;37;1mv1_12_R1 Detected[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m> MoreTPPlus [0;36;1mHas Been Activated ![m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m> [0;36;1mThanks's For using Premium Version Of This Plugin[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m> #--------- [0;36;1mDepedency Loaded [0;37;22m---------#[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;36;1mEssentials[0;37;1m[21m:[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;37;1m- Warp[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;37;1m- Home[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;37;1m- Spawn[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;33;22mVault[0;37;1m[21m:[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;37;1m- Economy[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  [0;37;1m- Permissions[m
-[15:17:41] [Craft Scheduler Thread - 73/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m>  #--------- [0;36;1mDepedency Loaded [0;37;22m---------#[m
-[15:17:48] [Craft Scheduler Thread - 14/INFO]: [AutoUpdaterAPI] Updated keys detected and enabled.
-[15:17:54] [User Authenticator #1/INFO]: UUID of player byangelc is 3045c6fd-b837-3ad8-b29e-d7f647d0e868
-[15:17:55] [Craft Scheduler Thread - 12/INFO]: [HeadDatabase] Succesfully loaded 12 featured tags!
-[15:18:04] [Server thread/INFO]: byangelc[/127.0.0.1:50230] logged in with entity id 2058 at ([Survival]-477.90582402771116, 64.0, 25.9307897663276)
-[15:18:07] [Server thread/INFO]: [0;30;1m[[0;32;1m?[0;30;1m] [0;32;1m[0;37;1mbyangelc[m[m
-[15:18:22] [Server thread/INFO]: CONSOLE issued server command: /eco give byangelc 50
-[15:18:22] [Server thread/INFO]: [0;32;1m$50 added to [0;37;1mbyangelc[m[0;32;1m account. New balance: $999,985,195[m
-[15:18:31] [Async Chat Thread - #0/INFO]: [m[0;37;1m[0;37;1mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1ms[m
-[15:18:50] [Server thread/INFO]: byangelc issued server command: /menu
-[15:19:33] [Server thread/INFO]: byangelc issued server command: /profile
-[15:20:23] [Server thread/INFO]: byangelc issued server command: /menu
-[15:21:31] [Server thread/INFO]: byangelc issued server command: /mpet
-[15:23:45] [Server thread/INFO]: byangelc issued server command: /shop
-[15:24:54] [Server thread/INFO]: byangelc lost connection: Disconnected
-[15:24:54] [Server thread/INFO]: [?] byangelc
-[15:25:21] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
-[15:26:01] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
-[15:26:21] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
-[15:32:44] [Server thread/INFO]: Stopping the server
-[15:32:44] [Server thread/INFO]: Stopping server
-[15:32:44] [Server thread/INFO]: [[0;32;22mMyPet[m] [mDisabling MyPet v2.3.5[m
-[15:32:44] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: mypet
-[15:32:45] [Server thread/INFO]: [[0;32;22mMyPet[m] [mCustom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry[m
-[15:32:45] [Server thread/INFO]: [TitleManager] Disabling TitleManager v2.1.2
-[15:32:45] [Server thread/INFO]: [ShopGUIPlus] Disabling ShopGUIPlus v1.19.1
-[15:32:45] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-bSNAPSHOT
-[15:32:45] [Server thread/INFO]: [LeaderHeads] Disabling LeaderHeads v3.1.6
-[15:32:45] [Server thread/INFO]: [LeaderHeads] Shutting down database connection.
-[15:32:45] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.0.1-bSNAPSHOT
-[15:32:45] [Server thread/INFO]: [MoreTPPlus] Disabling MoreTPPlus v0.9l
-[15:32:45] [Server thread/INFO]: [0;37;22m[21m<[0;36;1mBLITE[0;33;22m[21mTP[0;37;22m[21m> [0;31;1mPlugin Disabled ![m
-[15:32:45] [Server thread/INFO]: [CitizensCMD] Disabling CitizensCMD v1.2.2
-[15:32:45] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
-[15:32:45] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.0.9
-[15:32:45] [Server thread/INFO]: [BlockParticles] Disabling BlockParticles v1.9.7.2
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v1.9j
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Saving world
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Saving world_nether
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Saving world_the_end
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Saving Survival_plots
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Saving world_pvp
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Saving Survival
-[15:32:45] [Server thread/INFO]: [ProtectionStones] Disabled
-[15:32:45] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-bSNAPSHOT
-[15:32:45] [Server thread/INFO]: [CrazyAuctions] Disabling CrazyAuctions v1.2.6
-[15:32:45] [Server thread/INFO]: [AdvancedAchievements] Disabling AdvancedAchievements v5.9.0
-[15:32:45] [Server thread/INFO]: [AdvancedAchievements] Remaining requests sent to the database, plugin successfully disabled.
-[15:32:45] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1487)
-[15:32:45] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.3.0
-[15:32:45] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-b727
-[15:32:45] [Server thread/INFO]: [HeadDatabase] Disabling HeadDatabase v4.2.0
-[15:32:45] [Server thread/INFO]: [EpicSpawners] Disabling EpicSpawners v1.0.1
-[15:32:45] [Server thread/INFO]: [0;32;1m=============================[m
-[15:32:45] [Server thread/INFO]: [0;37;22mEpicSpawners 1.0.1 by [0;35;22mBrianna <3![m
-[15:32:45] [Server thread/INFO]: [0;37;22mAction: [0;31;1mDisabling[0;37;22m...[m
-[15:32:45] [Server thread/INFO]: [0;32;1m=============================[m
-[15:32:45] [Server thread/INFO]: [AdvancedEnchantments] Disabling AdvancedEnchantments v4.4.7
-[15:32:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-bSNAPSHOT
-[15:32:48] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
-[15:32:48] [Server thread/INFO]: [StaffPlus] Disabling StaffPlus v3.2.7.1
-[15:32:48] [Server thread/INFO]: [0;31;22m[Staff+] [0;31;1mStaff+ is now disabling![m
-[15:32:48] [Server thread/INFO]: Removing channels for online players...
-[15:32:48] [Server thread/INFO]: Removing packet handlers (1)...
-[15:32:48] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.4.1
-[15:32:48] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[15:32:48] [Server thread/INFO]: [Brewery] Disabling Brewery v1.5
-[15:32:48] [Server thread/INFO]: [0;32;22m[Brewery] [0;37;1mBrewery disabled![m
-[15:32:48] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.1;84bc322
-[15:32:48] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[15:32:48] [Server thread/INFO]: [Marriage] Disabling Marriage v2.0.18
-[15:32:48] [Server thread/INFO]: [Marriage] Loading database...
-[15:32:48] [Server thread/INFO]: [Marriage] Plugin has been completely disabled.
-[15:32:48] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v3.5.0-SNAPSHOT-95f8aaa
-[15:32:48] [Server thread/INFO]: [0;33;22mAll DB transactions during this session are being validated (This may take a while if corrections need to be made)[m
-[15:32:48] [Server thread/INFO]: [CrazyCrates] Disabling CrazyCrates v1.8.3
-[15:32:48] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder hook for placeholder: crazycrates
-[15:32:48] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
-[15:32:48] [Server thread/INFO]: [FeatherBoard] Disabling FeatherBoard v4.13.0
-[15:32:49] [Server thread/INFO]: [FeatherBoard] Cancelling all tasks ...
-[15:32:50] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[15:32:50] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[15:32:50] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.10.5
-[15:32:50] [Server thread/INFO]: [MVdWPlaceholderAPI] Disabling MVdWPlaceholderAPI v2.5.1
-[15:32:50] [Server thread/INFO]: [BannerBoard] Disabling BannerBoard v1.9.9
-[15:32:51] [Server thread/INFO]: [VehiclesFlags] Disabling VehiclesFlags v1.0
-[15:32:51] [Server thread/INFO]: [AutoUpdaterAPI] Disabling AutoUpdaterAPI v2.5.3-SNAPSHOT
-[15:32:51] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
-[15:32:51] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[15:32:51] [Server thread/INFO]: [PacketListenerApi] Disabling PacketListenerApi v3.7.1-SNAPSHOT
-[15:32:51] [Server thread/INFO]: [CombatLog] Disabling CombatLog v2.3.0
-[15:32:51] [Server thread/INFO]: [CombatLog] Disabled.
-[15:32:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.7;dd00bb1
-[15:32:51] [Server thread/INFO]: [PlayerHeads] Disabling PlayerHeads v3.10-SNAPSHOT-jenkins-PlayerHeads-1-61-g39b94b4
-[15:32:51] [Server thread/INFO]: [icJukeBox] Disabling icJukeBox v1.6.4
-[15:32:51] [Server thread/INFO]: [WelcomeWarpSigns] Disabling WelcomeWarpSigns v1.3
-[15:32:51] [Server thread/INFO]: [Friends3_0] Disabling Friends3_0 v3.0.2.5
-[15:32:51] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.5-SNAPSHOT
-[15:32:51] [Server thread/INFO]: [Arconix] Disabling Arconix v1.1.1
-[15:32:51] [Server thread/WARN]: [RewardPRO] <MySQL> Disconnected!
-[15:32:51] [Server thread/INFO]: [0;36;22m[21mRewardPro >>> Plugin RewardPro is diabled[m
-[15:32:51] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.2.0
-[15:32:51] [Server thread/INFO]: [SpawnJoin] Disabling SpawnJoin v2.0.0
-[15:32:51] [Server thread/INFO]: [Profiles] Disabling Profiles v2.1
-[15:32:51] [Server thread/INFO]: [BetterChairs] Disabling BetterChairs v0.9.5
-[15:32:51] [Server thread/INFO]: [Vehicles] Disabling Vehicles v9.3.2
-[15:32:51] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.9.1
-[15:32:51] [Server thread/INFO]: Saving players
-[15:32:51] [Server thread/INFO]: Saving worlds
-[15:32:51] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[15:32:51] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[15:32:51] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
-[15:32:51] [Server thread/INFO]: Saving chunks for level 'Survival_plots'/overworld
-[15:32:52] [Server thread/INFO]: Saving chunks for level 'world_pvp'/overworld
-[15:32:53] [Server thread/INFO]: Saving chunks for level 'Survival'/overworld
+[12:23:34] [Server thread/INFO]: byangelc lost connection: Timed out
+[12:23:35] [Spigot Watchdog Thread/ERROR]: The server has stopped responding!
+[12:23:37] [Spigot Watchdog Thread/ERROR]: Please report this to http://www.spigotmc.org/
+[12:23:37] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[12:23:37] [Spigot Watchdog Thread/ERROR]: Spigot version: git-Spigot-596221b-9a1fc1e (MC: 1.12)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:37] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[12:23:37] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:37] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.io.FileInputStream.readBytes(Native Method)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.io.FileInputStream.read(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamDecoder.read(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.io.InputStreamReader.read(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedReader.fill(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedReader.readLine(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedReader.readLine(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:154)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:179)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		com.kirelcodes.miniaturepets.config.BaseConfig.reloadConfig(BaseConfig.java:30)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		com.kirelcodes.miniaturepets.config.BaseConfig.<init>(BaseConfig.java:96)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		com.kirelcodes.miniaturepets.data.adapters.ConfigDataManager.getPlayerConfig(ConfigDataManager.java:103)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		com.kirelcodes.miniaturepets.data.adapters.ConfigDataManager.setPlayerString(ConfigDataManager.java:38)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		com.kirelcodes.miniaturepets.listener.CoreListener.playerLeaveEvent(CoreListener.java:292)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.lang.reflect.Method.invoke(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.PlayerList.disconnect(PlayerList.java:399)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1095)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NetworkManager.handleDisconnection(NetworkManager.java:319)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:174)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:842)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:37] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:37] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-31
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 388 | Suspended: false | Native: true | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.sqlite.core.NativeDB.step(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.sqlite.core.DB.execute(DB.java:811)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.sqlite.core.DB.executeUpdate(DB.java:863)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.sqlite.core.NativeDB.step(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.sqlite.core.DB.execute(DB.java:811)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.sqlite.core.DB.executeUpdate(DB.java:863)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:99)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		com.lenis0012.bukkit.marriage2.internal.data.DataManager.savePlayer(DataManager.java:233)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		com.lenis0012.bukkit.marriage2.internal.MarriageCore$2.run(MarriageCore.java:232)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 194
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 386 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 193
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 385 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 192
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 384 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 191
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 383 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-11-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 382 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 190
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 381 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 189
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 380 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-30
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 378 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		com.statiocraft.xxmicloxx.NoteBlockAPI.SongPlayer$1.run(SongPlayer.java:116)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-4-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 364 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-25-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 291 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: RxComputationScheduler-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 290 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 115
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 285 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Chunk I/O Executor Thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 280 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: ProtocolLib-StructureCompiler 0
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 279 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-43-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 277 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-44-thread-2
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 276 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-44-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 275 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-45-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 274 | Suspended: false | Native: false | State: BLOCKED
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.getPlugin(SimplePluginManager.java:358)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.isPluginEnabled(SimplePluginManager.java:374)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.placeholder.PluginHook.isEnabled(PluginHook.kt:14)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.APIProvider.replaceText(APIProvider.kt:133)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.APIProvider.setHeaderWithPlaceholders(APIProvider.kt:536)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.TitleManagerPlugin.setHeaderWithPlaceholders(TitleManagerPlugin.kt)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.extensions.PlayerExtensionsKt.setPlayerListHeader(PlayerExtensions.kt:110)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.APIProvider$toHeaderAnimation$4.invoke(APIProvider.kt:349)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.APIProvider$toHeaderAnimation$4.invoke(APIProvider.kt:46)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.animations.PartBasedSendableAnimation.update(PartBasedSendableAnimation.kt:81)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.animations.PartBasedSendableAnimation$update$2.invoke(PartBasedSendableAnimation.kt:88)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.animations.PartBasedSendableAnimation$update$2.invoke(PartBasedSendableAnimation.kt:11)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.puharesource.mc.titlemanager.scheduling.AsyncScheduler$scheduleRaw$1.run(AsyncScheduler.kt:43)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.FutureTask.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-40-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 273 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-3-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 270 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 267 | Suspended: false | Native: true | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:752)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:408)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 109
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 264 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 261 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:752)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:408)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: threadDeathWatcher-2-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 259 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 258 | Suspended: false | Native: true | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:752)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:408)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Keep-Alive-SocketCleaner
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 257 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.net.www.http.KeepAliveStreamCleaner.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-38-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 226 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 212 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.FileIOThread.c(SourceFile:51)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.FileIOThread.run(SourceFile:30)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-39-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 206 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 95 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		com.intellectualcrafters.plot.database.SQLManager$1.run(SQLManager.java:155)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 93 | Suspended: false | Native: true | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:752)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:408)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Query Listener #1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 92 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.net.DualStackPlainDatagramSocketImpl.receive0(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.net.AbstractPlainDatagramSocketImpl.receive(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.net.DatagramSocket.receive(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.net.DatagramSocket.receive(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.net.DualStackPlainDatagramSocketImpl.receive0(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.net.AbstractPlainDatagramSocketImpl.receive(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.net.DatagramSocket.receive(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.RemoteStatusListener.run(SourceFile:269)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: RxIoScheduler-1 (Evictor)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 90 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: RxScheduledExecutorPool-2
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 89 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: RxScheduledExecutorPool-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 88 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-37-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 83 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Java2D Disposer
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 77 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.java2d.Disposer.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Head Conversion Thread - 2
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 73 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Head Conversion Thread - 1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 72 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Head Conversion Thread - 0
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 71 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-26-thread-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 59 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-3
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 55 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-2
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-1
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-0
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 34 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Abandoned connection cleanup thread
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:76)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: true | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.ReadConsoleInputW(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.readConsoleInputHelper(Kernel32.java:761)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.readConsoleKeyInput(Kernel32.java:794)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.WindowsTerminal.readConsoleInput(WindowsTerminal.java:215)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.WindowsTerminal.access$000(WindowsTerminal.java:55)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.WindowsTerminal$1.read(WindowsTerminal.java:157)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:85)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-4
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedOutputStream.flush(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.writeBytes(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flush(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:82)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:36)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:174)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.open0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.open(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.<init>(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.<init>(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		de.HyChrod.Friends.DataManagement.UTF8YamlConfiguration.save(UTF8YamlConfiguration.java:40)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		de.HyChrod.Friends.DataManagement.FileManager.saveFile(FileManager.java:52)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		de.HyChrod.Friends.DataManagement.FileManager.save(FileManager.java:47)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		de.HyChrod.Friends.Utilities.FriendPlayer.save(FriendPlayer.java:699)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		de.HyChrod.Friends.Listeners.QuitListener.onQuit(QuitListener.java:34)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.reflect.Method.invoke(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.PlayerList.disconnect(PlayerList.java:399)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1095)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NetworkManager.handleDisconnection(NetworkManager.java:319)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:174)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:842)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: TIMED_WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.DedicatedServer$1.run(DedicatedServer.java:60)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 14 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 6 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference.tryHandlePending(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+[12:23:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[12:23:48] [Server thread/INFO]: [?] byangelc
+[12:23:50] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[12:23:54] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 4.4.0 (Running 4.3.0). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+[12:28:47] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[12:29:27] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[12:29:47] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[12:34:28] [Craft Scheduler Thread - 201/WARN]: [RewardPRO] <MySQL> Disconnected!
+[12:36:29] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[12:37:09] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[12:37:29] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[12:44:13] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[12:44:53] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[12:45:13] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[12:51:55] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[12:52:35] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[12:52:55] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[12:54:36] [Craft Scheduler Thread - 223/WARN]: [RewardPRO] <MySQL> Disconnected!
+[12:59:38] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:00:19] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:00:39] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:07:20] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:08:00] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:08:20] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:14:48] [Craft Scheduler Thread - 285/WARN]: [RewardPRO] <MySQL> Disconnected!
+[13:14:48] [Craft Scheduler Thread - 296/INFO]: [Marriage] Purged 0 player entries in 20ms
+[13:15:07] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:15:49] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:16:09] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:18:56] [User Authenticator #3/INFO]: UUID of player byangelc is 3045c6fd-b837-3ad8-b29e-d7f647d0e868
+[13:18:57] [Server thread/INFO]: byangelc[/127.0.0.1:58998] logged in with entity id 374909 at ([Survival]-481.0575160396505, 64.0, 25.380423060146654)
+[13:18:57] [Server thread/INFO]: [0;30;1m[[0;32;1m?[0;30;1m] [0;32;1m[0;37;1mbyangelc[m[m
+[13:21:29] [Server thread/INFO]: [0;37;1mUser groups set![m
+[13:21:34] [Async Chat Thread - #0/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1masd[m
+[13:23:03] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:23:44] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:24:04] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:24:28] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[13:30:47] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:31:27] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:31:47] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:35:08] [Craft Scheduler Thread - 351/WARN]: [RewardPRO] <MySQL> Disconnected!
+[13:38:29] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:39:09] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:39:30] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:46:12] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:46:52] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:47:12] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:53:57] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[13:54:37] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[13:54:58] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[13:55:19] [Craft Scheduler Thread - 372/WARN]: [RewardPRO] <MySQL> Disconnected!
+[14:00:26] [Craft Scheduler Thread - 393/WARN]: [CrazyAuctions] MassiveStats was unable to communicate with its API endpoint.
+[14:01:40] [Async Chat Thread - #1/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1m[0;36;1m[m
+[14:01:43] [Async Chat Thread - #1/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1m[0;36;1m ASD[m
+[14:01:44] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[14:01:48] [Async Chat Thread - #1/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1m[0;32;1m asd[m
+[14:01:58] [Async Chat Thread - #1/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1m[0;32;1m[21mDEV[m
+[14:02:04] [Async Chat Thread - #1/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1m[0;36;22m[21mDEV[m
+[14:02:08] [Async Chat Thread - #1/INFO]: [m[0;37;1m[0;36;22m[21mNA[0;36;1m[21mVIGA[0;37;1m[21mTOR [0;36;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1m[0;32;22m[21mDEV[m
+[14:02:24] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[14:02:44] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[14:05:58] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:05:58] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[14:06:08] [Server thread/INFO]: [0;37;1mUser groups set![m
+[14:06:11] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;31;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1mas[m
+[14:07:07] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;31;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1masd[m
+[14:07:09] [Server thread/INFO]: [0;37;1mUser groups set![m
+[14:07:11] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;31;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1masd[m
+[14:07:17] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:07:17] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[14:07:20] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;31;22mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1masd[m
+[14:08:00] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:08:00] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[14:08:02] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;32;1mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1masd[m
+[14:08:23] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:08:24] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[14:08:25] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;32;1mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1ma[m
+[14:08:44] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;32;1mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1mad[m
+[14:08:47] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:08:47] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[14:08:48] [Async Chat Thread - #2/INFO]: [m[0;37;1m[0;32;22m[21mDEV [0;32;1m[21mbyangelc[m [0;36;22m?[0;36;1m? [0;37;1mdas[m
+[14:09:29] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[14:10:09] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[14:10:30] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
+[14:15:34] [Craft Scheduler Thread - 409/WARN]: [RewardPRO] <MySQL> Disconnected!
+[14:15:34] [Craft Scheduler Thread - 420/INFO]: [Marriage] Purged 0 player entries in 4ms
+[14:17:15] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m60 seconds![m
+[14:17:56] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mThe soil items will be eliminated in [0;36;22m20 seconds![m
+[14:18:16] [Server thread/INFO]: [0;31;1m[21mCLEANER[0;30;1m: [0;30;1mHave been cleaned [0;36;1m[21m2 entities![m
