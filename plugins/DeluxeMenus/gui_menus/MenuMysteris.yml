@@ -8,7 +8,7 @@ items:
     slot: 11
     display_name: '&c&lNether'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp nether'
     - '[close]'
@@ -20,7 +20,7 @@ items:
     slot: 15
     display_name: '&3&lEnd'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp end'
     - '[close]'
@@ -30,7 +30,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 22
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Anterior'
     left_click_commands:
     - '[player] menu'
     - '[close]'
@@ -40,7 +40,7 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
     left_click_commands:
     - '[player] menu'
     - '[close]'

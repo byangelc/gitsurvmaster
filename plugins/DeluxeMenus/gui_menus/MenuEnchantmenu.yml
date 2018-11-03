@@ -1,14 +1,14 @@
 #
-menu_title: '&8¡ENCHANTS!'
+menu_title: '&8¡ENCANTAMIENTOS!'
 open_command: Enchantmenu
 size: 27
 items:
   '1':
     material: 'hdb-297'
     slot: 11
-    display_name: '&e&lENCHANTER'
+    display_name: '&e&lENCANTADOR'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] enchanter'
     - '[close]'
@@ -20,7 +20,7 @@ items:
     slot: 13
     display_name: '&e&lGKITS'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] gkits'
     - '[close]'
@@ -30,9 +30,9 @@ items:
   '5':
     material: '379'
     slot: 15
-    display_name: '&e&lALCHEMIST'
+    display_name: '&e&lAlquimista'
     lore:
-    - '&aTo use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] alchemist'
     - '[close]'
@@ -42,7 +42,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 22
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Anterior'
     left_click_commands:
     - '[player] menu'
     - '[close]'
@@ -52,7 +52,7 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
     left_click_commands:
     - '[player] menu'
     - '[close]'

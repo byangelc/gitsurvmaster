@@ -1,14 +1,14 @@
 #
-menu_title: '&8¡YOU!'
+menu_title: '&8¡Acerca de ti!'
 open_command: menume
 size: 27
 items:
   '1':
     material: 'hdb-1088'
     slot: 11
-    display_name: '&c&lProfile'
+    display_name: '&c&lPerfil'
     lore:
-    - '&aTo  view click Right/Left!'
+    - '&aPara ver más click Right/Left!'
     left_click_commands:
     - '[player] profile'
     right_click_commands:
@@ -16,9 +16,9 @@ items:
   '2':
     material: 'hdb-8636'
     slot: 15
-    display_name: '&3&lFriends'
+    display_name: '&3&lAmigos'
     lore:
-    - '&aTo view click Right/Left!'
+    - '&aPara ver más click Right/Left!'
     left_click_commands:
     - '[player] f'
     right_click_commands:
@@ -26,7 +26,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 22
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Anterior'
     left_click_commands:
     - '[player] menu'
     - '[close]'
@@ -36,7 +36,7 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
     left_click_commands:
     - '[player] menu'
     - '[close]'

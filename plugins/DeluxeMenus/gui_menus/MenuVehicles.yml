@@ -1,14 +1,14 @@
 #
-menu_title: '&8¡VEHICLES SHOP!'
+menu_title: '&8¡CONCESIONARIO!'
 open_command: vehiclesshop
 size: 54
 items:
   'bikeshop':
     material: 'hdb-16836'
     slot: 20
-    display_name: '&e&lBIKE SHOP'
+    display_name: '&e&lTIENDA DE BICILETAS'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] bikeshop'
     - '[sound] LEVEL_UP'
@@ -20,9 +20,9 @@ items:
   'carshop':
     material: 'hdb-831'
     slot: 21
-    display_name: '&e&lCAR SHOP'
+    display_name: '&e&lTIENDA DE AUTOS'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] carshop'
     - '[sound] LEVEL_UP'
@@ -34,9 +34,9 @@ items:
   'trainshop':
     material: 'hdb-7658'
     slot: 22
-    display_name: '&e&lTRAINSHOP'
+    display_name: '&e&lTIENDA DE TRENES'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] trainshop'
     - '[sound] LEVEL_UP'
@@ -48,9 +48,9 @@ items:
   'raftshop':
     material: 'hdb-1637'
     slot: 23
-    display_name: '&e&lRAFT SHOP'
+    display_name: '&e&lTIENDA ACUÁTICA'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] raftshop'
     - '[sound] LEVEL_UP'
@@ -62,9 +62,9 @@ items:
   'planeshop':
     material: 'hdb-11444'
     slot: 24
-    display_name: '&e&lPLANE SHOP'
+    display_name: '&e&lAEREOTIENDA'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] planeshop'
     - '[sound] LEVEL_UP'
@@ -76,9 +76,9 @@ items:
   'parachuteshop':
     material: 'hdb-4321'
     slot: 29
-    display_name: '&e&lPARACHUTE SHOP'
+    display_name: '&e&lTIENDA DE PARACAIDAS'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] parachuteshop'
     - '[sound] LEVEL_UP'
@@ -90,9 +90,9 @@ items:
   'tankshop':
     material: 'hdb-15050'
     slot: 30
-    display_name: '&e&lTANK SHOP'
+    display_name: '&e&lTANQUES DE GUERRA'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] tankshop'
     - '[sound] LEVEL_UP'
@@ -104,9 +104,9 @@ items:
   'helicoptershop':
     material: 'hdb-17947'
     slot: 31
-    display_name: '&e&lHELICOPTER SHOP'
+    display_name: '&e&lTIENDA DE HELICOPTEROS'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] helicoptershop'
     - '[sound] LEVEL_UP'
@@ -118,7 +118,7 @@ items:
   'submarineshop':
     material: 'hdb-17711'
     slot: 32
-    display_name: '&e&lSUBMARINE SHOP'
+    display_name: '&e&lSUBMARINOS!'
     lore:
     - '&aTo  use click Right/Left!'
     left_click_commands:
@@ -132,9 +132,9 @@ items:
   'broomshop':
     material: 'hdb-4691'
     slot: 33
-    display_name: '&e&lBROOM SHOP'
+    display_name: '&e&lBROOMS'
     lore:
-    - '&aTo  use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] broomshop'
     - '[sound] LEVEL_UP'
@@ -146,7 +146,7 @@ items:
   'hoverbikeshop':
     material: 'hdb-16837'
     slot: 40
-    display_name: '&e&lHOVER BIKE SHOP'
+    display_name: '&e&lVEHÍCULOS FLOTADORES'
     lore:
     - '&aTo  use click Right/Left!'
     left_click_commands:
@@ -160,7 +160,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 49
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Regresar'
     left_click_commands:
     - '[openguimenu] menu'
     right_click_commands:
@@ -168,7 +168,7 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
   'Panel1':
     material: 160
     data: 15

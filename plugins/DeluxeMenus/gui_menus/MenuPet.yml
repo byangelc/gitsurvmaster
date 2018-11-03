@@ -1,16 +1,16 @@
 #
-menu_title: '&8¡Menu pet!'
+menu_title: '&8¡Menu de Mascotas!'
 open_command: menupet
 size: 27
 items:
   '1':
     material: 420
     slot: 11
-    display_name: '&c&lMypet pets'
+    display_name: '&c&lMascotas Mypet'
     lore:
-    - '&aTo  view click Right/Left!'
+    - '&aPara ver más click Right/Left!'
     - ''
-    - '&7[&a➜&7] &6&lView information about normal pets'
+    - '&7[&a➜&7] &6&lMira más acerca de los pets normales'
     - ''
     left_click_commands:
     - '[player] mypet'
@@ -23,9 +23,9 @@ items:
     slot: 15
     display_name: '&3&lMinipets'
     lore:
-    - '&aTo view click Right/Left!'
+    - '&aPara ver más click Right/Left!'
     - ''
-    - '&7[&a➜&7] &6&lHERE THE MINIPETS FOR VIP PLAYERS'
+    - '&7[&a➜&7] &6&lMINIPETS SOLO PARA MIEMBROS VIP'
     - ''
     left_click_commands:
     - '[player] mpet'
@@ -34,7 +34,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 22
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Anterior'
     left_click_commands:
     - '[player] menu'
     - '[close]'
@@ -44,7 +44,7 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
     left_click_commands:
     - '[player] menu'
     - '[close]'

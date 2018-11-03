@@ -9,13 +9,13 @@ items:
     material: 276
     data: 0
     slot: 19
-    display_name: '&8Kit of &f&lUSER'
+    display_name: '&8Kit de &f&lUSER'
     lore:
     - ''
-    - '&7Claim this kit every'
-    - '&b15 &7days'
+    - '&7Reclama este kit cada'
+    - '&b15 &7días'
     - ''
-    - '&2➜ &aUse click Right/Left!'
+    - '&2➜ &aUsa click Right/Left!'
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
@@ -28,7 +28,7 @@ items:
     material: 403
     data: 0
     slot: 28
-    display_name: '&8✎ &eObserve content'
+    display_name: '&8✎ &eObserva el contenido'
     left_click_commands:
     - '[openguimenu] Kits_User'
     right_click_commands:
@@ -37,13 +37,13 @@ items:
     material: 276
     data: 0
     slot: 20
-    display_name: '&8Kit of &3&lEU&b&lRO&f&lPA'
+    display_name: '&8Kit de &3&lEU&b&lRO&f&lPA'
     lore:
     - ''
-    - '&7Claim this kit every'
-    - '&b15 &7days'
+    - '&7Reclama este kit cada'
+    - '&b15 &7días'
     - ''
-    - '&2➜ &aUse click Right/Left!'
+    - '&2➜ &aUsa click Right/Left!'
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
@@ -56,7 +56,7 @@ items:
     material: 403
     data: 0
     slot: 29
-    display_name: '&8✎ &eObserve content'
+    display_name: '&8✎ &eObserva el contenido'
     left_click_commands:
     - '[openguimenu] Kits_Navigator'
     right_click_commands:
@@ -65,13 +65,13 @@ items:
     material: 276
     data: 0
     slot: 21
-    display_name: '&8Kit of &6&lGAN&e&lYME&f&lDES'
+    display_name: '&8Kit de &6&lGAN&e&lYME&f&lDES'
     lore:
     - ''
-    - '&7Claim this kit every'
-    - '&b15 &7days'
+    - '&7Reclama este kit cada'
+    - '&b15 &7días'
     - ''
-    - '&2➜ &aUse click Right/Left!'
+    - '&2➜ &aUsa click Right/Left!'
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
@@ -84,7 +84,7 @@ items:
     material: 403
     data: 0
     slot: 30
-    display_name: '&8✎ &eObserve content'
+    display_name: '&8✎ &eObserva el contenido'
     left_click_commands:
     - '[openguimenu] Kits_Admiral'
     right_click_commands:
@@ -93,13 +93,13 @@ items:
     material: 276
     data: 0
     slot: 22
-    display_name: '&8Kit of &2&lHE&a&lLI&f&lOS'
+    display_name: '&8Kit de &2&lHE&a&lLI&f&lOS'
     lore:
     - ''
-    - '&7Claim this kit every'
-    - '&b15 &7days'
+    - '&7Reclama este kit cada'
+    - '&b15 &7días'
     - ''
-    - '&2➜ &aUse click Right/Left!'
+    - '&2➜ &aUsa click Right/Left!'
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
@@ -112,7 +112,7 @@ items:
     material: 403
     data: 0
     slot: 31
-    display_name: '&8✎ &eObserve content'
+    display_name: '&8✎ &eObserva el contenido'
     left_click_commands:
     - '[openguimenu] Kits_Captain'
     right_click_commands:
@@ -121,13 +121,13 @@ items:
     material: 276
     data: 0
     slot: 23
-    display_name: '&8Kit of &5&lKE&d&lPLER'
+    display_name: '&8Kit de &5&lKE&d&lPLER'
     lore:
     - ''
-    - '&7Claim this kit every'
-    - '&b15 &7days'
+    - '&7Reclama este día cada'
+    - '&b15 &7días'
     - ''
-    - '&2➜ &aUse click Right/Left!'
+    - '&2➜ &aUsa click Right/Left!'
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
@@ -140,7 +140,7 @@ items:
     material: 403
     data: 0
     slot: 32
-    display_name: '&8✎ &eObserve content'
+    display_name: '&8✎ &eObserva el contenido'
     left_click_commands:
     - '[openguimenu] Kits_Lieutenant'
     right_click_commands:
@@ -149,13 +149,13 @@ items:
     material: 276
     data: 0
     slot: 25
-    display_name: '&8Kit of &7&lPVP'
+    display_name: '&8Kit de &7&lPVP'
     lore:
     - ''
-    - '&7Claim this kit every'
-    - '&b30 &7seconds'
+    - '&7Reclama este kit cada'
+    - '&b30 &7segundos'
     - ''
-    - '&2➜ &aUse click Right/Left!'
+    - '&2➜ &aUsa click Right/Left!'
     enchantments:
     - 'DAMAGE_ALL;5'
     left_click_commands:
@@ -168,7 +168,7 @@ items:
     material: 403
     data: 0
     slot: 34
-    display_name: '&8✎ &eObserve content'
+    display_name: '&8✎ &eObserva el contenido'
     left_click_commands:
     - '[openguimenu] Kits_PvP'
     right_click_commands:
@@ -176,11 +176,11 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
   'Back':
     material: 'hdb-10786'
     slot: 49
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Anterior'
     left_click_commands:
     - '[player] menu'
     - '[close]'

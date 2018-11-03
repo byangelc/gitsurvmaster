@@ -6,7 +6,7 @@ items:
   '1':
     material: 'hdb-7035'
     slot: 10
-    display_name: '&e&lAnimals'
+    display_name: '&e&lAnimales'
   'Bars1':
     material: 101
     slot: 11
@@ -14,19 +14,19 @@ items:
   'Sheep':
     material: 52
     slot: 12
-    display_name: '&eSheep &fSpawner'
+    display_name: '&eOvejas &fSpawner'
     lore:
-    - '&8Price: &2$1000000'
-    - '&aBuy with click Right/Left!'
+    - '&8Precio: &2$1000000'
+    - '&aCompra con click Right/Left!'
     left_click_commands:
     - '[console] eco take %player_name% 999999.999'
     - '[console] es give %player_name% Sheep 1 1'
-    - '[message] &aYou have successfully purchased a sheep spawner!'
+    - '[message] &aHas comprado exitosamente el spawner!'
     - '[close]'
     right_click_commands:
     - '[console] eco take %player_name% 999999.999'
     - '[console] es give %player_name% Sheep 1 1'
-    - '[message] &aYou have successfully purchased a sheep spawner!'
+    - '[message] &aHas comprado exitosamente el spawner!'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -34,7 +34,7 @@ items:
           type: has money
           amount: 1000000
       deny_commands:
-      - '[message] &cYou do not have enough money to buy.'
+      - '[message] &cNo tienes suficiente dinero.'
       - '[close]'
     right_click_requirement:
       requirements:
@@ -42,24 +42,24 @@ items:
           type: has money
           amount: 1000000
       deny_commands:
-      - '[message] &cYou do not have enough money to buy.'
+      - '[message] &cNo tienes suficiente dinero.'
       - '[close]'
   'Pig':
     material: 52
     slot: 13
-    display_name: '&ePig &fSpawner'
+    display_name: '&eCerdo &fSpawner'
     lore:
-    - '&8Price: &2$2000000'
-    - '&aBuy with click Right/Left!'
+    - '&8Precio: &2$2000000'
+    - '&aCompra con click Right/Left!'
     left_click_commands:
     - '[console] eco take %player_name% 1999999.999'
     - '[console] es give %player_name% Pig 1 1'
-    - '[message] &aYou have successfully purchased a pig spawner!'
+    - '[message] &aHas comprado exitosamente el spawner!'
     - '[close]'
     right_click_commands:
     - '[console] eco take %player_name% 1999999.999'
     - '[console] es give %player_name% Pig 1 1'
-    - '[message] &aYou have successfully purchased a pig spawner!'
+    - '[message] &aHas comprado exitosamente el spawner!'
     - '[close]'
     left_click_requirement:
       requirements:

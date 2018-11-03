@@ -6,9 +6,9 @@ items:
   '1':
     material: 'hdb-13512'
     slot: 11
-    display_name: '&e&lTops Kills'
+    display_name: '&e&lTops Asesinatos'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] topkills'
     - '[close]'
@@ -18,9 +18,9 @@ items:
   '2':
     material: 'hdb-13185'
     slot: 12
-    display_name: '&e&lTops Mob Kills'
+    display_name: '&e&lTops de asesinatos a mobs'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] topmobkills'
     - '[close]'
@@ -30,9 +30,9 @@ items:
   '3':
     material: 'hdb-13583'
     slot: 13
-    display_name: '&e&lTops Deaths'
+    display_name: '&e&lTops muertes'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] topdeaths'
     - '[close]'
@@ -42,9 +42,9 @@ items:
   '4':
     material: 'hdb-8210'
     slot: 14
-    display_name: '&e&lTops Millonaire'
+    display_name: '&e&lTops Millonarios'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] topbalances'
     - '[close]'
@@ -54,9 +54,9 @@ items:
   '5':
     material: 'hdb-1003'
     slot: 15
-    display_name: '&e&lTops Game Time'
+    display_name: '&e&lTops Tiempo jugado'
     lore:
-    - '&aTo go use click Right/Left!'
+    - '&aUsa click Right/Left!'
     left_click_commands:
     - '[player] topplayed'
     - '[close]'
@@ -66,7 +66,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 22
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Anterior'
     left_click_commands:
     - '[player] menu'
     - '[close]'
@@ -76,7 +76,7 @@ items:
   'Next':
     material: 'hdb-10783'
     slot: 4
-    display_name: '&2&l›› Next'
+    display_name: '&2&l›› Siguiente'
     left_click_commands:
     - '[player] menu'
     - '[close]'

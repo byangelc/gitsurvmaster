@@ -1,5 +1,5 @@
 #
-menu_title: '&8¡Warps of Survival!'
+menu_title: '&8¡Warps del Survival!'
 open_command:
 - Warp
 - Warps
@@ -11,10 +11,10 @@ items:
     display_name: '&a&lWarp survival'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Go outside and have fun exploring,'
-    - '&7collecting and surviving.'
+    - '&b▪ &7Ve afuera y explora,'
+    - '&7recolectando recursos y sobreviviendo.'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp survival'
     - '[close]'
@@ -24,13 +24,13 @@ items:
   '2':
     material: 'hdb-327'
     slot: 21
-    display_name: '&9&lWarp help'
+    display_name: '&9&lWarp help (ayuda)'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Get basic help on how protect'
-    - '&7your house and do a store here.'
+    - '&b▪ &7Consigue información básica, como:'
+    - '&7proteger tu casa y crear una tienda.'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp help'
     - '[close]'
@@ -40,13 +40,13 @@ items:
   '3':
     material: 'hdb-337'
     slot: 22
-    display_name: '&9&lWarp food'
+    display_name: '&9&lWarp Nutrición'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7You are hungry and you do not know how'
-    - '&7raise your thighs, come here.'
+    - '&b▪ &7Estás hambriento y no tienes donde'
+    - '&7conseguir comida nutritiva?.'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp food'
     - '[close]'
@@ -56,13 +56,13 @@ items:
   '4':
     material: 'hdb-819'
     slot: 23
-    display_name: '&9&lWarp drawers'
+    display_name: '&9&lWarp premios'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Open drawers and get'
-    - '&7various articles'
+    - '&b▪ &7Abre cajas sorpresas'
+    - '&7y consigue recursos!'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp drawers'
     - '[close]'
@@ -72,13 +72,13 @@ items:
   '5':
     material: 'hdb-154'
     slot: 24
-    display_name: '&9&lWarp shop'
+    display_name: '&9&lWarp  Tienda'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Enter the server store to'
-    - '&7Sell and buy what you are looking for'
+    - '&b▪ &7Entra en la woolshop'
+    - '&7Compra y vende artículos según tus necesidades'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp shop'
     - '[close]'
@@ -88,13 +88,13 @@ items:
   '6':
     material: 'hdb-297'
     slot: 29
-    display_name: '&9&lWarp enchant'
+    display_name: '&9&lWarp Encantamientos'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Enter and love everything that'
-    - '&7have at hand'
+    - '&b▪ &7Entra y dale amor a lo que'
+    - '&7tengas a mano'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp enchant'
     - '[close]'
@@ -104,13 +104,13 @@ items:
   '7':
     material: 'hdb-8245'
     slot: 30
-    display_name: '&9&lWarp portals'
+    display_name: '&9&lWarp Portales'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Travel with mysteris to places'
-    - '&7different from this world'
+    - '&b▪ &7Viajes multidimensionales a través'
+    - '&7de misteriosos mundos'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp portals'
     - '[close]'
@@ -123,10 +123,10 @@ items:
     display_name: '&9&lWarp nether'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Explore a world full of fierce entities'
-    - '&7and collect all kinds of material'
+    - '&b▪ &7Explora un mundo lleno de fieras entidades'
+    - '&7y recolecta todo tipo  de materiales'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp nether'
     - '[close]'
@@ -139,10 +139,10 @@ items:
     display_name: '&9&lWarp end'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Beware of the creatures that'
-    - '&7look in the eyes..'
+    - '&b▪ &7Ten cuidado con entidades'
+    - '&7que miran a los ojos..'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp end'
     - '[close]'
@@ -155,10 +155,10 @@ items:
     display_name: '&c&lWarp pvp'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Fight with people from the server'
-    - '&7and win the battles'
+    - '&b▪ &7Participa en fieras batallas'
+    - '&7y eleva tu reputación'
     - ''
-    - '&2➜ &aTo go use click Right/Left!'
+    - '&2➜ &aPara ir usa click Right/Left!'
     left_click_commands:
     - '[player] warp pvp'
     - '[close]'
@@ -168,7 +168,7 @@ items:
   'Back':
     material: 'hdb-10786'
     slot: 49
-    display_name: '&4&l‹‹ Back'
+    display_name: '&4&l‹‹ Atras'
     left_click_commands:
     - '[openguimenu] Menu'
     right_click_commands:
@@ -176,13 +176,13 @@ items:
   'Wwarps':
     material: '323'
     slot: 4
-    display_name: '&b&lWarp created by users'
+    display_name: '&b&lWarps creados por usuarios'
     lore:
     - '&8⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊'
-    - '&b▪ &7Visit and create your own warps'
-    - '&7how they did it'
+    - '&b▪ &7Visita y creas tus propios warps'
+    - '&7como lo hacen ellos!'
     - ''
-    - '&2➜ &aClick to visit these warps!'
+    - '&2➜ &aClick para ver estos warps!'
     left_click_commands:
     - '[player] wwarps'
     - '[close]'
